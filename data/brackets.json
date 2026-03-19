@@ -152,7 +152,7 @@
           },
           {
             "winner": "Tennessee",
-            "loser": "SMU"
+            "loser": "Miami (OH)"
           },
           {
             "winner": "Virginia",
@@ -201,7 +201,7 @@
         "R64": [
           {
             "winner": "Florida",
-            "loser": "Lehigh"
+            "loser": "Prairie View A&M"
           },
           {
             "winner": "Iowa",
@@ -428,7 +428,7 @@
           },
           {
             "winner": "Tennessee",
-            "loser": "SMU"
+            "loser": "Miami (OH)"
           },
           {
             "winner": "Virginia",
@@ -477,7 +477,7 @@
         "R64": [
           {
             "winner": "Florida",
-            "loser": "Lehigh"
+            "loser": "Prairie View A&M"
           },
           {
             "winner": "Iowa",
@@ -704,7 +704,7 @@
           },
           {
             "winner": "Tennessee",
-            "loser": "SMU"
+            "loser": "Miami (OH)"
           },
           {
             "winner": "Virginia",
@@ -753,7 +753,7 @@
         "R64": [
           {
             "winner": "Florida",
-            "loser": "Lehigh"
+            "loser": "Prairie View A&M"
           },
           {
             "winner": "Iowa",
@@ -1255,8 +1255,8 @@
             "loser": "Hofstra"
           },
           {
-            "winner": "Tennessee",
-            "loser": "Miami (OH)"
+            "winner": "Miami (OH)",
+            "loser": "Tennessee"
           },
           {
             "winner": "Virginia",
@@ -1282,7 +1282,7 @@
           },
           {
             "winner": "Virginia",
-            "loser": "Tennessee"
+            "loser": "Miami (OH)"
           },
           {
             "winner": "Iowa State",
@@ -1532,7 +1532,7 @@
           },
           {
             "winner": "Tennessee",
-            "loser": "SMU"
+            "loser": "Miami (OH)"
           },
           {
             "winner": "Virginia",
@@ -1581,7 +1581,7 @@
         "R64": [
           {
             "winner": "Florida",
-            "loser": "Lehigh"
+            "loser": "Prairie View A&M"
           },
           {
             "winner": "Iowa",

@@ -72,7 +72,7 @@ _BPI_ESTIMATED = {
     "South Florida":  13.0,  # AAC champs, 12-game win streak
     "Texas":          12.0,  # Won First Four
     "SMU":            11.5,
-    "Miami (OH)":     11.5,  # 31-1 but MAC level
+    "Miami (OH)":     12.5,  # 32-1! Beat SMU 89-79 in First Four. Elmer 23pts. LEGIT.
     "VCU":            12.0,  # Won 16 of last 17
     "Northern Iowa":  10.5,
     "High Point":      9.0,
@@ -207,25 +207,13 @@ def simulate_game(team_a, team_b):
 
 def resolve_first_four():
     """Resolve First Four games and return the winners."""
-    # KNOWN RESULTS (March 17):
-    # Howard 86, UMBC 83 (Howard's first March Madness win)
-    # Texas 68, NC State 66 (Tramon Mark buzzer-beater)
-    #
-    # TONIGHT March 18 (still to be played):
-    # Lehigh (-3.5) vs Prairie View A&M
-    # SMU (-7.5) vs Miami (OH) -- Miami OH is 31-1!
+    # ALL FIRST FOUR RESULTS FINAL (March 17-18):
     winners = {
-        "11_West": "Texas",     # FINAL: Texas 68, NC State 66
-        "16_Midwest": "Howard", # FINAL: Howard 86, UMBC 83
+        "11_West": "Texas",          # FINAL: Texas 68, NC State 66 (Tramon Mark buzzer-beater)
+        "16_Midwest": "Howard",      # FINAL: Howard 86, UMBC 83 (Howard's first tourney win)
+        "11_Midwest": "Miami (OH)",  # FINAL: Miami (OH) 89, SMU 79 (31-1 RedHawks! Elmer 23pts)
+        "16_South": "Prairie View A&M",  # FINAL: PV A&M 67, Lehigh 55 (Horne 25pts)
     }
-    # Simulate remaining First Four games
-    remaining = [
-        ("SMU", "Miami (OH)", "11_Midwest"),
-        ("Lehigh", "Prairie View A&M", "16_South"),
-    ]
-    for team_a, team_b, slot in remaining:
-        winner = simulate_game(team_a, team_b)
-        winners[slot] = winner
     return winners
 
 
@@ -417,20 +405,13 @@ def resolve_first_four_deterministic(strategy):
     KNOWN RESULTS: Texas beat NC State, Howard beat UMBC.
     TONIGHT: SMU vs Miami (OH), Lehigh vs Prairie View A&M.
     """
-    base = {
-        "11_West": "Texas",      # FINAL RESULT
-        "16_Midwest": "Howard",  # FINAL RESULT
+    # ALL FIRST FOUR RESULTS LOCKED IN
+    return {
+        "11_West": "Texas",              # FINAL
+        "16_Midwest": "Howard",          # FINAL
+        "11_Midwest": "Miami (OH)",      # FINAL: upset! 89-79 over SMU
+        "16_South": "Prairie View A&M",  # FINAL: upset! 67-55 over Lehigh
     }
-    if strategy in ("chalk", "simulation", "balanced", "value"):
-        base["11_Midwest"] = "SMU"
-        base["16_South"] = "Lehigh"
-    elif strategy == "contrarian":
-        base["11_Midwest"] = "Miami (OH)"  # 31-1 record, contrarian pick
-        base["16_South"] = "Prairie View A&M"
-    else:  # chaos
-        base["11_Midwest"] = "Miami (OH)"
-        base["16_South"] = "Prairie View A&M"
-    return base
 
 
 def pick_contrarian_ff(team_a, team_b, sim_results):
