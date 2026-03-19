@@ -453,6 +453,7 @@ def generate_main_html(bracket, sim, brackets, picks, teams):
         <a href="#live-odds" style="background:var(--accent);color:white;font-weight:bold;">LIVE ODDS Thu</a>
         <a href="#regions">Region Probabilities</a>
         <a href="#brackets">6 Bracket Strategies</a>
+        <a href="#parlays" style="color:var(--gold);">Parlays</a>
         <a href="#betting">Model Picks</a>
         <a href="#insights">Edge Insights</a>
         <a href="#methodology">Methodology</a>
@@ -583,15 +584,45 @@ def generate_main_html(bracket, sim, brackets, picks, teams):
             </div>
         </section>
 
+        <!-- PARLAYS AND EXTRA BETS -->
+        <section id="parlays">
+            <h2>Parlays & Additional Bets</h2>
+            <div class="insight-grid">
+                <div class="insight-card" style="border-top: 3px solid var(--green);">
+                    <h4>PARLAY #1: Upset Special +850</h4>
+                    <p><strong>USF ML (+164)</strong> + <strong>TCU ML (+120)</strong></p>
+                    <p>Both lines moved sharply toward dog. Risk: 0.5u ($5) to win ~$42</p>
+                </div>
+                <div class="insight-card" style="border-top: 3px solid var(--green);">
+                    <h4>PARLAY #2: Chalk Survivors +120</h4>
+                    <p><strong>Duke ML</strong> + <strong>Michigan ML</strong> + <strong>Vanderbilt ML</strong></p>
+                    <p>All massive favorites. Risk: 1u ($10) to win ~$12</p>
+                </div>
+                <div class="insight-card" style="border-top: 3px solid var(--gold);">
+                    <h4>OVER/UNDER PICKS</h4>
+                    <p><strong>OVER 163.5</strong> Louisville vs USF — Without Brown, Louisville plays faster, can't defend.</p>
+                    <p><strong>UNDER 135.5</strong> Duke vs Siena — Elite D + Siena can't score = low blowout.</p>
+                    <p><strong>OVER 145.5</strong> OSU vs TCU — Both play fast, 8v9 games historically go over.</p>
+                </div>
+                <div class="insight-card" style="border-top: 3px solid var(--gold);">
+                    <h4>FRIDAY EARLY LEANS</h4>
+                    <p><strong>Akron +7.5</strong> vs Texas Tech — TTU lost Toppin (21.8 PPG!) + 3-game skid.</p>
+                    <p><strong>Hofstra +18.5</strong> vs Alabama — Holloway arrested, team chaos.</p>
+                    <p><strong>Santa Clara +3.5</strong> vs Kentucky — SCU higher on Torvik (#29 vs #31).</p>
+                    <p><strong>Houston +900 futures</strong> — Place before R1 if you haven't.</p>
+                </div>
+            </div>
+        </section>
+
         <!-- BETTING PICKS -->
         <section id="betting">
             <h2>Model Betting Picks - Full First Round</h2>
 
             <div class="bankroll-info">
                 <h3>Bankroll Management</h3>
-                <p><strong>Total Bankroll:</strong> $300 across DraftKings + Fanatics</p>
-                <p><strong>Unit Size (1u):</strong> $15 (5% of bankroll - conservative Kelly)</p>
-                <p><strong>Max single bet:</strong> $30 (2u) on HIGH confidence picks</p>
+                <p><strong>Total Bankroll:</strong> $200</p>
+                <p><strong>Unit Size (1u):</strong> $10 (5% of bankroll - conservative Kelly)</p>
+                <p><strong>Max single bet:</strong> $20 (2u) on HIGH confidence picks</p>
                 <p><strong>Daily budget:</strong> ~$75 per day (5 units)</p>
                 <p><strong>Rule:</strong> Only bet edges > 3%. HIGH confidence = 2u, MEDIUM = 1u. Never chase.</p>
             </div>
