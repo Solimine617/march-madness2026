@@ -1,0 +1,998 @@
+{
+  "metadata": {
+    "generated": "2026-03-18",
+    "source": "ESPN API + Web Research",
+    "notes": "Four Factors computed from ESPN team statistics. eFG% = (FGM + 0.5*3PM)/FGA. TO% = TO/(FGA + 0.44*FTA + TO). ORB% = ORB/(ORB + Opp_DRB) - estimated using team ORB/game vs total REB/game. FTRate = FTA/FGA."
+  },
+  "four_factors": {
+    "Duke": {
+      "espn_id": 150,
+      "record": "30-4",
+      "conference": "ACC",
+      "games": 34,
+      "raw_stats": {
+        "fg_pct": 0.490,
+        "three_pt_pct": 0.351,
+        "ft_pct": 0.724,
+        "fta_per_game": 22.1,
+        "fga_per_game": 60.0,
+        "to_per_game": 10.5,
+        "orb_per_game": 12.5,
+        "total_reb_per_game": 40.3,
+        "ppg": 82.3
+      },
+      "four_factors": {
+        "eFG_pct": 0.536,
+        "TO_pct": 0.129,
+        "ORB_pct": 0.310,
+        "FT_rate": 0.368,
+        "notes": "eFG% estimated: (FGM + 0.5*3PM)/FGA. Exact 3PM not provided, estimated from FG% and 3P%."
+      }
+    },
+    "Arizona": {
+      "espn_id": 12,
+      "record": "31-3",
+      "conference": "Big 12",
+      "games": 34,
+      "raw_stats": {
+        "fg_pct": 0.502,
+        "three_pt_pct": 0.360,
+        "ft_pct": 0.734,
+        "fgm": 1039,
+        "fga": 2069,
+        "three_pm": 200,
+        "three_pa": 555,
+        "ftm": 651,
+        "fta": 887,
+        "to_total": 368,
+        "orb_total": 434,
+        "drb_total": 1012,
+        "total_reb": 1446,
+        "ppg": 86.1
+      },
+      "four_factors": {
+        "eFG_pct": 0.550,
+        "TO_pct": 0.130,
+        "ORB_pct": 0.300,
+        "FT_rate": 0.429
+      }
+    },
+    "Houston": {
+      "espn_id": 248,
+      "record": "28-6",
+      "conference": "Big 12",
+      "games": 34,
+      "raw_stats": {
+        "fg_pct": 0.450,
+        "three_pt_pct": 0.349,
+        "ft_pct": 0.772,
+        "fgm": 944,
+        "fga": 2099,
+        "three_pm": 299,
+        "three_pa": 856,
+        "ftm": 436,
+        "fta": 565,
+        "to_total": 289,
+        "orb_total": 435,
+        "drb_total": 809,
+        "total_reb": 1244,
+        "ppg": 77.1
+      },
+      "four_factors": {
+        "eFG_pct": 0.521,
+        "TO_pct": 0.111,
+        "ORB_pct": 0.350,
+        "FT_rate": 0.269
+      }
+    },
+    "Florida": {
+      "espn_id": 57,
+      "record": "26-7",
+      "conference": "SEC",
+      "games": 33,
+      "raw_stats": {
+        "fg_pct": 0.478,
+        "three_pt_pct": 0.308,
+        "ft_pct": 0.710,
+        "fgm": 1016,
+        "fga": 2125,
+        "three_pm": 243,
+        "three_pa": 789,
+        "ftm": 589,
+        "fta": 830,
+        "to_total": 394,
+        "orb_total": 532,
+        "drb_total": 967,
+        "total_reb": 1499,
+        "ppg": 86.8
+      },
+      "four_factors": {
+        "eFG_pct": 0.535,
+        "TO_pct": 0.143,
+        "ORB_pct": 0.355,
+        "FT_rate": 0.391
+      }
+    },
+    "Michigan": {
+      "espn_id": 130,
+      "record": "31-3",
+      "conference": "Big Ten",
+      "games": 34,
+      "raw_stats": {
+        "fg_pct": 0.505,
+        "three_pt_pct": 0.360,
+        "ft_pct": 0.747,
+        "fgm_per_game": 30.4,
+        "fga_per_game": 60.2,
+        "ftm_per_game": 16.9,
+        "fta_per_game": 22.7,
+        "to_per_game": 12.0,
+        "orb_per_game": 11.0,
+        "drb_per_game": 29.0,
+        "total_reb_per_game": 40.0,
+        "ppg": 86.8
+      },
+      "four_factors": {
+        "eFG_pct": 0.556,
+        "TO_pct": 0.150,
+        "ORB_pct": 0.275,
+        "FT_rate": 0.377
+      }
+    },
+    "Iowa State": {
+      "espn_id": 66,
+      "record": "27-7",
+      "conference": "Big 12",
+      "games": 34,
+      "raw_stats": {
+        "fg_pct": 0.490,
+        "three_pt_pct": 0.387,
+        "ft_pct": 0.672,
+        "fga_total": 2048,
+        "fta_total": 696,
+        "ftm_total": 468,
+        "to_total": 349,
+        "orb_total": 403,
+        "drb_total": 808,
+        "total_reb": 1211,
+        "ppg": 81.8
+      },
+      "four_factors": {
+        "eFG_pct": 0.549,
+        "TO_pct": 0.132,
+        "ORB_pct": 0.333,
+        "FT_rate": 0.340
+      }
+    },
+    "UConn": {
+      "espn_id": 41,
+      "record": "26-8",
+      "conference": "Big East",
+      "games": 34,
+      "raw_stats": {
+        "fg_pct": 0.482,
+        "three_pt_pct": 0.352,
+        "ft_pct": 0.716,
+        "fgm": 962,
+        "fga": 1994,
+        "three_pm": 283,
+        "three_pa": 804,
+        "ftm": 428,
+        "fta": 598,
+        "to_total": 380,
+        "orb_total": 395,
+        "drb_total": 848,
+        "total_reb": 1243,
+        "ppg": 77.5
+      },
+      "four_factors": {
+        "eFG_pct": 0.553,
+        "TO_pct": 0.149,
+        "ORB_pct": 0.318,
+        "FT_rate": 0.300
+      }
+    },
+    "Purdue": {
+      "espn_id": 2509,
+      "record": "27-8",
+      "conference": "Big Ten",
+      "games": 35,
+      "raw_stats": {
+        "fg_pct": 0.499,
+        "three_pt_pct": 0.379,
+        "ft_pct": 0.743,
+        "fgm": 1044,
+        "fga": 2094,
+        "ftm": 445,
+        "fta": 599,
+        "to_total": 310,
+        "orb_total": 395,
+        "drb_total": 845,
+        "total_reb": 1240,
+        "ppg": 72.4
+      },
+      "four_factors": {
+        "eFG_pct": 0.556,
+        "TO_pct": 0.117,
+        "ORB_pct": 0.319,
+        "FT_rate": 0.286
+      }
+    },
+    "Illinois": {
+      "espn_id": 356,
+      "record": "24-8",
+      "conference": "Big Ten",
+      "games": 32,
+      "raw_stats": {
+        "fg_pct": 0.463,
+        "three_pt_pct": 0.347,
+        "ft_pct": 0.789,
+        "fgm": 918,
+        "fga": 1984,
+        "ftm": 515,
+        "fta": 653,
+        "to_total": 284,
+        "orb_total": 422,
+        "drb_total": 879,
+        "total_reb": 1301,
+        "ppg": 74.8
+      },
+      "four_factors": {
+        "eFG_pct": 0.517,
+        "TO_pct": 0.113,
+        "ORB_pct": 0.324,
+        "FT_rate": 0.329
+      }
+    },
+    "Michigan State": {
+      "espn_id": 127,
+      "record": "22-10",
+      "conference": "Big Ten",
+      "games": 32,
+      "raw_stats": {
+        "fg_pct": 0.471,
+        "three_pt_pct": 0.359,
+        "ft_pct": 0.763,
+        "fgm": 882,
+        "fga": 1874,
+        "three_pm": 245,
+        "three_pa": 682,
+        "ftm": 517,
+        "fta": 678,
+        "to_total": 368,
+        "orb_total": 407,
+        "drb_total": 868,
+        "total_reb": 1275,
+        "ppg": 78.9
+      },
+      "four_factors": {
+        "eFG_pct": 0.536,
+        "TO_pct": 0.143,
+        "ORB_pct": 0.319,
+        "FT_rate": 0.362
+      }
+    },
+    "Gonzaga": {
+      "espn_id": 2250,
+      "record": "30-3",
+      "conference": "WCC",
+      "games": 33,
+      "raw_stats": {
+        "fg_pct": 0.510,
+        "three_pt_pct": 0.340,
+        "ft_pct": 0.699,
+        "fgm": 1067,
+        "fga": 2092,
+        "three_pm": 220,
+        "three_pa": 648,
+        "ftm": 455,
+        "fta": 651,
+        "to_total": 319,
+        "orb_total": 395,
+        "drb_total": 922,
+        "total_reb": 1317,
+        "ppg": 85.1
+      },
+      "four_factors": {
+        "eFG_pct": 0.563,
+        "TO_pct": 0.119,
+        "ORB_pct": 0.300,
+        "FT_rate": 0.311
+      }
+    },
+    "Virginia": {
+      "espn_id": 258,
+      "record": "29-5",
+      "conference": "ACC",
+      "games": 34,
+      "raw_stats": {
+        "fg_pct": 0.463,
+        "three_pt_pct": 0.359,
+        "ft_pct": 0.726,
+        "fgm": 952,
+        "fga": 2058,
+        "three_pm": 344,
+        "three_pa": 957,
+        "ftm": 494,
+        "fta": 680,
+        "to_total": 368,
+        "orb_total": 449,
+        "drb_total": 918,
+        "total_reb": 1367,
+        "ppg": 80.6
+      },
+      "four_factors": {
+        "eFG_pct": 0.546,
+        "TO_pct": 0.138,
+        "ORB_pct": 0.328,
+        "FT_rate": 0.330
+      }
+    },
+    "Louisville": {
+      "espn_id": 97,
+      "record": "23-10",
+      "conference": "ACC",
+      "games": 33,
+      "raw_stats": {
+        "fg_pct": 0.470,
+        "three_pt_pct": 0.357,
+        "ft_pct": 0.769,
+        "fga_total": 2016,
+        "ftm": 519,
+        "fta": 675,
+        "to_total": 384,
+        "orb_total": 374,
+        "drb_total": 895,
+        "total_reb": 1269,
+        "ppg": 84.8
+      },
+      "four_factors": {
+        "eFG_pct": 0.527,
+        "TO_pct": 0.148,
+        "ORB_pct": 0.295,
+        "FT_rate": 0.335
+      }
+    },
+    "South Florida": {
+      "espn_id": 58,
+      "record": "25-8",
+      "conference": "American",
+      "games": 33,
+      "raw_stats": {
+        "fg_pct": 0.439,
+        "three_pt_pct": 0.332,
+        "ft_pct": 0.744,
+        "fga_total": 2178,
+        "ftm": 665,
+        "fta": 894,
+        "to_total": 368,
+        "orb_total": 511,
+        "drb_total": 899,
+        "total_reb": 1410,
+        "ppg": 87.7
+      },
+      "four_factors": {
+        "eFG_pct": 0.493,
+        "TO_pct": 0.128,
+        "ORB_pct": 0.362,
+        "FT_rate": 0.411
+      }
+    },
+    "VCU": {
+      "espn_id": 2670,
+      "record": "27-7",
+      "conference": "A-10",
+      "games": 34,
+      "raw_stats": {
+        "fg_pct": 0.460,
+        "three_pt_pct": 0.367,
+        "ft_pct": 0.739,
+        "fga_total": 1974,
+        "ftm": 638,
+        "fta": 863,
+        "to_total": 358,
+        "orb_total": 380,
+        "drb_total": 867,
+        "total_reb": 1247,
+        "ppg": 81.6
+      },
+      "four_factors": {
+        "eFG_pct": 0.523,
+        "TO_pct": 0.137,
+        "ORB_pct": 0.305,
+        "FT_rate": 0.437
+      }
+    },
+    "North Carolina": {
+      "espn_id": 153,
+      "record": "24-8",
+      "conference": "ACC",
+      "games": 32,
+      "raw_stats": {
+        "fg_pct": 0.473,
+        "three_pt_pct": 0.345,
+        "ft_pct": 0.684,
+        "fga_total": 1895,
+        "ftm": 485,
+        "fta": 709,
+        "to_total": 309,
+        "orb_total": 345,
+        "drb_total": 872,
+        "total_reb": 1217,
+        "ppg": 75.5
+      },
+      "four_factors": {
+        "eFG_pct": 0.525,
+        "TO_pct": 0.131,
+        "ORB_pct": 0.283,
+        "FT_rate": 0.374
+      }
+    },
+    "St. John's": {
+      "espn_id": 2599,
+      "record": "28-6",
+      "conference": "Big East",
+      "games": 34,
+      "raw_stats": {
+        "fg_pct": 0.454,
+        "three_pt_pct": 0.332,
+        "ft_pct": 0.727,
+        "fga_total": 2093,
+        "ftm": 638,
+        "fta": 877,
+        "to_total": 356,
+        "orb_total": 410,
+        "drb_total": 904,
+        "total_reb": 1314,
+        "ppg": 78.0
+      },
+      "four_factors": {
+        "eFG_pct": 0.506,
+        "TO_pct": 0.132,
+        "ORB_pct": 0.312,
+        "FT_rate": 0.419
+      }
+    },
+    "Alabama": {
+      "espn_id": 333,
+      "record": "23-9",
+      "conference": "SEC",
+      "games": 32,
+      "raw_stats": {
+        "fg_pct": 0.458,
+        "three_pt_pct": 0.358,
+        "ft_pct": 0.765,
+        "fga_total": 2108,
+        "ftm": 600,
+        "fta": 784,
+        "to_total": 313,
+        "orb_total": 391,
+        "drb_total": 909,
+        "total_reb": 1300,
+        "ppg": 91.7
+      },
+      "four_factors": {
+        "eFG_pct": 0.516,
+        "TO_pct": 0.114,
+        "ORB_pct": 0.301,
+        "FT_rate": 0.372
+      }
+    },
+    "Arkansas": {
+      "espn_id": 8,
+      "record": "26-8",
+      "conference": "SEC",
+      "games": 34,
+      "raw_stats": {
+        "fg_pct": 0.500,
+        "three_pt_pct": 0.389,
+        "ft_pct": 0.747,
+        "fga_total": 2182,
+        "ftm": 593,
+        "fta": 794,
+        "to_total": 306,
+        "orb_total": 375,
+        "drb_total": 852,
+        "total_reb": 1227,
+        "ppg": 89.9
+      },
+      "four_factors": {
+        "eFG_pct": 0.559,
+        "TO_pct": 0.108,
+        "ORB_pct": 0.306,
+        "FT_rate": 0.364
+      }
+    },
+    "Nebraska": {
+      "espn_id": 158,
+      "record": "26-6",
+      "conference": "Big Ten",
+      "games": 32,
+      "raw_stats": {
+        "fg_pct": 0.465,
+        "three_pt_pct": 0.353,
+        "ft_pct": 0.750,
+        "fga_total": 1884,
+        "ftm_total": 384,
+        "fta_total": 512,
+        "to_total": 312,
+        "orb_total": 281,
+        "drb_total": 836,
+        "total_reb": 1117,
+        "ppg": 77.3
+      },
+      "four_factors": {
+        "eFG_pct": 0.520,
+        "TO_pct": 0.135,
+        "ORB_pct": 0.252,
+        "FT_rate": 0.272
+      }
+    },
+    "Vanderbilt": {
+      "espn_id": 238,
+      "record": "26-8",
+      "conference": "SEC",
+      "games": 34,
+      "raw_stats": {
+        "fg_pct": 0.475,
+        "three_pt_pct": 0.355,
+        "ft_pct": 0.793,
+        "fgm": 991,
+        "fga": 2085,
+        "three_pm": 323,
+        "three_pa": 909,
+        "ftm": 631,
+        "fta": 796,
+        "to_total": 323,
+        "orb_total": 364,
+        "drb_total": 837,
+        "total_reb": 1201,
+        "ppg": 86.4
+      },
+      "four_factors": {
+        "eFG_pct": 0.553,
+        "TO_pct": 0.118,
+        "ORB_pct": 0.303,
+        "FT_rate": 0.382
+      }
+    },
+    "Kentucky": {
+      "espn_id": 96,
+      "record": "21-13",
+      "conference": "SEC",
+      "games": 34,
+      "raw_stats": {
+        "fg_pct": 0.464,
+        "three_pt_pct": 0.341,
+        "ft_pct": 0.728,
+        "fga_per_game": 60.5,
+        "ftm": 561,
+        "fta": 771,
+        "to_total": 357,
+        "orb_total": 406,
+        "drb_total": 869,
+        "total_reb": 1275,
+        "ppg": 80.8
+      },
+      "four_factors": {
+        "eFG_pct": 0.518,
+        "TO_pct": 0.136,
+        "ORB_pct": 0.318,
+        "FT_rate": 0.375
+      }
+    },
+    "Texas A&M": {
+      "espn_id": 245,
+      "record": "21-11",
+      "conference": "SEC",
+      "games": 32,
+      "raw_stats": {
+        "fg_pct": 0.458,
+        "three_pt_pct": 0.362,
+        "ft_pct": 0.737,
+        "fga_total": 2065,
+        "ftm": 569,
+        "fta": 772,
+        "to_total": 347,
+        "orb_per_game": 12.2,
+        "drb_per_game": 25.5,
+        "total_reb_per_game": 37.7,
+        "ppg": 80.3
+      },
+      "four_factors": {
+        "eFG_pct": 0.519,
+        "TO_pct": 0.130,
+        "ORB_pct": 0.324,
+        "FT_rate": 0.374
+      }
+    },
+    "Iowa": {
+      "espn_id": 2294,
+      "record": "21-12",
+      "conference": "Big Ten",
+      "games": 33,
+      "raw_stats": {
+        "fg_pct": 0.491,
+        "three_pt_pct": 0.357,
+        "ft_pct": 0.770,
+        "fga_total": 1777,
+        "ftm": 472,
+        "fta": 613,
+        "to_total": 320,
+        "orb_per_game": 8.8,
+        "drb_per_game": 20.6,
+        "total_reb_per_game": 29.4,
+        "ppg": 75.2
+      },
+      "four_factors": {
+        "eFG_pct": 0.546,
+        "TO_pct": 0.139,
+        "ORB_pct": 0.299,
+        "FT_rate": 0.345
+      }
+    },
+    "Saint Louis": {
+      "espn_id": 139,
+      "record": "28-5",
+      "conference": "A-10",
+      "games": 33,
+      "raw_stats": {
+        "fg_pct": 0.509,
+        "three_pt_pct": 0.401,
+        "ft_pct": 0.744,
+        "fga_per_game": 60.0,
+        "ftm_per_game": 15.2,
+        "fta_per_game": 20.5,
+        "to_per_game": 12.5,
+        "total_reb_per_game": 39.9,
+        "ppg": 82.0
+      },
+      "four_factors": {
+        "eFG_pct": 0.575,
+        "TO_pct": 0.147,
+        "ORB_pct": 0.310,
+        "FT_rate": 0.342
+      }
+    },
+    "Troy": {
+      "espn_id": 2653,
+      "record": "22-11",
+      "conference": "Sun Belt",
+      "games": 33,
+      "raw_stats": {
+        "fg_pct": 0.449,
+        "three_pt_pct": 0.335,
+        "ft_pct": 0.738,
+        "fga_total": 2014,
+        "ftm": 532,
+        "fta": 721,
+        "to_total": 392,
+        "orb_per_game": 12.7,
+        "drb_per_game": 25.6,
+        "total_reb_per_game": 38.3,
+        "ppg": 80.3
+      },
+      "four_factors": {
+        "eFG_pct": 0.500,
+        "TO_pct": 0.147,
+        "ORB_pct": 0.332,
+        "FT_rate": 0.358
+      }
+    }
+  },
+  "four_factors_rankings": {
+    "description": "Teams ranked by each Four Factor metric (higher is better for eFG%, ORB%, FTRate; lower is better for TO%)",
+    "by_eFG_pct": [
+      {"team": "Saint Louis", "eFG_pct": 0.575},
+      {"team": "Gonzaga", "eFG_pct": 0.563},
+      {"team": "Arkansas", "eFG_pct": 0.559},
+      {"team": "Michigan", "eFG_pct": 0.556},
+      {"team": "Purdue", "eFG_pct": 0.556},
+      {"team": "Vanderbilt", "eFG_pct": 0.553},
+      {"team": "UConn", "eFG_pct": 0.553},
+      {"team": "Arizona", "eFG_pct": 0.550},
+      {"team": "Iowa State", "eFG_pct": 0.549},
+      {"team": "Virginia", "eFG_pct": 0.546},
+      {"team": "Iowa", "eFG_pct": 0.546},
+      {"team": "Duke", "eFG_pct": 0.536},
+      {"team": "Michigan State", "eFG_pct": 0.536},
+      {"team": "Florida", "eFG_pct": 0.535},
+      {"team": "Louisville", "eFG_pct": 0.527},
+      {"team": "North Carolina", "eFG_pct": 0.525},
+      {"team": "VCU", "eFG_pct": 0.523},
+      {"team": "Houston", "eFG_pct": 0.521},
+      {"team": "Nebraska", "eFG_pct": 0.520},
+      {"team": "Texas A&M", "eFG_pct": 0.519},
+      {"team": "Kentucky", "eFG_pct": 0.518},
+      {"team": "Illinois", "eFG_pct": 0.517},
+      {"team": "Alabama", "eFG_pct": 0.516},
+      {"team": "St. John's", "eFG_pct": 0.506},
+      {"team": "Troy", "eFG_pct": 0.500},
+      {"team": "South Florida", "eFG_pct": 0.493}
+    ],
+    "by_TO_pct_low_is_better": [
+      {"team": "Arkansas", "TO_pct": 0.108},
+      {"team": "Houston", "TO_pct": 0.111},
+      {"team": "Illinois", "TO_pct": 0.113},
+      {"team": "Alabama", "TO_pct": 0.114},
+      {"team": "Purdue", "TO_pct": 0.117},
+      {"team": "Vanderbilt", "TO_pct": 0.118},
+      {"team": "Gonzaga", "TO_pct": 0.119},
+      {"team": "South Florida", "TO_pct": 0.128},
+      {"team": "Duke", "TO_pct": 0.129},
+      {"team": "Arizona", "TO_pct": 0.130},
+      {"team": "Texas A&M", "TO_pct": 0.130},
+      {"team": "North Carolina", "TO_pct": 0.131},
+      {"team": "Iowa State", "TO_pct": 0.132},
+      {"team": "St. John's", "TO_pct": 0.132},
+      {"team": "Nebraska", "TO_pct": 0.135},
+      {"team": "Kentucky", "TO_pct": 0.136},
+      {"team": "VCU", "TO_pct": 0.137},
+      {"team": "Virginia", "TO_pct": 0.138},
+      {"team": "Iowa", "TO_pct": 0.139},
+      {"team": "Michigan State", "TO_pct": 0.143},
+      {"team": "Florida", "TO_pct": 0.143},
+      {"team": "Troy", "TO_pct": 0.147},
+      {"team": "Saint Louis", "TO_pct": 0.147},
+      {"team": "Louisville", "TO_pct": 0.148},
+      {"team": "UConn", "TO_pct": 0.149},
+      {"team": "Michigan", "TO_pct": 0.150}
+    ],
+    "by_ORB_pct": [
+      {"team": "South Florida", "ORB_pct": 0.362},
+      {"team": "Florida", "ORB_pct": 0.355},
+      {"team": "Houston", "ORB_pct": 0.350},
+      {"team": "Iowa State", "ORB_pct": 0.333},
+      {"team": "Troy", "ORB_pct": 0.332},
+      {"team": "Virginia", "ORB_pct": 0.328},
+      {"team": "Illinois", "ORB_pct": 0.324},
+      {"team": "Texas A&M", "ORB_pct": 0.324},
+      {"team": "Michigan State", "ORB_pct": 0.319},
+      {"team": "Purdue", "ORB_pct": 0.319},
+      {"team": "UConn", "ORB_pct": 0.318},
+      {"team": "Kentucky", "ORB_pct": 0.318},
+      {"team": "St. John's", "ORB_pct": 0.312},
+      {"team": "Duke", "ORB_pct": 0.310},
+      {"team": "Saint Louis", "ORB_pct": 0.310},
+      {"team": "Arkansas", "ORB_pct": 0.306},
+      {"team": "VCU", "ORB_pct": 0.305},
+      {"team": "Vanderbilt", "ORB_pct": 0.303},
+      {"team": "Alabama", "ORB_pct": 0.301},
+      {"team": "Arizona", "ORB_pct": 0.300},
+      {"team": "Gonzaga", "ORB_pct": 0.300},
+      {"team": "Iowa", "ORB_pct": 0.299},
+      {"team": "Louisville", "ORB_pct": 0.295},
+      {"team": "North Carolina", "ORB_pct": 0.283},
+      {"team": "Michigan", "ORB_pct": 0.275},
+      {"team": "Nebraska", "ORB_pct": 0.252}
+    ],
+    "by_FT_rate": [
+      {"team": "VCU", "FT_rate": 0.437},
+      {"team": "Arizona", "FT_rate": 0.429},
+      {"team": "St. John's", "FT_rate": 0.419},
+      {"team": "South Florida", "FT_rate": 0.411},
+      {"team": "Florida", "FT_rate": 0.391},
+      {"team": "Vanderbilt", "FT_rate": 0.382},
+      {"team": "Michigan", "FT_rate": 0.377},
+      {"team": "Kentucky", "FT_rate": 0.375},
+      {"team": "North Carolina", "FT_rate": 0.374},
+      {"team": "Texas A&M", "FT_rate": 0.374},
+      {"team": "Alabama", "FT_rate": 0.372},
+      {"team": "Duke", "FT_rate": 0.368},
+      {"team": "Arkansas", "FT_rate": 0.364},
+      {"team": "Michigan State", "FT_rate": 0.362},
+      {"team": "Troy", "FT_rate": 0.358},
+      {"team": "Iowa", "FT_rate": 0.345},
+      {"team": "Saint Louis", "FT_rate": 0.342},
+      {"team": "Iowa State", "FT_rate": 0.340},
+      {"team": "Louisville", "FT_rate": 0.335},
+      {"team": "Virginia", "FT_rate": 0.330},
+      {"team": "Illinois", "FT_rate": 0.329},
+      {"team": "Gonzaga", "FT_rate": 0.311},
+      {"team": "VCU duplicate removed - see above": 0},
+      {"team": "UConn", "FT_rate": 0.300},
+      {"team": "Purdue", "FT_rate": 0.286},
+      {"team": "Nebraska", "FT_rate": 0.272},
+      {"team": "Houston", "FT_rate": 0.269}
+    ]
+  },
+  "historical_tournament_data": {
+    "seed_performance_first_round": {
+      "source": "NCAA.com, betfirm.com, basketball.org (1985-2025)",
+      "records": {
+        "1_vs_16": {"higher_seed_wins": 158, "lower_seed_wins": 2, "higher_seed_win_pct": 0.988},
+        "2_vs_15": {"higher_seed_wins": 141, "lower_seed_wins": 11, "higher_seed_win_pct": 0.928},
+        "3_vs_14": {"higher_seed_wins": 138, "lower_seed_wins": 22, "higher_seed_win_pct": 0.863},
+        "4_vs_13": {"higher_seed_wins": 127, "lower_seed_wins": 33, "higher_seed_win_pct": 0.794},
+        "5_vs_12": {"higher_seed_wins": 103, "lower_seed_wins": 57, "higher_seed_win_pct": 0.644},
+        "6_vs_11": {"higher_seed_wins": 98, "lower_seed_wins": 62, "higher_seed_win_pct": 0.613},
+        "7_vs_10": {"higher_seed_wins": 98, "lower_seed_wins": 62, "higher_seed_win_pct": 0.613},
+        "8_vs_9": {"higher_seed_wins": 82, "lower_seed_wins": 78, "higher_seed_win_pct": 0.513}
+      }
+    },
+    "seed_advancement_rates": {
+      "source": "bracketodds.cs.illinois.edu, NCAA.com",
+      "notes": "Approximate rates for reaching each round",
+      "sweet_16_rates": {
+        "1_seed": 0.85,
+        "2_seed": 0.68,
+        "3_seed": 0.55,
+        "4_seed": 0.45,
+        "5_seed": 0.35,
+        "6_seed": 0.48,
+        "7_seed": 0.20,
+        "8_seed": 0.15,
+        "9_seed": 0.10,
+        "10_seed": 0.20,
+        "11_seed": 0.18,
+        "12_seed": 0.14,
+        "13_seed": 0.05,
+        "14_seed": 0.02,
+        "15_seed": 0.01,
+        "16_seed": 0.005
+      },
+      "elite_8_rates": {
+        "1_seed": 0.56,
+        "2_seed": 0.38,
+        "3_seed": 0.25,
+        "4_seed": 0.20,
+        "5_seed": 0.14,
+        "6_seed": 0.36,
+        "7_seed": 0.10,
+        "8_seed": 0.06,
+        "9_seed": 0.04,
+        "10_seed": 0.08,
+        "11_seed": 0.09,
+        "12_seed": 0.05,
+        "13_seed": 0.02,
+        "14_seed": 0.005,
+        "15_seed": 0.003,
+        "16_seed": 0.001
+      },
+      "final_four_rates": {
+        "1_seed": 0.38,
+        "2_seed": 0.20,
+        "3_seed": 0.12,
+        "4_seed": 0.09,
+        "5_seed": 0.06,
+        "6_seed": 0.04,
+        "7_seed": 0.04,
+        "8_seed": 0.03,
+        "9_seed": 0.01,
+        "10_seed": 0.03,
+        "11_seed": 0.05,
+        "12_seed": 0.01,
+        "13_seed": 0.005,
+        "14_seed": 0.001,
+        "15_seed": 0.001,
+        "16_seed": 0.0
+      },
+      "championship_rates": {
+        "1_seed": 0.20,
+        "2_seed": 0.08,
+        "3_seed": 0.06,
+        "4_seed": 0.04,
+        "5_seed": 0.02,
+        "6_seed": 0.02,
+        "7_seed": 0.02,
+        "8_seed": 0.01,
+        "other": 0.01
+      }
+    },
+    "key_upset_patterns": {
+      "most_common_first_round_upsets": [
+        "5 vs 12: ~36% upset rate - most iconic upset matchup",
+        "6 vs 11: ~39% upset rate - 11 seeds are often dangerous play-in/bubble teams",
+        "7 vs 10: ~39% upset rate - very even matchup historically",
+        "8 vs 9: ~49% upset rate - essentially a coin flip"
+      ],
+      "second_round_vulnerabilities": [
+        "2 seeds lose to 7/10 seeds roughly 30% of the time in R32",
+        "3 vs 6 matchup in R32 is the most upset-prone among top 3 seeds",
+        "9 seeds historically terrible in second round games",
+        "10 seeds win their second round games over 40% of the time"
+      ]
+    }
+  },
+  "conference_tournament_performance": {
+    "overperforming_conferences": {
+      "Missouri_Valley": {
+        "description": "Gold standard for mid-major overperformance",
+        "edge": "Win tournament games ~12% above expected rate based on seeding",
+        "reason": "Defense, tempo control, experienced rosters translate well to neutral courts"
+      },
+      "American_Athletic": {
+        "description": "Above-seeding performance in most years since 2013 formation",
+        "notable": "UConn 2023 championship as 4-seed"
+      },
+      "West_Coast": {
+        "description": "Driven largely by Gonzaga; overperforms when Zags are lower-seeded",
+        "caveat": "Conference depth is limited beyond top team"
+      }
+    },
+    "mid_major_advantage": {
+      "description": "Mid-major teams outperform seeding in first two rounds",
+      "reason": "Selection committee underseeds mid-majors due to weaker conference SOS on paper"
+    },
+    "power_conference_dominance": {
+      "description": "ACC, Big East, Big Ten, Big 12, Pac-12/Big 12, SEC combined for 85%+ of all Final Four teams since 1985"
+    }
+  },
+  "conference_tournament_loss_effect": {
+    "finding": "Early conference tournament exits do NOT reliably predict poor NCAA tournament performance",
+    "evidence": [
+      "MSU 2001: Lost to Penn State in Big Ten Tourney, still got 1-seed, reached Final Four",
+      "MSU 2005: Lost to Iowa in first Big Ten Tourney game, reached Final Four as 5-seed",
+      "MSU 2010: One-and-done in Big Ten Tourney (lost to Minnesota), made Final Four as 5-seed",
+      "Miami (OH) 2026: 31-0 regular season, lost first game of MAC tournament, still in NCAA tournament",
+      "Multiple examples of teams losing conference tournament and still making deep NCAA runs"
+    ],
+    "takeaway": "Regular season resume and team quality matter more than conference tournament result. A conference tournament loss may actually provide rest for key players."
+  },
+  "defense_vs_offense_in_march": {
+    "key_finding": "Offense matters approximately 50% more than defense for NCAA tournament success",
+    "data_points": [
+      "Average Final Four team: offense ranked ~#39 nationally, defense ranked ~#55",
+      "Average champion: offense ranked ~#21 nationally, defense ranked ~#42",
+      "Every champion since 2001 Duke: top 57 offense, top 44 defense, top 25 overall on KenPom",
+      "Great defense gets you to the Final Four, but great offense wins championships",
+      "Nine years of NCAA data show offensive rating is ~50% more predictive than defensive rating"
+    ],
+    "implication": "When evaluating tournament contenders, weight offensive efficiency more heavily than defensive efficiency, but elite teams generally need both in top 50"
+  },
+  "coaching_records_march_madness": {
+    "Tom_Izzo": {
+      "school": "Michigan State",
+      "tournament_record": "59-26",
+      "final_fours": 8,
+      "championships": 1,
+      "elite_eights": 11,
+      "sweet_sixteens": 16,
+      "consecutive_tournaments": 27,
+      "notable": "Most Final Fours among active coaches. More years reaching second weekend (16) than not (14). 5th most tournament wins all-time."
+    },
+    "Bill_Self": {
+      "school": "Kansas",
+      "tournament_record": "58-24",
+      "final_fours": 4,
+      "championships": 2,
+      "elite_eights": 7,
+      "sweet_sixteens": 12,
+      "notable": "Championships in 2008 and 2022. Most tournament wins among active coaches."
+    },
+    "Dan_Hurley": {
+      "school": "UConn",
+      "tournament_record": "15-5",
+      "final_fours": 2,
+      "championships": 2,
+      "notable": "Back-to-back titles in 2023-2024. Won all 12 games in title runs by double digits (NCAA record). 13-straight tournament wins 2023-25."
+    },
+    "Kelvin_Sampson": {
+      "school": "Houston",
+      "tournament_record": "31-21",
+      "final_fours": 4,
+      "championships": 0,
+      "notable": "Three Final Fours with Houston (2021, 2023, 2025), one with Oklahoma (2003). Runner-up to Florida in 2025. 799-354 career record over 36 years."
+    },
+    "Rick_Pitino": {
+      "school": "St. John's (current)",
+      "tournament_record": "54-19",
+      "final_fours": 7,
+      "championships": 2,
+      "notable": "Championships with Kentucky (1996) and Louisville (2013). Only coach to win titles at two schools. Taken 6 different programs to NCAA tournament. .740 tournament winning pct."
+    }
+  },
+  "sources": [
+    "ESPN API: site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/{id}/statistics",
+    "NCAA.com: Records for every seed in March Madness 1985-2025",
+    "bracketodds.cs.illinois.edu: Seed match-up records and advancement rates",
+    "betfirm.com: History of records by seed in the NCAA Tournament",
+    "basketball.org: NCAA first round upsets data",
+    "SI.com: Tom Izzo, Bill Self, Kelvin Sampson tournament records",
+    "sports-reference.com: Coaching records database",
+    "ncaa.com: Nine years of data show offense matters more in March",
+    "bracketsninja.com: Conference performance history",
+    "SI.com: MSU tournament history following early conference exit",
+    "r-bloggers.com: Conference tournament performance impact research"
+  ]
+}

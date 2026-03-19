@@ -1,0 +1,1658 @@
+{
+  "chalk": {
+    "strategy": "chalk",
+    "regions": {
+      "East": {
+        "R64": [
+          {
+            "winner": "Duke",
+            "loser": "Siena"
+          },
+          {
+            "winner": "Ohio State",
+            "loser": "TCU"
+          },
+          {
+            "winner": "St. John's",
+            "loser": "Northern Iowa"
+          },
+          {
+            "winner": "Kansas",
+            "loser": "Cal Baptist"
+          },
+          {
+            "winner": "South Florida",
+            "loser": "Louisville"
+          },
+          {
+            "winner": "Michigan State",
+            "loser": "North Dakota State"
+          },
+          {
+            "winner": "UCF",
+            "loser": "UCLA"
+          },
+          {
+            "winner": "UConn",
+            "loser": "Furman"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Duke",
+            "loser": "Ohio State"
+          },
+          {
+            "winner": "St. John's",
+            "loser": "Kansas"
+          },
+          {
+            "winner": "Michigan State",
+            "loser": "South Florida"
+          },
+          {
+            "winner": "UConn",
+            "loser": "UCF"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Duke",
+            "loser": "St. John's"
+          },
+          {
+            "winner": "UConn",
+            "loser": "Michigan State"
+          }
+        ],
+        "elite_8": "Duke"
+      },
+      "West": {
+        "R64": [
+          {
+            "winner": "Arizona",
+            "loser": "LIU"
+          },
+          {
+            "winner": "Villanova",
+            "loser": "Utah State"
+          },
+          {
+            "winner": "Wisconsin",
+            "loser": "High Point"
+          },
+          {
+            "winner": "Arkansas",
+            "loser": "Hawaii"
+          },
+          {
+            "winner": "Texas",
+            "loser": "BYU"
+          },
+          {
+            "winner": "Gonzaga",
+            "loser": "Kennesaw State"
+          },
+          {
+            "winner": "Miami (FL)",
+            "loser": "Missouri"
+          },
+          {
+            "winner": "Purdue",
+            "loser": "Queens"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Arizona",
+            "loser": "Villanova"
+          },
+          {
+            "winner": "Arkansas",
+            "loser": "Wisconsin"
+          },
+          {
+            "winner": "Gonzaga",
+            "loser": "Texas"
+          },
+          {
+            "winner": "Purdue",
+            "loser": "Miami (FL)"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Arizona",
+            "loser": "Arkansas"
+          },
+          {
+            "winner": "Purdue",
+            "loser": "Gonzaga"
+          }
+        ],
+        "elite_8": "Arizona"
+      },
+      "Midwest": {
+        "R64": [
+          {
+            "winner": "Michigan",
+            "loser": "Howard"
+          },
+          {
+            "winner": "Saint Louis",
+            "loser": "Georgia"
+          },
+          {
+            "winner": "Texas Tech",
+            "loser": "Akron"
+          },
+          {
+            "winner": "Alabama",
+            "loser": "Hofstra"
+          },
+          {
+            "winner": "Tennessee",
+            "loser": "SMU"
+          },
+          {
+            "winner": "Virginia",
+            "loser": "Wright State"
+          },
+          {
+            "winner": "Kentucky",
+            "loser": "Santa Clara"
+          },
+          {
+            "winner": "Iowa State",
+            "loser": "Tennessee State"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Michigan",
+            "loser": "Saint Louis"
+          },
+          {
+            "winner": "Alabama",
+            "loser": "Texas Tech"
+          },
+          {
+            "winner": "Virginia",
+            "loser": "Tennessee"
+          },
+          {
+            "winner": "Iowa State",
+            "loser": "Kentucky"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Michigan",
+            "loser": "Alabama"
+          },
+          {
+            "winner": "Iowa State",
+            "loser": "Virginia"
+          }
+        ],
+        "elite_8": "Michigan"
+      },
+      "South": {
+        "R64": [
+          {
+            "winner": "Florida",
+            "loser": "Lehigh"
+          },
+          {
+            "winner": "Iowa",
+            "loser": "Clemson"
+          },
+          {
+            "winner": "Vanderbilt",
+            "loser": "McNeese"
+          },
+          {
+            "winner": "Nebraska",
+            "loser": "Troy"
+          },
+          {
+            "winner": "VCU",
+            "loser": "North Carolina"
+          },
+          {
+            "winner": "Illinois",
+            "loser": "Penn"
+          },
+          {
+            "winner": "Saint Mary's",
+            "loser": "Texas A&M"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Idaho"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Florida",
+            "loser": "Iowa"
+          },
+          {
+            "winner": "Nebraska",
+            "loser": "Vanderbilt"
+          },
+          {
+            "winner": "Illinois",
+            "loser": "VCU"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Saint Mary's"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Florida",
+            "loser": "Nebraska"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Illinois"
+          }
+        ],
+        "elite_8": "Houston"
+      }
+    },
+    "final_four": [
+      "Duke",
+      "Arizona",
+      "Michigan",
+      "Houston"
+    ],
+    "champion": "Houston",
+    "semi_winners": [
+      "Arizona",
+      "Houston"
+    ]
+  },
+  "simulation": {
+    "strategy": "simulation",
+    "regions": {
+      "East": {
+        "R64": [
+          {
+            "winner": "Duke",
+            "loser": "Siena"
+          },
+          {
+            "winner": "Ohio State",
+            "loser": "TCU"
+          },
+          {
+            "winner": "St. John's",
+            "loser": "Northern Iowa"
+          },
+          {
+            "winner": "Kansas",
+            "loser": "Cal Baptist"
+          },
+          {
+            "winner": "South Florida",
+            "loser": "Louisville"
+          },
+          {
+            "winner": "Michigan State",
+            "loser": "North Dakota State"
+          },
+          {
+            "winner": "UCF",
+            "loser": "UCLA"
+          },
+          {
+            "winner": "UConn",
+            "loser": "Furman"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Duke",
+            "loser": "Ohio State"
+          },
+          {
+            "winner": "St. John's",
+            "loser": "Kansas"
+          },
+          {
+            "winner": "Michigan State",
+            "loser": "South Florida"
+          },
+          {
+            "winner": "UConn",
+            "loser": "UCF"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Duke",
+            "loser": "St. John's"
+          },
+          {
+            "winner": "UConn",
+            "loser": "Michigan State"
+          }
+        ],
+        "elite_8": "Duke"
+      },
+      "West": {
+        "R64": [
+          {
+            "winner": "Arizona",
+            "loser": "LIU"
+          },
+          {
+            "winner": "Villanova",
+            "loser": "Utah State"
+          },
+          {
+            "winner": "Wisconsin",
+            "loser": "High Point"
+          },
+          {
+            "winner": "Arkansas",
+            "loser": "Hawaii"
+          },
+          {
+            "winner": "Texas",
+            "loser": "BYU"
+          },
+          {
+            "winner": "Gonzaga",
+            "loser": "Kennesaw State"
+          },
+          {
+            "winner": "Miami (FL)",
+            "loser": "Missouri"
+          },
+          {
+            "winner": "Purdue",
+            "loser": "Queens"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Arizona",
+            "loser": "Villanova"
+          },
+          {
+            "winner": "Arkansas",
+            "loser": "Wisconsin"
+          },
+          {
+            "winner": "Gonzaga",
+            "loser": "Texas"
+          },
+          {
+            "winner": "Purdue",
+            "loser": "Miami (FL)"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Arizona",
+            "loser": "Arkansas"
+          },
+          {
+            "winner": "Purdue",
+            "loser": "Gonzaga"
+          }
+        ],
+        "elite_8": "Arizona"
+      },
+      "Midwest": {
+        "R64": [
+          {
+            "winner": "Michigan",
+            "loser": "Howard"
+          },
+          {
+            "winner": "Saint Louis",
+            "loser": "Georgia"
+          },
+          {
+            "winner": "Texas Tech",
+            "loser": "Akron"
+          },
+          {
+            "winner": "Alabama",
+            "loser": "Hofstra"
+          },
+          {
+            "winner": "Tennessee",
+            "loser": "SMU"
+          },
+          {
+            "winner": "Virginia",
+            "loser": "Wright State"
+          },
+          {
+            "winner": "Kentucky",
+            "loser": "Santa Clara"
+          },
+          {
+            "winner": "Iowa State",
+            "loser": "Tennessee State"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Michigan",
+            "loser": "Saint Louis"
+          },
+          {
+            "winner": "Alabama",
+            "loser": "Texas Tech"
+          },
+          {
+            "winner": "Virginia",
+            "loser": "Tennessee"
+          },
+          {
+            "winner": "Iowa State",
+            "loser": "Kentucky"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Michigan",
+            "loser": "Alabama"
+          },
+          {
+            "winner": "Iowa State",
+            "loser": "Virginia"
+          }
+        ],
+        "elite_8": "Michigan"
+      },
+      "South": {
+        "R64": [
+          {
+            "winner": "Florida",
+            "loser": "Lehigh"
+          },
+          {
+            "winner": "Iowa",
+            "loser": "Clemson"
+          },
+          {
+            "winner": "Vanderbilt",
+            "loser": "McNeese"
+          },
+          {
+            "winner": "Nebraska",
+            "loser": "Troy"
+          },
+          {
+            "winner": "VCU",
+            "loser": "North Carolina"
+          },
+          {
+            "winner": "Illinois",
+            "loser": "Penn"
+          },
+          {
+            "winner": "Texas A&M",
+            "loser": "Saint Mary's"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Idaho"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Florida",
+            "loser": "Iowa"
+          },
+          {
+            "winner": "Nebraska",
+            "loser": "Vanderbilt"
+          },
+          {
+            "winner": "Illinois",
+            "loser": "VCU"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Texas A&M"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Florida",
+            "loser": "Nebraska"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Illinois"
+          }
+        ],
+        "elite_8": "Houston"
+      }
+    },
+    "final_four": [
+      "Duke",
+      "Arizona",
+      "Michigan",
+      "Houston"
+    ],
+    "champion": "Houston",
+    "semi_winners": [
+      "Arizona",
+      "Houston"
+    ]
+  },
+  "balanced": {
+    "strategy": "balanced",
+    "regions": {
+      "East": {
+        "R64": [
+          {
+            "winner": "Duke",
+            "loser": "Siena"
+          },
+          {
+            "winner": "Ohio State",
+            "loser": "TCU"
+          },
+          {
+            "winner": "St. John's",
+            "loser": "Northern Iowa"
+          },
+          {
+            "winner": "Kansas",
+            "loser": "Cal Baptist"
+          },
+          {
+            "winner": "South Florida",
+            "loser": "Louisville"
+          },
+          {
+            "winner": "Michigan State",
+            "loser": "North Dakota State"
+          },
+          {
+            "winner": "UCF",
+            "loser": "UCLA"
+          },
+          {
+            "winner": "UConn",
+            "loser": "Furman"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Duke",
+            "loser": "Ohio State"
+          },
+          {
+            "winner": "Kansas",
+            "loser": "St. John's"
+          },
+          {
+            "winner": "Michigan State",
+            "loser": "South Florida"
+          },
+          {
+            "winner": "UConn",
+            "loser": "UCF"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Duke",
+            "loser": "Kansas"
+          },
+          {
+            "winner": "UConn",
+            "loser": "Michigan State"
+          }
+        ],
+        "elite_8": "Duke"
+      },
+      "West": {
+        "R64": [
+          {
+            "winner": "Arizona",
+            "loser": "LIU"
+          },
+          {
+            "winner": "Villanova",
+            "loser": "Utah State"
+          },
+          {
+            "winner": "Wisconsin",
+            "loser": "High Point"
+          },
+          {
+            "winner": "Arkansas",
+            "loser": "Hawaii"
+          },
+          {
+            "winner": "Texas",
+            "loser": "BYU"
+          },
+          {
+            "winner": "Gonzaga",
+            "loser": "Kennesaw State"
+          },
+          {
+            "winner": "Miami (FL)",
+            "loser": "Missouri"
+          },
+          {
+            "winner": "Purdue",
+            "loser": "Queens"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Arizona",
+            "loser": "Villanova"
+          },
+          {
+            "winner": "Arkansas",
+            "loser": "Wisconsin"
+          },
+          {
+            "winner": "Gonzaga",
+            "loser": "Texas"
+          },
+          {
+            "winner": "Purdue",
+            "loser": "Miami (FL)"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Arizona",
+            "loser": "Arkansas"
+          },
+          {
+            "winner": "Purdue",
+            "loser": "Gonzaga"
+          }
+        ],
+        "elite_8": "Arizona"
+      },
+      "Midwest": {
+        "R64": [
+          {
+            "winner": "Michigan",
+            "loser": "Howard"
+          },
+          {
+            "winner": "Saint Louis",
+            "loser": "Georgia"
+          },
+          {
+            "winner": "Texas Tech",
+            "loser": "Akron"
+          },
+          {
+            "winner": "Alabama",
+            "loser": "Hofstra"
+          },
+          {
+            "winner": "Tennessee",
+            "loser": "SMU"
+          },
+          {
+            "winner": "Virginia",
+            "loser": "Wright State"
+          },
+          {
+            "winner": "Kentucky",
+            "loser": "Santa Clara"
+          },
+          {
+            "winner": "Iowa State",
+            "loser": "Tennessee State"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Michigan",
+            "loser": "Saint Louis"
+          },
+          {
+            "winner": "Alabama",
+            "loser": "Texas Tech"
+          },
+          {
+            "winner": "Virginia",
+            "loser": "Tennessee"
+          },
+          {
+            "winner": "Iowa State",
+            "loser": "Kentucky"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Michigan",
+            "loser": "Alabama"
+          },
+          {
+            "winner": "Iowa State",
+            "loser": "Virginia"
+          }
+        ],
+        "elite_8": "Michigan"
+      },
+      "South": {
+        "R64": [
+          {
+            "winner": "Florida",
+            "loser": "Lehigh"
+          },
+          {
+            "winner": "Iowa",
+            "loser": "Clemson"
+          },
+          {
+            "winner": "Vanderbilt",
+            "loser": "McNeese"
+          },
+          {
+            "winner": "Nebraska",
+            "loser": "Troy"
+          },
+          {
+            "winner": "VCU",
+            "loser": "North Carolina"
+          },
+          {
+            "winner": "Illinois",
+            "loser": "Penn"
+          },
+          {
+            "winner": "Saint Mary's",
+            "loser": "Texas A&M"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Idaho"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Florida",
+            "loser": "Iowa"
+          },
+          {
+            "winner": "Nebraska",
+            "loser": "Vanderbilt"
+          },
+          {
+            "winner": "Illinois",
+            "loser": "VCU"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Saint Mary's"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Florida",
+            "loser": "Nebraska"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Illinois"
+          }
+        ],
+        "elite_8": "Houston"
+      }
+    },
+    "final_four": [
+      "Duke",
+      "Arizona",
+      "Michigan",
+      "Houston"
+    ],
+    "champion": "Houston",
+    "semi_winners": [
+      "Arizona",
+      "Houston"
+    ]
+  },
+  "contrarian": {
+    "strategy": "contrarian",
+    "regions": {
+      "East": {
+        "R64": [
+          {
+            "winner": "Duke",
+            "loser": "Siena"
+          },
+          {
+            "winner": "TCU",
+            "loser": "Ohio State"
+          },
+          {
+            "winner": "St. John's",
+            "loser": "Northern Iowa"
+          },
+          {
+            "winner": "Kansas",
+            "loser": "Cal Baptist"
+          },
+          {
+            "winner": "Louisville",
+            "loser": "South Florida"
+          },
+          {
+            "winner": "Michigan State",
+            "loser": "North Dakota State"
+          },
+          {
+            "winner": "UCLA",
+            "loser": "UCF"
+          },
+          {
+            "winner": "UConn",
+            "loser": "Furman"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Duke",
+            "loser": "TCU"
+          },
+          {
+            "winner": "Kansas",
+            "loser": "St. John's"
+          },
+          {
+            "winner": "Michigan State",
+            "loser": "Louisville"
+          },
+          {
+            "winner": "UConn",
+            "loser": "UCLA"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Duke",
+            "loser": "Kansas"
+          },
+          {
+            "winner": "Michigan State",
+            "loser": "UConn"
+          }
+        ],
+        "elite_8": "Michigan State"
+      },
+      "West": {
+        "R64": [
+          {
+            "winner": "Arizona",
+            "loser": "LIU"
+          },
+          {
+            "winner": "Utah State",
+            "loser": "Villanova"
+          },
+          {
+            "winner": "Wisconsin",
+            "loser": "High Point"
+          },
+          {
+            "winner": "Arkansas",
+            "loser": "Hawaii"
+          },
+          {
+            "winner": "BYU",
+            "loser": "Texas"
+          },
+          {
+            "winner": "Gonzaga",
+            "loser": "Kennesaw State"
+          },
+          {
+            "winner": "Missouri",
+            "loser": "Miami (FL)"
+          },
+          {
+            "winner": "Purdue",
+            "loser": "Queens"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Arizona",
+            "loser": "Utah State"
+          },
+          {
+            "winner": "Wisconsin",
+            "loser": "Arkansas"
+          },
+          {
+            "winner": "Gonzaga",
+            "loser": "BYU"
+          },
+          {
+            "winner": "Purdue",
+            "loser": "Missouri"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Arizona",
+            "loser": "Wisconsin"
+          },
+          {
+            "winner": "Gonzaga",
+            "loser": "Purdue"
+          }
+        ],
+        "elite_8": "Gonzaga"
+      },
+      "Midwest": {
+        "R64": [
+          {
+            "winner": "Michigan",
+            "loser": "Howard"
+          },
+          {
+            "winner": "Georgia",
+            "loser": "Saint Louis"
+          },
+          {
+            "winner": "Akron",
+            "loser": "Texas Tech"
+          },
+          {
+            "winner": "Hofstra",
+            "loser": "Alabama"
+          },
+          {
+            "winner": "Miami (OH)",
+            "loser": "Tennessee"
+          },
+          {
+            "winner": "Virginia",
+            "loser": "Wright State"
+          },
+          {
+            "winner": "Santa Clara",
+            "loser": "Kentucky"
+          },
+          {
+            "winner": "Iowa State",
+            "loser": "Tennessee State"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Michigan",
+            "loser": "Georgia"
+          },
+          {
+            "winner": "Hofstra",
+            "loser": "Akron"
+          },
+          {
+            "winner": "Virginia",
+            "loser": "Miami (OH)"
+          },
+          {
+            "winner": "Iowa State",
+            "loser": "Santa Clara"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Michigan",
+            "loser": "Hofstra"
+          },
+          {
+            "winner": "Virginia",
+            "loser": "Iowa State"
+          }
+        ],
+        "elite_8": "Virginia"
+      },
+      "South": {
+        "R64": [
+          {
+            "winner": "Florida",
+            "loser": "Prairie View A&M"
+          },
+          {
+            "winner": "Clemson",
+            "loser": "Iowa"
+          },
+          {
+            "winner": "Vanderbilt",
+            "loser": "McNeese"
+          },
+          {
+            "winner": "Nebraska",
+            "loser": "Troy"
+          },
+          {
+            "winner": "North Carolina",
+            "loser": "VCU"
+          },
+          {
+            "winner": "Illinois",
+            "loser": "Penn"
+          },
+          {
+            "winner": "Saint Mary's",
+            "loser": "Texas A&M"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Idaho"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Florida",
+            "loser": "Clemson"
+          },
+          {
+            "winner": "Vanderbilt",
+            "loser": "Nebraska"
+          },
+          {
+            "winner": "Illinois",
+            "loser": "North Carolina"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Saint Mary's"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Florida",
+            "loser": "Vanderbilt"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Illinois"
+          }
+        ],
+        "elite_8": "Florida"
+      }
+    },
+    "final_four": [
+      "Michigan State",
+      "Gonzaga",
+      "Virginia",
+      "Florida"
+    ],
+    "champion": "Virginia",
+    "semi_winners": [
+      "Michigan State",
+      "Virginia"
+    ]
+  },
+  "chaos": {
+    "strategy": "chaos",
+    "regions": {
+      "East": {
+        "R64": [
+          {
+            "winner": "Duke",
+            "loser": "Siena"
+          },
+          {
+            "winner": "TCU",
+            "loser": "Ohio State"
+          },
+          {
+            "winner": "St. John's",
+            "loser": "Northern Iowa"
+          },
+          {
+            "winner": "Kansas",
+            "loser": "Cal Baptist"
+          },
+          {
+            "winner": "South Florida",
+            "loser": "Louisville"
+          },
+          {
+            "winner": "Michigan State",
+            "loser": "North Dakota State"
+          },
+          {
+            "winner": "UCF",
+            "loser": "UCLA"
+          },
+          {
+            "winner": "UConn",
+            "loser": "Furman"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Duke",
+            "loser": "TCU"
+          },
+          {
+            "winner": "Kansas",
+            "loser": "St. John's"
+          },
+          {
+            "winner": "Michigan State",
+            "loser": "South Florida"
+          },
+          {
+            "winner": "UConn",
+            "loser": "UCF"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Duke",
+            "loser": "Kansas"
+          },
+          {
+            "winner": "UConn",
+            "loser": "Michigan State"
+          }
+        ],
+        "elite_8": "UConn"
+      },
+      "West": {
+        "R64": [
+          {
+            "winner": "Arizona",
+            "loser": "LIU"
+          },
+          {
+            "winner": "Utah State",
+            "loser": "Villanova"
+          },
+          {
+            "winner": "Wisconsin",
+            "loser": "High Point"
+          },
+          {
+            "winner": "Arkansas",
+            "loser": "Hawaii"
+          },
+          {
+            "winner": "Texas",
+            "loser": "BYU"
+          },
+          {
+            "winner": "Gonzaga",
+            "loser": "Kennesaw State"
+          },
+          {
+            "winner": "Missouri",
+            "loser": "Miami (FL)"
+          },
+          {
+            "winner": "Purdue",
+            "loser": "Queens"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Arizona",
+            "loser": "Utah State"
+          },
+          {
+            "winner": "Arkansas",
+            "loser": "Wisconsin"
+          },
+          {
+            "winner": "Gonzaga",
+            "loser": "Texas"
+          },
+          {
+            "winner": "Purdue",
+            "loser": "Missouri"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Arizona",
+            "loser": "Arkansas"
+          },
+          {
+            "winner": "Purdue",
+            "loser": "Gonzaga"
+          }
+        ],
+        "elite_8": "Purdue"
+      },
+      "Midwest": {
+        "R64": [
+          {
+            "winner": "Michigan",
+            "loser": "Howard"
+          },
+          {
+            "winner": "Saint Louis",
+            "loser": "Georgia"
+          },
+          {
+            "winner": "Texas Tech",
+            "loser": "Akron"
+          },
+          {
+            "winner": "Alabama",
+            "loser": "Hofstra"
+          },
+          {
+            "winner": "Tennessee",
+            "loser": "Miami (OH)"
+          },
+          {
+            "winner": "Virginia",
+            "loser": "Wright State"
+          },
+          {
+            "winner": "Kentucky",
+            "loser": "Santa Clara"
+          },
+          {
+            "winner": "Iowa State",
+            "loser": "Tennessee State"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Michigan",
+            "loser": "Saint Louis"
+          },
+          {
+            "winner": "Alabama",
+            "loser": "Texas Tech"
+          },
+          {
+            "winner": "Virginia",
+            "loser": "Tennessee"
+          },
+          {
+            "winner": "Iowa State",
+            "loser": "Kentucky"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Michigan",
+            "loser": "Alabama"
+          },
+          {
+            "winner": "Iowa State",
+            "loser": "Virginia"
+          }
+        ],
+        "elite_8": "Iowa State"
+      },
+      "South": {
+        "R64": [
+          {
+            "winner": "Florida",
+            "loser": "Prairie View A&M"
+          },
+          {
+            "winner": "Iowa",
+            "loser": "Clemson"
+          },
+          {
+            "winner": "Vanderbilt",
+            "loser": "McNeese"
+          },
+          {
+            "winner": "Nebraska",
+            "loser": "Troy"
+          },
+          {
+            "winner": "VCU",
+            "loser": "North Carolina"
+          },
+          {
+            "winner": "Illinois",
+            "loser": "Penn"
+          },
+          {
+            "winner": "Texas A&M",
+            "loser": "Saint Mary's"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Idaho"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Florida",
+            "loser": "Iowa"
+          },
+          {
+            "winner": "Nebraska",
+            "loser": "Vanderbilt"
+          },
+          {
+            "winner": "Illinois",
+            "loser": "VCU"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Texas A&M"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Florida",
+            "loser": "Nebraska"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Illinois"
+          }
+        ],
+        "elite_8": "Houston"
+      }
+    },
+    "final_four": [
+      "UConn",
+      "Purdue",
+      "Iowa State",
+      "Houston"
+    ],
+    "champion": "Iowa State",
+    "semi_winners": [
+      "Purdue",
+      "Iowa State"
+    ]
+  },
+  "value": {
+    "strategy": "value",
+    "regions": {
+      "East": {
+        "R64": [
+          {
+            "winner": "Duke",
+            "loser": "Siena"
+          },
+          {
+            "winner": "Ohio State",
+            "loser": "TCU"
+          },
+          {
+            "winner": "St. John's",
+            "loser": "Northern Iowa"
+          },
+          {
+            "winner": "Kansas",
+            "loser": "Cal Baptist"
+          },
+          {
+            "winner": "South Florida",
+            "loser": "Louisville"
+          },
+          {
+            "winner": "Michigan State",
+            "loser": "North Dakota State"
+          },
+          {
+            "winner": "UCF",
+            "loser": "UCLA"
+          },
+          {
+            "winner": "UConn",
+            "loser": "Furman"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Duke",
+            "loser": "Ohio State"
+          },
+          {
+            "winner": "St. John's",
+            "loser": "Kansas"
+          },
+          {
+            "winner": "Michigan State",
+            "loser": "South Florida"
+          },
+          {
+            "winner": "UConn",
+            "loser": "UCF"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Duke",
+            "loser": "St. John's"
+          },
+          {
+            "winner": "UConn",
+            "loser": "Michigan State"
+          }
+        ],
+        "elite_8": "Duke"
+      },
+      "West": {
+        "R64": [
+          {
+            "winner": "Arizona",
+            "loser": "LIU"
+          },
+          {
+            "winner": "Villanova",
+            "loser": "Utah State"
+          },
+          {
+            "winner": "Wisconsin",
+            "loser": "High Point"
+          },
+          {
+            "winner": "Arkansas",
+            "loser": "Hawaii"
+          },
+          {
+            "winner": "Texas",
+            "loser": "BYU"
+          },
+          {
+            "winner": "Gonzaga",
+            "loser": "Kennesaw State"
+          },
+          {
+            "winner": "Miami (FL)",
+            "loser": "Missouri"
+          },
+          {
+            "winner": "Purdue",
+            "loser": "Queens"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Arizona",
+            "loser": "Villanova"
+          },
+          {
+            "winner": "Arkansas",
+            "loser": "Wisconsin"
+          },
+          {
+            "winner": "Gonzaga",
+            "loser": "Texas"
+          },
+          {
+            "winner": "Purdue",
+            "loser": "Miami (FL)"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Arizona",
+            "loser": "Arkansas"
+          },
+          {
+            "winner": "Purdue",
+            "loser": "Gonzaga"
+          }
+        ],
+        "elite_8": "Arizona"
+      },
+      "Midwest": {
+        "R64": [
+          {
+            "winner": "Michigan",
+            "loser": "Howard"
+          },
+          {
+            "winner": "Saint Louis",
+            "loser": "Georgia"
+          },
+          {
+            "winner": "Texas Tech",
+            "loser": "Akron"
+          },
+          {
+            "winner": "Alabama",
+            "loser": "Hofstra"
+          },
+          {
+            "winner": "Tennessee",
+            "loser": "SMU"
+          },
+          {
+            "winner": "Virginia",
+            "loser": "Wright State"
+          },
+          {
+            "winner": "Kentucky",
+            "loser": "Santa Clara"
+          },
+          {
+            "winner": "Iowa State",
+            "loser": "Tennessee State"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Michigan",
+            "loser": "Saint Louis"
+          },
+          {
+            "winner": "Alabama",
+            "loser": "Texas Tech"
+          },
+          {
+            "winner": "Virginia",
+            "loser": "Tennessee"
+          },
+          {
+            "winner": "Iowa State",
+            "loser": "Kentucky"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Michigan",
+            "loser": "Alabama"
+          },
+          {
+            "winner": "Iowa State",
+            "loser": "Virginia"
+          }
+        ],
+        "elite_8": "Michigan"
+      },
+      "South": {
+        "R64": [
+          {
+            "winner": "Florida",
+            "loser": "Lehigh"
+          },
+          {
+            "winner": "Iowa",
+            "loser": "Clemson"
+          },
+          {
+            "winner": "Vanderbilt",
+            "loser": "McNeese"
+          },
+          {
+            "winner": "Nebraska",
+            "loser": "Troy"
+          },
+          {
+            "winner": "VCU",
+            "loser": "North Carolina"
+          },
+          {
+            "winner": "Illinois",
+            "loser": "Penn"
+          },
+          {
+            "winner": "Saint Mary's",
+            "loser": "Texas A&M"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Idaho"
+          }
+        ],
+        "R32": [
+          {
+            "winner": "Florida",
+            "loser": "Iowa"
+          },
+          {
+            "winner": "Nebraska",
+            "loser": "Vanderbilt"
+          },
+          {
+            "winner": "Illinois",
+            "loser": "VCU"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Saint Mary's"
+          }
+        ],
+        "S16": [
+          {
+            "winner": "Florida",
+            "loser": "Nebraska"
+          },
+          {
+            "winner": "Houston",
+            "loser": "Illinois"
+          }
+        ],
+        "elite_8": "Houston"
+      }
+    },
+    "final_four": [
+      "Duke",
+      "Arizona",
+      "Michigan",
+      "Houston"
+    ],
+    "champion": "Houston",
+    "semi_winners": [
+      "Arizona",
+      "Houston"
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+[
+  {
+    "id": "401851388",
+    "name": "Purdue Boilermakers at Michigan Wolverines",
+    "date": "2026-03-15T19:30Z",
+    "status": "Final",
+    "venue": "United Center",
+    "broadcast": "CBS",
+    "teams": [
+      {
+        "id": "130",
+        "name": "Michigan Wolverines",
+        "abbreviation": "MICH",
+        "seed": 3,
+        "score": "72",
+        "winner": false,
+        "home_away": "home",
+        "record": "31-3"
+      },
+      {
+        "id": "2509",
+        "name": "Purdue Boilermakers",
+        "abbreviation": "PUR",
+        "seed": 18,
+        "score": "80",
+        "winner": true,
+        "home_away": "away",
+        "record": "27-8"
+      }
+    ],
+    "odds": {}
+  },
+  {
+    "id": "401851571",
+    "name": "Vanderbilt Commodores at Arkansas Razorbacks",
+    "date": "2026-03-15T17:00Z",
+    "status": "Final",
+    "venue": "Bridgestone Arena",
+    "broadcast": "ESPN",
+    "teams": [
+      {
+        "id": "8",
+        "name": "Arkansas Razorbacks",
+        "abbreviation": "ARK",
+        "seed": 17,
+        "score": "86",
+        "winner": true,
+        "home_away": "home",
+        "record": "26-8"
+      },
+      {
+        "id": "238",
+        "name": "Vanderbilt Commodores",
+        "abbreviation": "VAN",
+        "seed": 22,
+        "score": "75",
+        "winner": false,
+        "home_away": "away",
+        "record": "26-8"
+      }
+    ],
+    "odds": {}
+  },
+  {
+    "id": "401851437",
+    "name": "Pennsylvania Quakers at Yale Bulldogs",
+    "date": "2026-03-15T16:00Z",
+    "status": "Final",
+    "venue": "Newman Arena",
+    "broadcast": "ESPN2",
+    "teams": [
+      {
+        "id": "43",
+        "name": "Yale Bulldogs",
+        "abbreviation": "YALE",
+        "seed": 99,
+        "score": "84",
+        "winner": false,
+        "home_away": "home",
+        "record": "24-6"
+      },
+      {
+        "id": "219",
+        "name": "Pennsylvania Quakers",
+        "abbreviation": "PENN",
+        "seed": 99,
+        "score": "88",
+        "winner": true,
+        "home_away": "away",
+        "record": "18-11"
+      }
+    ],
+    "odds": {}
+  },
+  {
+    "id": "401851277",
+    "name": "Dayton Flyers at VCU Rams",
+    "date": "2026-03-15T17:00Z",
+    "status": "Final",
+    "venue": "PPG Paints Arena",
+    "broadcast": "CBS",
+    "teams": [
+      {
+        "id": "2670",
+        "name": "VCU Rams",
+        "abbreviation": "VCU",
+        "seed": 99,
+        "score": "70",
+        "winner": true,
+        "home_away": "home",
+        "record": "27-7"
+      },
+      {
+        "id": "2168",
+        "name": "Dayton Flyers",
+        "abbreviation": "DAY",
+        "seed": 99,
+        "score": "62",
+        "winner": false,
+        "home_away": "away",
+        "record": "23-11"
+      }
+    ],
+    "odds": {}
+  },
+  {
+    "id": "401851229",
+    "name": "Wichita State Shockers at South Florida Bulls",
+    "date": "2026-03-15T19:15Z",
+    "status": "Final",
+    "venue": "Legacy Arena at BJCC",
+    "broadcast": "ESPN",
+    "teams": [
+      {
+        "id": "58",
+        "name": "South Florida Bulls",
+        "abbreviation": "USF",
+        "seed": 99,
+        "score": "70",
+        "winner": true,
+        "home_away": "home",
+        "record": "25-8"
+      },
+      {
+        "id": "2724",
+        "name": "Wichita State Shockers",
+        "abbreviation": "WICH",
+        "seed": 99,
+        "score": "55",
+        "winner": false,
+        "home_away": "away",
+        "record": "22-11"
+      }
+    ],
+    "odds": {}
+  }
+]

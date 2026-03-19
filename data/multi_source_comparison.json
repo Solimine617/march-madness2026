@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "generated": "2026-03-18T21:00:00-05:00",
+    "sources": {
+      "our_model": "v2 (ESPN BPI base + injury + momentum + travel + coach + variance, 50K sims)",
+      "espn_bpi": "ESPN BPI projections (from espn.com/betting/story March 18)",
+      "barttorvik": "T-Rank 10K sims (from search: Duke 20.2%, Michigan 17.9%, Arizona 14.8%, Florida 9.1%, Houston 7%)",
+      "market": "DraftKings/ESPN embedded odds (vig-removed)"
+    }
+  },
+  "championship_comparison": {
+    "Duke":     {"our_model": 16.0, "barttorvik": 20.2, "market_implied": 25.0, "vegas_odds": "+325"},
+    "Michigan": {"our_model": 8.1,  "barttorvik": 17.9, "market_implied": 21.0, "vegas_odds": "+370"},
+    "Arizona":  {"our_model": 16.8, "barttorvik": 14.8, "market_implied": 22.0, "vegas_odds": "+380"},
+    "Florida":  {"our_model": 17.6, "barttorvik": 9.1,  "market_implied": 12.0, "vegas_odds": "+750"},
+    "Houston":  {"our_model": 17.6, "barttorvik": 7.0,  "market_implied": 10.0, "vegas_odds": "+900"}
+  },
+  "key_disagreements": [
+    {
+      "game": "(6) Louisville vs (11) South Florida",
+      "our_model": {"fav": "South Florida", "fav_prob": 70.3},
+      "espn_bpi": {"fav": "Louisville", "fav_prob": 81.0, "margin": 9.1},
+      "market": {"spread": "Louisville -4.5", "fav_ml_implied": 64.5},
+      "note": "BIGGEST DISAGREEMENT. ESPN BPI gives Louisville 81% but does NOT account for Brown Jr being OUT (18.2 PPG). Our model adjusts for this = massive edge."
+    },
+    {
+      "game": "(4) Alabama vs (13) Hofstra",
+      "our_model": {"fav": "Alabama", "fav_prob": 59.7},
+      "espn_bpi": {"fav": "Alabama", "fav_prob": 90.1, "margin": 13.8},
+      "market": {"spread": "Alabama -11.5", "fav_ml_implied": 92.1},
+      "note": "ESPN BPI (90.1%) and market (92.1%) DO NOT reflect Holloway arrest (16.8 PPG, off team). Our model: 59.7% Alabama. Spread moved from -23.5 to -11.5 but still overvalues Bama."
+    },
+    {
+      "game": "(5) Texas Tech vs (12) Akron",
+      "our_model": {"fav": "Texas Tech", "fav_prob": 51.9},
+      "espn_bpi": {"fav": "Texas Tech", "fav_prob": 81.9, "margin": 9.5},
+      "market": {"spread": "Texas Tech -7.5", "fav_ml_implied": 74.1},
+      "note": "ESPN BPI (81.9%) way too high for a team without All-American Toppin (21.8/10.8) on a 3-game skid. Our model: basically a coin flip at 51.9%."
+    },
+    {
+      "game": "(6) North Carolina vs (11) VCU",
+      "our_model": {"fav": "VCU", "fav_prob": 69.0},
+      "espn_bpi": {"fav": "North Carolina", "fav_prob": 61.6, "margin": 2.9},
+      "market": {"spread": "UNC -2.5", "fav_ml_implied": 62.5},
+      "note": "ESPN BPI gives UNC 61.6% despite Wilson being OUT. Our model flips this to VCU 69%. Torvik data confirms UNC drops from 16.6 to 7.6 differential without Wilson."
+    },
+    {
+      "game": "(7) UCLA vs (10) UCF",
+      "our_model": {"fav": "UCF", "fav_prob": 63.4},
+      "espn_bpi": {"fav": "UCLA", "fav_prob": 72.2, "margin": 6.0},
+      "market": {"spread": "UCLA -5.5", "fav_ml_implied": 60.5},
+      "note": "ESPN BPI (72.2%) doesn't weight UCLA injuries (star forward + Dent calf) + 2700-mile travel to Philly heavily enough. Our model flips to UCF."
+    },
+    {
+      "game": "(10) Texas A&M vs (7) Saint Mary's",
+      "our_model": {"fav": "Texas A&M", "fav_prob": 51.9},
+      "espn_bpi": {"fav": "Saint Mary's", "fav_prob": 53.2, "margin": 0.8},
+      "market": {"spread": "Saint Mary's -3.5", "fav_ml_implied": 60.5},
+      "note": "Near coin flip in all models. BPI only gives SMC 53.2%. Market at 60.5% overvalues the 7-seed. A&M's veteran squad + 35.6 bench ppg = value."
+    },
+    {
+      "game": "(8) Georgia vs (9) Saint Louis",
+      "our_model": {"fav": "Saint Louis", "fav_prob": 59.3},
+      "espn_bpi": {"fav": "Georgia", "fav_prob": 50.9, "margin": 0.2},
+      "market": {"spread": "Georgia -1.5", "fav_ml_implied": 51.0},
+      "note": "BPI calls this 50.9/49.1 (basically even). Market slight lean to Georgia. Our model gives Saint Louis 59.3% due to elite offense (86.4 ppg, 59.7% eFG) vs Georgia's 302nd-ranked scoring defense."
+    }
+  ],
+  "where_all_models_agree": [
+    {"game": "(1) Duke vs (16) Siena", "consensus": "Duke ~99%", "note": "Lock."},
+    {"game": "(1) Arizona vs (16) LIU", "consensus": "Arizona ~99%", "note": "Lock."},
+    {"game": "(1) Michigan vs (16) Howard", "consensus": "Michigan ~99%", "note": "Lock."},
+    {"game": "(2) Houston vs (15) Idaho", "consensus": "Houston ~98%", "note": "Lock."},
+    {"game": "(2) Iowa State vs (15) Tennessee State", "consensus": "Iowa State ~98%", "note": "Lock."},
+    {"game": "(2) UConn vs (15) Furman", "consensus": "UConn ~96%", "note": "Lock."},
+    {"game": "(3) Michigan State vs (14) NDSU", "consensus": "MSU ~94%", "note": "Very strong."},
+    {"game": "(3) Virginia vs (14) Wright State", "consensus": "Virginia ~93%", "note": "Very strong."},
+    {"game": "(3) Gonzaga vs (14) Kennesaw State", "consensus": "Gonzaga ~95%", "note": "Very strong."},
+    {"game": "(3) Illinois vs (14) Penn", "consensus": "Illinois ~97%", "note": "Lock."}
+  ],
+  "highest_confidence_upsets": [
+    {
+      "upset": "South Florida over Louisville",
+      "our_confidence": "70.3% (B grade)",
+      "why": "Louisville missing 18.2 PPG lottery pick. USF 10-0 L10, +19.6 margin, AAC champs.",
+      "all_three_agree": false,
+      "note": "ESPN BPI doesn't reflect Brown Jr OUT. Our model is the edge."
+    },
+    {
+      "upset": "VCU over North Carolina",
+      "our_confidence": "69.0% (B grade)",
+      "why": "UNC without Caleb Wilson (top-5 pick). Torvik confirms 16.6→7.6 differential drop. VCU 9-1 L10.",
+      "all_three_agree": false,
+      "note": "Torvik data SUPPORTS this upset. BPI partially reflects it (only 61.6% UNC)."
+    },
+    {
+      "upset": "UCF over UCLA",
+      "our_confidence": "63.4% (B grade)",
+      "why": "UCLA star injured + Dent limited + 2,700-mile travel. UCF is healthy and rested.",
+      "all_three_agree": false,
+      "note": "Only our model flips this. BPI and market still favor UCLA."
+    },
+    {
+      "upset": "Akron over Texas Tech",
+      "our_confidence": "48.1% (C grade - coin flip)",
+      "why": "Tech without All-American Toppin (21.8/10.8), 3-game losing streak. Akron won 19 of 20.",
+      "all_three_agree": false,
+      "note": "Our model sees coin flip. BPI (81.9%) and market (74.1%) still heavily favor Tech."
+    },
+    {
+      "upset": "Texas A&M over Saint Mary's",
+      "our_confidence": "51.9% (C+ grade)",
+      "why": "Veteran squad, 35.6 bench ppg. BPI only gives SMC 53.2% (near even).",
+      "all_three_agree": "partially",
+      "note": "BPI agrees this is very close. CBS model also picked this upset."
+    },
+    {
+      "upset": "Saint Louis over Georgia",
+      "our_confidence": "59.3% (B grade)",
+      "why": "Elite offense (86.4ppg, 59.7% eFG) vs 302nd-ranked scoring defense.",
+      "all_three_agree": "partially",
+      "note": "BPI agrees this is basically even (50.9% Georgia). CBS model also picked this."
+    }
+  ]
+}

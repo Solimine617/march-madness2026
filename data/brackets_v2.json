@@ -1,0 +1,5617 @@
+{
+  "pool_1_chalk": {
+    "strategy": "chalk",
+    "regions": {
+      "East": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Duke",
+            "loser": "Siena",
+            "probability": 95.9,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Ohio State",
+            "loser": "TCU",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "St. John's",
+            "loser": "Northern Iowa",
+            "probability": 74.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Kansas",
+            "loser": "Cal Baptist",
+            "probability": 75.8,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "South Florida",
+            "loser": "Louisville",
+            "probability": 70.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Michigan State",
+            "loser": "North Dakota State",
+            "probability": 88.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "UCF",
+            "loser": "UCLA",
+            "probability": 63.4,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "UConn",
+            "loser": "Furman",
+            "probability": 89.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Duke",
+            "loser": "Ohio State",
+            "probability": 84.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "St. John's",
+            "loser": "Kansas",
+            "probability": 57.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Michigan State",
+            "loser": "South Florida",
+            "probability": 68.1,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "UConn",
+            "loser": "UCF",
+            "probability": 79.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Duke",
+            "loser": "St. John's",
+            "probability": 76.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "UConn",
+            "loser": "Michigan State",
+            "probability": 54.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ],
+        "elite_8": "Duke",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Duke",
+            "loser": "Siena",
+            "probability": 95.9,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Ohio State",
+            "loser": "TCU",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "St. John's",
+            "loser": "Northern Iowa",
+            "probability": 74.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Kansas",
+            "loser": "Cal Baptist",
+            "probability": 75.8,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "South Florida",
+            "loser": "Louisville",
+            "probability": 70.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Michigan State",
+            "loser": "North Dakota State",
+            "probability": 88.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "UCF",
+            "loser": "UCLA",
+            "probability": 63.4,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "UConn",
+            "loser": "Furman",
+            "probability": 89.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Duke",
+            "loser": "Ohio State",
+            "probability": 84.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "St. John's",
+            "loser": "Kansas",
+            "probability": 57.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Michigan State",
+            "loser": "South Florida",
+            "probability": 68.1,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "UConn",
+            "loser": "UCF",
+            "probability": 79.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Duke",
+            "loser": "St. John's",
+            "probability": 76.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "UConn",
+            "loser": "Michigan State",
+            "probability": 54.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "E8",
+            "winner": "Duke",
+            "loser": "UConn",
+            "probability": 66.2,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          }
+        ]
+      },
+      "West": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Arizona",
+            "loser": "LIU",
+            "probability": 97.0,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Villanova",
+            "loser": "Utah State",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Wisconsin",
+            "loser": "High Point",
+            "probability": 71.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Arkansas",
+            "loser": "Hawaii",
+            "probability": 82.4,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas",
+            "loser": "BYU",
+            "probability": 59.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Gonzaga",
+            "loser": "Kennesaw State",
+            "probability": 90.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Miami (FL)",
+            "loser": "Missouri",
+            "probability": 54.6,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Purdue",
+            "loser": "Queens",
+            "probability": 90.3,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Arizona",
+            "loser": "Villanova",
+            "probability": 87.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Arkansas",
+            "loser": "Wisconsin",
+            "probability": 58.5,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Gonzaga",
+            "loser": "Texas",
+            "probability": 79.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Purdue",
+            "loser": "Miami (FL)",
+            "probability": 73.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Arizona",
+            "loser": "Arkansas",
+            "probability": 73.4,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Purdue",
+            "loser": "Gonzaga",
+            "probability": 52.8,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ],
+        "elite_8": "Arizona",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Arizona",
+            "loser": "LIU",
+            "probability": 97.0,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Villanova",
+            "loser": "Utah State",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Wisconsin",
+            "loser": "High Point",
+            "probability": 71.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Arkansas",
+            "loser": "Hawaii",
+            "probability": 82.4,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas",
+            "loser": "BYU",
+            "probability": 59.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Gonzaga",
+            "loser": "Kennesaw State",
+            "probability": 90.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Miami (FL)",
+            "loser": "Missouri",
+            "probability": 54.6,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Purdue",
+            "loser": "Queens",
+            "probability": 90.3,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R32",
+            "winner": "Arizona",
+            "loser": "Villanova",
+            "probability": 87.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Arkansas",
+            "loser": "Wisconsin",
+            "probability": 58.5,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Gonzaga",
+            "loser": "Texas",
+            "probability": 79.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Purdue",
+            "loser": "Miami (FL)",
+            "probability": 73.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Arizona",
+            "loser": "Arkansas",
+            "probability": 73.4,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Purdue",
+            "loser": "Gonzaga",
+            "probability": 52.8,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "E8",
+            "winner": "Arizona",
+            "loser": "Purdue",
+            "probability": 61.2,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          }
+        ]
+      },
+      "Midwest": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Michigan",
+            "loser": "Howard",
+            "probability": 96.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Saint Louis",
+            "loser": "Georgia",
+            "probability": 59.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas Tech",
+            "loser": "Akron",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Alabama",
+            "loser": "Hofstra",
+            "probability": 59.7,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Tennessee",
+            "loser": "SMU",
+            "probability": 60.3,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Virginia",
+            "loser": "Wright State",
+            "probability": 89.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Kentucky",
+            "loser": "Santa Clara",
+            "probability": 52.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa State",
+            "loser": "Tennessee State",
+            "probability": 94.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Michigan",
+            "loser": "Saint Louis",
+            "probability": 81.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Alabama",
+            "loser": "Texas Tech",
+            "probability": 54.2,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Virginia",
+            "loser": "Tennessee",
+            "probability": 71.7,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Iowa State",
+            "loser": "Kentucky",
+            "probability": 78.7,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Michigan",
+            "loser": "Alabama",
+            "probability": 79.4,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Iowa State",
+            "loser": "Virginia",
+            "probability": 62.5,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          }
+        ],
+        "elite_8": "Michigan",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Michigan",
+            "loser": "Howard",
+            "probability": 96.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Saint Louis",
+            "loser": "Georgia",
+            "probability": 59.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas Tech",
+            "loser": "Akron",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Alabama",
+            "loser": "Hofstra",
+            "probability": 59.7,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Tennessee",
+            "loser": "SMU",
+            "probability": 60.3,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Virginia",
+            "loser": "Wright State",
+            "probability": 89.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Kentucky",
+            "loser": "Santa Clara",
+            "probability": 52.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa State",
+            "loser": "Tennessee State",
+            "probability": 94.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R32",
+            "winner": "Michigan",
+            "loser": "Saint Louis",
+            "probability": 81.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Alabama",
+            "loser": "Texas Tech",
+            "probability": 54.2,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Virginia",
+            "loser": "Tennessee",
+            "probability": 71.7,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Iowa State",
+            "loser": "Kentucky",
+            "probability": 78.7,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Michigan",
+            "loser": "Alabama",
+            "probability": 79.4,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Iowa State",
+            "loser": "Virginia",
+            "probability": 62.5,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "E8",
+            "winner": "Michigan",
+            "loser": "Iowa State",
+            "probability": 58.5,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ]
+      },
+      "South": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Florida",
+            "loser": "Lehigh",
+            "probability": 96.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa",
+            "loser": "Clemson",
+            "probability": 55.6,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Vanderbilt",
+            "loser": "McNeese",
+            "probability": 70.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Nebraska",
+            "loser": "Troy",
+            "probability": 77.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "VCU",
+            "loser": "North Carolina",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Illinois",
+            "loser": "Penn",
+            "probability": 82.1,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas A&M",
+            "loser": "Saint Mary's",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Houston",
+            "loser": "Idaho",
+            "probability": 97.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Florida",
+            "loser": "Iowa",
+            "probability": 85.8,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Nebraska",
+            "loser": "Vanderbilt",
+            "probability": 51.8,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R32",
+            "winner": "Illinois",
+            "loser": "VCU",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "Houston",
+            "loser": "Texas A&M",
+            "probability": 88.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Florida",
+            "loser": "Nebraska",
+            "probability": 80.6,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "S16",
+            "winner": "Houston",
+            "loser": "Illinois",
+            "probability": 71.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "elite_8": "Florida",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Florida",
+            "loser": "Lehigh",
+            "probability": 96.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa",
+            "loser": "Clemson",
+            "probability": 55.6,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Vanderbilt",
+            "loser": "McNeese",
+            "probability": 70.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Nebraska",
+            "loser": "Troy",
+            "probability": 77.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "VCU",
+            "loser": "North Carolina",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Illinois",
+            "loser": "Penn",
+            "probability": 82.1,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas A&M",
+            "loser": "Saint Mary's",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Houston",
+            "loser": "Idaho",
+            "probability": 97.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R32",
+            "winner": "Florida",
+            "loser": "Iowa",
+            "probability": 85.8,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Nebraska",
+            "loser": "Vanderbilt",
+            "probability": 51.8,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R32",
+            "winner": "Illinois",
+            "loser": "VCU",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "Houston",
+            "loser": "Texas A&M",
+            "probability": 88.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "S16",
+            "winner": "Florida",
+            "loser": "Nebraska",
+            "probability": 80.6,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "S16",
+            "winner": "Houston",
+            "loser": "Illinois",
+            "probability": 71.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "E8",
+            "winner": "Florida",
+            "loser": "Houston",
+            "probability": 52.2,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ]
+      }
+    },
+    "final_four": [
+      "Duke",
+      "Arizona",
+      "Michigan",
+      "Florida"
+    ],
+    "champion": "Florida",
+    "confidence_summary": {
+      "A+": 8,
+      "A": 11,
+      "B+": 15,
+      "B": 8,
+      "C+": 13,
+      "C": 5,
+      "C-": 0,
+      "D+": 0,
+      "D": 0
+    },
+    "semi_winners": [
+      "Arizona",
+      "Florida"
+    ],
+    "pool_config": {
+      "name": "8-Person Free (Pure Chalk)",
+      "strategy": "chalk",
+      "pool_size": 8,
+      "stakes": "Free",
+      "forced_champion": "Florida",
+      "desc": "Maximize expected points. Be right the most."
+    }
+  },
+  "pool_2_balanced": {
+    "strategy": "balanced",
+    "regions": {
+      "East": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Duke",
+            "loser": "Siena",
+            "probability": 95.9,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Ohio State",
+            "loser": "TCU",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "St. John's",
+            "loser": "Northern Iowa",
+            "probability": 74.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Kansas",
+            "loser": "Cal Baptist",
+            "probability": 75.8,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "South Florida",
+            "loser": "Louisville",
+            "probability": 70.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Michigan State",
+            "loser": "North Dakota State",
+            "probability": 88.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "UCF",
+            "loser": "UCLA",
+            "probability": 63.4,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "UConn",
+            "loser": "Furman",
+            "probability": 89.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Duke",
+            "loser": "Ohio State",
+            "probability": 84.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "St. John's",
+            "loser": "Kansas",
+            "probability": 57.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Michigan State",
+            "loser": "South Florida",
+            "probability": 68.1,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "UConn",
+            "loser": "UCF",
+            "probability": 79.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Duke",
+            "loser": "St. John's",
+            "probability": 76.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "UConn",
+            "loser": "Michigan State",
+            "probability": 54.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ],
+        "elite_8": "Duke",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Duke",
+            "loser": "Siena",
+            "probability": 95.9,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Ohio State",
+            "loser": "TCU",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "St. John's",
+            "loser": "Northern Iowa",
+            "probability": 74.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Kansas",
+            "loser": "Cal Baptist",
+            "probability": 75.8,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "South Florida",
+            "loser": "Louisville",
+            "probability": 70.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Michigan State",
+            "loser": "North Dakota State",
+            "probability": 88.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "UCF",
+            "loser": "UCLA",
+            "probability": 63.4,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "UConn",
+            "loser": "Furman",
+            "probability": 89.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Duke",
+            "loser": "Ohio State",
+            "probability": 84.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "St. John's",
+            "loser": "Kansas",
+            "probability": 57.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Michigan State",
+            "loser": "South Florida",
+            "probability": 68.1,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "UConn",
+            "loser": "UCF",
+            "probability": 79.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Duke",
+            "loser": "St. John's",
+            "probability": 76.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "UConn",
+            "loser": "Michigan State",
+            "probability": 54.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "E8",
+            "winner": "Duke",
+            "loser": "UConn",
+            "probability": 66.2,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          }
+        ]
+      },
+      "West": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Arizona",
+            "loser": "LIU",
+            "probability": 97.0,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Villanova",
+            "loser": "Utah State",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Wisconsin",
+            "loser": "High Point",
+            "probability": 71.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Arkansas",
+            "loser": "Hawaii",
+            "probability": 82.4,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas",
+            "loser": "BYU",
+            "probability": 59.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Gonzaga",
+            "loser": "Kennesaw State",
+            "probability": 90.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Miami (FL)",
+            "loser": "Missouri",
+            "probability": 54.6,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Purdue",
+            "loser": "Queens",
+            "probability": 90.3,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Arizona",
+            "loser": "Villanova",
+            "probability": 87.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Arkansas",
+            "loser": "Wisconsin",
+            "probability": 58.5,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Gonzaga",
+            "loser": "Texas",
+            "probability": 79.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Purdue",
+            "loser": "Miami (FL)",
+            "probability": 73.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Arizona",
+            "loser": "Arkansas",
+            "probability": 73.4,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Purdue",
+            "loser": "Gonzaga",
+            "probability": 52.8,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ],
+        "elite_8": "Arizona",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Arizona",
+            "loser": "LIU",
+            "probability": 97.0,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Villanova",
+            "loser": "Utah State",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Wisconsin",
+            "loser": "High Point",
+            "probability": 71.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Arkansas",
+            "loser": "Hawaii",
+            "probability": 82.4,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas",
+            "loser": "BYU",
+            "probability": 59.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Gonzaga",
+            "loser": "Kennesaw State",
+            "probability": 90.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Miami (FL)",
+            "loser": "Missouri",
+            "probability": 54.6,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Purdue",
+            "loser": "Queens",
+            "probability": 90.3,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R32",
+            "winner": "Arizona",
+            "loser": "Villanova",
+            "probability": 87.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Arkansas",
+            "loser": "Wisconsin",
+            "probability": 58.5,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Gonzaga",
+            "loser": "Texas",
+            "probability": 79.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Purdue",
+            "loser": "Miami (FL)",
+            "probability": 73.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Arizona",
+            "loser": "Arkansas",
+            "probability": 73.4,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Purdue",
+            "loser": "Gonzaga",
+            "probability": 52.8,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "E8",
+            "winner": "Arizona",
+            "loser": "Purdue",
+            "probability": 61.2,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          }
+        ]
+      },
+      "Midwest": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Michigan",
+            "loser": "Howard",
+            "probability": 96.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Saint Louis",
+            "loser": "Georgia",
+            "probability": 59.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas Tech",
+            "loser": "Akron",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Alabama",
+            "loser": "Hofstra",
+            "probability": 59.7,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Tennessee",
+            "loser": "SMU",
+            "probability": 60.3,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Virginia",
+            "loser": "Wright State",
+            "probability": 89.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Kentucky",
+            "loser": "Santa Clara",
+            "probability": 52.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa State",
+            "loser": "Tennessee State",
+            "probability": 94.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Michigan",
+            "loser": "Saint Louis",
+            "probability": 81.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Alabama",
+            "loser": "Texas Tech",
+            "probability": 54.2,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Virginia",
+            "loser": "Tennessee",
+            "probability": 71.7,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Iowa State",
+            "loser": "Kentucky",
+            "probability": 78.7,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Michigan",
+            "loser": "Alabama",
+            "probability": 79.4,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Iowa State",
+            "loser": "Virginia",
+            "probability": 62.5,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          }
+        ],
+        "elite_8": "Michigan",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Michigan",
+            "loser": "Howard",
+            "probability": 96.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Saint Louis",
+            "loser": "Georgia",
+            "probability": 59.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas Tech",
+            "loser": "Akron",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Alabama",
+            "loser": "Hofstra",
+            "probability": 59.7,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Tennessee",
+            "loser": "SMU",
+            "probability": 60.3,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Virginia",
+            "loser": "Wright State",
+            "probability": 89.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Kentucky",
+            "loser": "Santa Clara",
+            "probability": 52.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa State",
+            "loser": "Tennessee State",
+            "probability": 94.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R32",
+            "winner": "Michigan",
+            "loser": "Saint Louis",
+            "probability": 81.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Alabama",
+            "loser": "Texas Tech",
+            "probability": 54.2,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Virginia",
+            "loser": "Tennessee",
+            "probability": 71.7,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Iowa State",
+            "loser": "Kentucky",
+            "probability": 78.7,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Michigan",
+            "loser": "Alabama",
+            "probability": 79.4,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Iowa State",
+            "loser": "Virginia",
+            "probability": 62.5,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "E8",
+            "winner": "Michigan",
+            "loser": "Iowa State",
+            "probability": 58.5,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ]
+      },
+      "South": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Florida",
+            "loser": "Lehigh",
+            "probability": 96.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa",
+            "loser": "Clemson",
+            "probability": 55.6,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Vanderbilt",
+            "loser": "McNeese",
+            "probability": 70.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Nebraska",
+            "loser": "Troy",
+            "probability": 77.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "VCU",
+            "loser": "North Carolina",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Illinois",
+            "loser": "Penn",
+            "probability": 82.1,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas A&M",
+            "loser": "Saint Mary's",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Houston",
+            "loser": "Idaho",
+            "probability": 97.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Florida",
+            "loser": "Iowa",
+            "probability": 85.8,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Nebraska",
+            "loser": "Vanderbilt",
+            "probability": 51.8,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R32",
+            "winner": "Illinois",
+            "loser": "VCU",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "Houston",
+            "loser": "Texas A&M",
+            "probability": 88.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Florida",
+            "loser": "Nebraska",
+            "probability": 80.6,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "S16",
+            "winner": "Houston",
+            "loser": "Illinois",
+            "probability": 71.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "elite_8": "Florida",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Florida",
+            "loser": "Lehigh",
+            "probability": 96.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa",
+            "loser": "Clemson",
+            "probability": 55.6,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Vanderbilt",
+            "loser": "McNeese",
+            "probability": 70.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Nebraska",
+            "loser": "Troy",
+            "probability": 77.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "VCU",
+            "loser": "North Carolina",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Illinois",
+            "loser": "Penn",
+            "probability": 82.1,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas A&M",
+            "loser": "Saint Mary's",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Houston",
+            "loser": "Idaho",
+            "probability": 97.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R32",
+            "winner": "Florida",
+            "loser": "Iowa",
+            "probability": 85.8,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Nebraska",
+            "loser": "Vanderbilt",
+            "probability": 51.8,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R32",
+            "winner": "Illinois",
+            "loser": "VCU",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "Houston",
+            "loser": "Texas A&M",
+            "probability": 88.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "S16",
+            "winner": "Florida",
+            "loser": "Nebraska",
+            "probability": 80.6,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "S16",
+            "winner": "Houston",
+            "loser": "Illinois",
+            "probability": 71.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "E8",
+            "winner": "Florida",
+            "loser": "Houston",
+            "probability": 52.2,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ]
+      }
+    },
+    "final_four": [
+      "Duke",
+      "Arizona",
+      "Michigan",
+      "Florida"
+    ],
+    "champion": "Arizona",
+    "confidence_summary": {
+      "A+": 8,
+      "A": 11,
+      "B+": 15,
+      "B": 8,
+      "C+": 13,
+      "C": 5,
+      "C-": 0,
+      "D+": 0,
+      "D": 0
+    },
+    "semi_winners": [
+      "Arizona",
+      "Florida"
+    ],
+    "pool_config": {
+      "name": "18-Person Money (Balanced)",
+      "strategy": "balanced",
+      "pool_size": 18,
+      "stakes": "Money",
+      "forced_champion": "Arizona",
+      "desc": "Slight differentiation. Arizona is safest healthy 1-seed."
+    }
+  },
+  "pool_3_balanced": {
+    "strategy": "balanced",
+    "regions": {
+      "East": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Duke",
+            "loser": "Siena",
+            "probability": 95.9,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Ohio State",
+            "loser": "TCU",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "St. John's",
+            "loser": "Northern Iowa",
+            "probability": 74.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Kansas",
+            "loser": "Cal Baptist",
+            "probability": 75.8,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "South Florida",
+            "loser": "Louisville",
+            "probability": 70.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Michigan State",
+            "loser": "North Dakota State",
+            "probability": 88.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "UCF",
+            "loser": "UCLA",
+            "probability": 63.4,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "UConn",
+            "loser": "Furman",
+            "probability": 89.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Duke",
+            "loser": "Ohio State",
+            "probability": 84.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "St. John's",
+            "loser": "Kansas",
+            "probability": 57.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Michigan State",
+            "loser": "South Florida",
+            "probability": 68.1,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "UConn",
+            "loser": "UCF",
+            "probability": 79.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Duke",
+            "loser": "St. John's",
+            "probability": 76.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "UConn",
+            "loser": "Michigan State",
+            "probability": 54.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ],
+        "elite_8": "Duke",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Duke",
+            "loser": "Siena",
+            "probability": 95.9,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Ohio State",
+            "loser": "TCU",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "St. John's",
+            "loser": "Northern Iowa",
+            "probability": 74.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Kansas",
+            "loser": "Cal Baptist",
+            "probability": 75.8,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "South Florida",
+            "loser": "Louisville",
+            "probability": 70.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Michigan State",
+            "loser": "North Dakota State",
+            "probability": 88.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "UCF",
+            "loser": "UCLA",
+            "probability": 63.4,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "UConn",
+            "loser": "Furman",
+            "probability": 89.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Duke",
+            "loser": "Ohio State",
+            "probability": 84.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "St. John's",
+            "loser": "Kansas",
+            "probability": 57.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Michigan State",
+            "loser": "South Florida",
+            "probability": 68.1,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "UConn",
+            "loser": "UCF",
+            "probability": 79.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Duke",
+            "loser": "St. John's",
+            "probability": 76.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "UConn",
+            "loser": "Michigan State",
+            "probability": 54.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "E8",
+            "winner": "Duke",
+            "loser": "UConn",
+            "probability": 66.2,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          }
+        ]
+      },
+      "West": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Arizona",
+            "loser": "LIU",
+            "probability": 97.0,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Villanova",
+            "loser": "Utah State",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Wisconsin",
+            "loser": "High Point",
+            "probability": 71.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Arkansas",
+            "loser": "Hawaii",
+            "probability": 82.4,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas",
+            "loser": "BYU",
+            "probability": 59.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Gonzaga",
+            "loser": "Kennesaw State",
+            "probability": 90.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Miami (FL)",
+            "loser": "Missouri",
+            "probability": 54.6,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Purdue",
+            "loser": "Queens",
+            "probability": 90.3,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Arizona",
+            "loser": "Villanova",
+            "probability": 87.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Arkansas",
+            "loser": "Wisconsin",
+            "probability": 58.5,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Gonzaga",
+            "loser": "Texas",
+            "probability": 79.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Purdue",
+            "loser": "Miami (FL)",
+            "probability": 73.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Arizona",
+            "loser": "Arkansas",
+            "probability": 73.4,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Purdue",
+            "loser": "Gonzaga",
+            "probability": 52.8,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ],
+        "elite_8": "Arizona",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Arizona",
+            "loser": "LIU",
+            "probability": 97.0,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Villanova",
+            "loser": "Utah State",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Wisconsin",
+            "loser": "High Point",
+            "probability": 71.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Arkansas",
+            "loser": "Hawaii",
+            "probability": 82.4,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas",
+            "loser": "BYU",
+            "probability": 59.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Gonzaga",
+            "loser": "Kennesaw State",
+            "probability": 90.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Miami (FL)",
+            "loser": "Missouri",
+            "probability": 54.6,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Purdue",
+            "loser": "Queens",
+            "probability": 90.3,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R32",
+            "winner": "Arizona",
+            "loser": "Villanova",
+            "probability": 87.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Arkansas",
+            "loser": "Wisconsin",
+            "probability": 58.5,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Gonzaga",
+            "loser": "Texas",
+            "probability": 79.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Purdue",
+            "loser": "Miami (FL)",
+            "probability": 73.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Arizona",
+            "loser": "Arkansas",
+            "probability": 73.4,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Purdue",
+            "loser": "Gonzaga",
+            "probability": 52.8,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "E8",
+            "winner": "Arizona",
+            "loser": "Purdue",
+            "probability": 61.2,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          }
+        ]
+      },
+      "Midwest": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Michigan",
+            "loser": "Howard",
+            "probability": 96.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Saint Louis",
+            "loser": "Georgia",
+            "probability": 59.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas Tech",
+            "loser": "Akron",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Alabama",
+            "loser": "Hofstra",
+            "probability": 59.7,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Tennessee",
+            "loser": "SMU",
+            "probability": 60.3,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Virginia",
+            "loser": "Wright State",
+            "probability": 89.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Kentucky",
+            "loser": "Santa Clara",
+            "probability": 52.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa State",
+            "loser": "Tennessee State",
+            "probability": 94.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Michigan",
+            "loser": "Saint Louis",
+            "probability": 81.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Alabama",
+            "loser": "Texas Tech",
+            "probability": 54.2,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Virginia",
+            "loser": "Tennessee",
+            "probability": 71.7,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Iowa State",
+            "loser": "Kentucky",
+            "probability": 78.7,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Michigan",
+            "loser": "Alabama",
+            "probability": 79.4,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Iowa State",
+            "loser": "Virginia",
+            "probability": 62.5,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          }
+        ],
+        "elite_8": "Michigan",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Michigan",
+            "loser": "Howard",
+            "probability": 96.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Saint Louis",
+            "loser": "Georgia",
+            "probability": 59.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas Tech",
+            "loser": "Akron",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Alabama",
+            "loser": "Hofstra",
+            "probability": 59.7,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Tennessee",
+            "loser": "SMU",
+            "probability": 60.3,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Virginia",
+            "loser": "Wright State",
+            "probability": 89.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Kentucky",
+            "loser": "Santa Clara",
+            "probability": 52.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa State",
+            "loser": "Tennessee State",
+            "probability": 94.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R32",
+            "winner": "Michigan",
+            "loser": "Saint Louis",
+            "probability": 81.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Alabama",
+            "loser": "Texas Tech",
+            "probability": 54.2,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Virginia",
+            "loser": "Tennessee",
+            "probability": 71.7,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Iowa State",
+            "loser": "Kentucky",
+            "probability": 78.7,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Michigan",
+            "loser": "Alabama",
+            "probability": 79.4,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Iowa State",
+            "loser": "Virginia",
+            "probability": 62.5,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "E8",
+            "winner": "Michigan",
+            "loser": "Iowa State",
+            "probability": 58.5,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ]
+      },
+      "South": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Florida",
+            "loser": "Lehigh",
+            "probability": 96.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa",
+            "loser": "Clemson",
+            "probability": 55.6,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Vanderbilt",
+            "loser": "McNeese",
+            "probability": 70.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Nebraska",
+            "loser": "Troy",
+            "probability": 77.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "VCU",
+            "loser": "North Carolina",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Illinois",
+            "loser": "Penn",
+            "probability": 82.1,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas A&M",
+            "loser": "Saint Mary's",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Houston",
+            "loser": "Idaho",
+            "probability": 97.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Florida",
+            "loser": "Iowa",
+            "probability": 85.8,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Nebraska",
+            "loser": "Vanderbilt",
+            "probability": 51.8,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R32",
+            "winner": "Illinois",
+            "loser": "VCU",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "Houston",
+            "loser": "Texas A&M",
+            "probability": 88.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Florida",
+            "loser": "Nebraska",
+            "probability": 80.6,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "S16",
+            "winner": "Houston",
+            "loser": "Illinois",
+            "probability": 71.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "elite_8": "Florida",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Florida",
+            "loser": "Lehigh",
+            "probability": 96.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa",
+            "loser": "Clemson",
+            "probability": 55.6,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Vanderbilt",
+            "loser": "McNeese",
+            "probability": 70.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Nebraska",
+            "loser": "Troy",
+            "probability": 77.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "VCU",
+            "loser": "North Carolina",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Illinois",
+            "loser": "Penn",
+            "probability": 82.1,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas A&M",
+            "loser": "Saint Mary's",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Houston",
+            "loser": "Idaho",
+            "probability": 97.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R32",
+            "winner": "Florida",
+            "loser": "Iowa",
+            "probability": 85.8,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Nebraska",
+            "loser": "Vanderbilt",
+            "probability": 51.8,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R32",
+            "winner": "Illinois",
+            "loser": "VCU",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "Houston",
+            "loser": "Texas A&M",
+            "probability": 88.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "S16",
+            "winner": "Florida",
+            "loser": "Nebraska",
+            "probability": 80.6,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "S16",
+            "winner": "Houston",
+            "loser": "Illinois",
+            "probability": 71.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "E8",
+            "winner": "Florida",
+            "loser": "Houston",
+            "probability": 52.2,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ]
+      }
+    },
+    "final_four": [
+      "Duke",
+      "Arizona",
+      "Michigan",
+      "Florida"
+    ],
+    "champion": "Houston",
+    "confidence_summary": {
+      "A+": 8,
+      "A": 11,
+      "B+": 15,
+      "B": 8,
+      "C+": 13,
+      "C": 5,
+      "C-": 0,
+      "D+": 0,
+      "D": 0
+    },
+    "semi_winners": [
+      "Arizona",
+      "Florida"
+    ],
+    "pool_config": {
+      "name": "20-Person Free (Balanced+)",
+      "strategy": "balanced",
+      "pool_size": 20,
+      "stakes": "Free",
+      "forced_champion": "Houston",
+      "desc": "Free pool = more aggressive. Houston has home court edge for S16/E8."
+    }
+  },
+  "pool_4_balanced": {
+    "strategy": "balanced",
+    "regions": {
+      "East": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Duke",
+            "loser": "Siena",
+            "probability": 95.9,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Ohio State",
+            "loser": "TCU",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "St. John's",
+            "loser": "Northern Iowa",
+            "probability": 74.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Kansas",
+            "loser": "Cal Baptist",
+            "probability": 75.8,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "South Florida",
+            "loser": "Louisville",
+            "probability": 70.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Michigan State",
+            "loser": "North Dakota State",
+            "probability": 88.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "UCF",
+            "loser": "UCLA",
+            "probability": 63.4,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "UConn",
+            "loser": "Furman",
+            "probability": 89.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Duke",
+            "loser": "Ohio State",
+            "probability": 84.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "St. John's",
+            "loser": "Kansas",
+            "probability": 57.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Michigan State",
+            "loser": "South Florida",
+            "probability": 68.1,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "UConn",
+            "loser": "UCF",
+            "probability": 79.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Duke",
+            "loser": "St. John's",
+            "probability": 76.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "UConn",
+            "loser": "Michigan State",
+            "probability": 54.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ],
+        "elite_8": "Duke",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Duke",
+            "loser": "Siena",
+            "probability": 95.9,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Ohio State",
+            "loser": "TCU",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "St. John's",
+            "loser": "Northern Iowa",
+            "probability": 74.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Kansas",
+            "loser": "Cal Baptist",
+            "probability": 75.8,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "South Florida",
+            "loser": "Louisville",
+            "probability": 70.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Michigan State",
+            "loser": "North Dakota State",
+            "probability": 88.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "UCF",
+            "loser": "UCLA",
+            "probability": 63.4,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "UConn",
+            "loser": "Furman",
+            "probability": 89.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Duke",
+            "loser": "Ohio State",
+            "probability": 84.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "St. John's",
+            "loser": "Kansas",
+            "probability": 57.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Michigan State",
+            "loser": "South Florida",
+            "probability": 68.1,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "UConn",
+            "loser": "UCF",
+            "probability": 79.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Duke",
+            "loser": "St. John's",
+            "probability": 76.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "UConn",
+            "loser": "Michigan State",
+            "probability": 54.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "E8",
+            "winner": "Duke",
+            "loser": "UConn",
+            "probability": 66.2,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          }
+        ]
+      },
+      "West": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Arizona",
+            "loser": "LIU",
+            "probability": 97.0,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Villanova",
+            "loser": "Utah State",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Wisconsin",
+            "loser": "High Point",
+            "probability": 71.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Arkansas",
+            "loser": "Hawaii",
+            "probability": 82.4,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas",
+            "loser": "BYU",
+            "probability": 59.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Gonzaga",
+            "loser": "Kennesaw State",
+            "probability": 90.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Miami (FL)",
+            "loser": "Missouri",
+            "probability": 54.6,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Purdue",
+            "loser": "Queens",
+            "probability": 90.3,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Arizona",
+            "loser": "Villanova",
+            "probability": 87.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Arkansas",
+            "loser": "Wisconsin",
+            "probability": 58.5,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Gonzaga",
+            "loser": "Texas",
+            "probability": 79.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Purdue",
+            "loser": "Miami (FL)",
+            "probability": 73.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Arizona",
+            "loser": "Arkansas",
+            "probability": 73.4,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Purdue",
+            "loser": "Gonzaga",
+            "probability": 52.8,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ],
+        "elite_8": "Arizona",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Arizona",
+            "loser": "LIU",
+            "probability": 97.0,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Villanova",
+            "loser": "Utah State",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Wisconsin",
+            "loser": "High Point",
+            "probability": 71.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Arkansas",
+            "loser": "Hawaii",
+            "probability": 82.4,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas",
+            "loser": "BYU",
+            "probability": 59.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Gonzaga",
+            "loser": "Kennesaw State",
+            "probability": 90.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Miami (FL)",
+            "loser": "Missouri",
+            "probability": 54.6,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Purdue",
+            "loser": "Queens",
+            "probability": 90.3,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R32",
+            "winner": "Arizona",
+            "loser": "Villanova",
+            "probability": 87.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Arkansas",
+            "loser": "Wisconsin",
+            "probability": 58.5,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Gonzaga",
+            "loser": "Texas",
+            "probability": 79.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Purdue",
+            "loser": "Miami (FL)",
+            "probability": 73.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Arizona",
+            "loser": "Arkansas",
+            "probability": 73.4,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Purdue",
+            "loser": "Gonzaga",
+            "probability": 52.8,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "E8",
+            "winner": "Arizona",
+            "loser": "Purdue",
+            "probability": 61.2,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          }
+        ]
+      },
+      "Midwest": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Michigan",
+            "loser": "Howard",
+            "probability": 96.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Saint Louis",
+            "loser": "Georgia",
+            "probability": 59.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas Tech",
+            "loser": "Akron",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Alabama",
+            "loser": "Hofstra",
+            "probability": 59.7,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Tennessee",
+            "loser": "SMU",
+            "probability": 60.3,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Virginia",
+            "loser": "Wright State",
+            "probability": 89.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Kentucky",
+            "loser": "Santa Clara",
+            "probability": 52.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa State",
+            "loser": "Tennessee State",
+            "probability": 94.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Michigan",
+            "loser": "Saint Louis",
+            "probability": 81.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Alabama",
+            "loser": "Texas Tech",
+            "probability": 54.2,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Virginia",
+            "loser": "Tennessee",
+            "probability": 71.7,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Iowa State",
+            "loser": "Kentucky",
+            "probability": 78.7,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Michigan",
+            "loser": "Alabama",
+            "probability": 79.4,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Iowa State",
+            "loser": "Virginia",
+            "probability": 62.5,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          }
+        ],
+        "elite_8": "Michigan",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Michigan",
+            "loser": "Howard",
+            "probability": 96.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Saint Louis",
+            "loser": "Georgia",
+            "probability": 59.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas Tech",
+            "loser": "Akron",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Alabama",
+            "loser": "Hofstra",
+            "probability": 59.7,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Tennessee",
+            "loser": "SMU",
+            "probability": 60.3,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Virginia",
+            "loser": "Wright State",
+            "probability": 89.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Kentucky",
+            "loser": "Santa Clara",
+            "probability": 52.3,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa State",
+            "loser": "Tennessee State",
+            "probability": 94.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R32",
+            "winner": "Michigan",
+            "loser": "Saint Louis",
+            "probability": 81.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Alabama",
+            "loser": "Texas Tech",
+            "probability": 54.2,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Virginia",
+            "loser": "Tennessee",
+            "probability": 71.7,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Iowa State",
+            "loser": "Kentucky",
+            "probability": 78.7,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Michigan",
+            "loser": "Alabama",
+            "probability": 79.4,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Iowa State",
+            "loser": "Virginia",
+            "probability": 62.5,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "E8",
+            "winner": "Michigan",
+            "loser": "Iowa State",
+            "probability": 58.5,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ]
+      },
+      "South": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Florida",
+            "loser": "Lehigh",
+            "probability": 96.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa",
+            "loser": "Clemson",
+            "probability": 55.6,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Vanderbilt",
+            "loser": "McNeese",
+            "probability": 70.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Nebraska",
+            "loser": "Troy",
+            "probability": 77.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "VCU",
+            "loser": "North Carolina",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Illinois",
+            "loser": "Penn",
+            "probability": 82.1,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas A&M",
+            "loser": "Saint Mary's",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Houston",
+            "loser": "Idaho",
+            "probability": 97.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Florida",
+            "loser": "Iowa",
+            "probability": 85.8,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Nebraska",
+            "loser": "Vanderbilt",
+            "probability": 51.8,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R32",
+            "winner": "Illinois",
+            "loser": "VCU",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "Houston",
+            "loser": "Texas A&M",
+            "probability": 88.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Florida",
+            "loser": "Nebraska",
+            "probability": 80.6,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "S16",
+            "winner": "Houston",
+            "loser": "Illinois",
+            "probability": 71.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "elite_8": "Florida",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Florida",
+            "loser": "Lehigh",
+            "probability": 96.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa",
+            "loser": "Clemson",
+            "probability": 55.6,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R64",
+            "winner": "Vanderbilt",
+            "loser": "McNeese",
+            "probability": 70.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Nebraska",
+            "loser": "Troy",
+            "probability": 77.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "VCU",
+            "loser": "North Carolina",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Illinois",
+            "loser": "Penn",
+            "probability": 82.1,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Texas A&M",
+            "loser": "Saint Mary's",
+            "probability": 51.9,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Houston",
+            "loser": "Idaho",
+            "probability": 97.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R32",
+            "winner": "Florida",
+            "loser": "Iowa",
+            "probability": 85.8,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Nebraska",
+            "loser": "Vanderbilt",
+            "probability": 51.8,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R32",
+            "winner": "Illinois",
+            "loser": "VCU",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "Houston",
+            "loser": "Texas A&M",
+            "probability": 88.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "S16",
+            "winner": "Florida",
+            "loser": "Nebraska",
+            "probability": 80.6,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "S16",
+            "winner": "Houston",
+            "loser": "Illinois",
+            "probability": 71.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "E8",
+            "winner": "Florida",
+            "loser": "Houston",
+            "probability": 52.2,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ]
+      }
+    },
+    "final_four": [
+      "Duke",
+      "Arizona",
+      "Michigan",
+      "Florida"
+    ],
+    "champion": "Florida",
+    "confidence_summary": {
+      "A+": 8,
+      "A": 11,
+      "B+": 15,
+      "B": 8,
+      "C+": 13,
+      "C": 5,
+      "C-": 0,
+      "D+": 0,
+      "D": 0
+    },
+    "semi_winners": [
+      "Arizona",
+      "Florida"
+    ],
+    "pool_config": {
+      "name": "34-Person Money #1 (Balanced)",
+      "strategy": "balanced",
+      "pool_size": 34,
+      "stakes": "Money",
+      "forced_champion": "Florida",
+      "desc": "Entry 1: Maximize expected points via cleanest path (Tampa home court)."
+    }
+  },
+  "pool_5_contrarian": {
+    "strategy": "contrarian",
+    "regions": {
+      "East": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Duke",
+            "loser": "Siena",
+            "probability": 95.9,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "TCU",
+            "loser": "Ohio State",
+            "probability": 48.1,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "St. John's",
+            "loser": "Northern Iowa",
+            "probability": 74.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Kansas",
+            "loser": "Cal Baptist",
+            "probability": 75.8,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "South Florida",
+            "loser": "Louisville",
+            "probability": 70.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Michigan State",
+            "loser": "North Dakota State",
+            "probability": 88.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "UCF",
+            "loser": "UCLA",
+            "probability": 63.4,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "UConn",
+            "loser": "Furman",
+            "probability": 89.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Duke",
+            "loser": "TCU",
+            "probability": 85.8,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "St. John's",
+            "loser": "Kansas",
+            "probability": 57.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Michigan State",
+            "loser": "South Florida",
+            "probability": 68.1,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "UConn",
+            "loser": "UCF",
+            "probability": 79.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Duke",
+            "loser": "St. John's",
+            "probability": 76.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Michigan State",
+            "loser": "UConn",
+            "probability": 45.9,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          }
+        ],
+        "elite_8": "Duke",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Duke",
+            "loser": "Siena",
+            "probability": 95.9,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "TCU",
+            "loser": "Ohio State",
+            "probability": 48.1,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "St. John's",
+            "loser": "Northern Iowa",
+            "probability": 74.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Kansas",
+            "loser": "Cal Baptist",
+            "probability": 75.8,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "South Florida",
+            "loser": "Louisville",
+            "probability": 70.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Michigan State",
+            "loser": "North Dakota State",
+            "probability": 88.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "UCF",
+            "loser": "UCLA",
+            "probability": 63.4,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "UConn",
+            "loser": "Furman",
+            "probability": 89.7,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Duke",
+            "loser": "TCU",
+            "probability": 85.8,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "St. John's",
+            "loser": "Kansas",
+            "probability": 57.1,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "R32",
+            "winner": "Michigan State",
+            "loser": "South Florida",
+            "probability": 68.1,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "UConn",
+            "loser": "UCF",
+            "probability": 79.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Duke",
+            "loser": "St. John's",
+            "probability": 76.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Michigan State",
+            "loser": "UConn",
+            "probability": 45.9,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          },
+          {
+            "round": "E8",
+            "winner": "Duke",
+            "loser": "Michigan State",
+            "probability": 69.6,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          }
+        ]
+      },
+      "West": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Arizona",
+            "loser": "LIU",
+            "probability": 97.0,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Utah State",
+            "loser": "Villanova",
+            "probability": 48.1,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Wisconsin",
+            "loser": "High Point",
+            "probability": 71.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Arkansas",
+            "loser": "Hawaii",
+            "probability": 82.4,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "BYU",
+            "loser": "Texas",
+            "probability": 40.7,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          },
+          {
+            "round": "R64",
+            "winner": "Gonzaga",
+            "loser": "Kennesaw State",
+            "probability": 90.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Missouri",
+            "loser": "Miami (FL)",
+            "probability": 45.4,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          },
+          {
+            "round": "R64",
+            "winner": "Purdue",
+            "loser": "Queens",
+            "probability": 90.3,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Arizona",
+            "loser": "Utah State",
+            "probability": 87.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Wisconsin",
+            "loser": "Arkansas",
+            "probability": 41.5,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          },
+          {
+            "round": "R32",
+            "winner": "Gonzaga",
+            "loser": "BYU",
+            "probability": 85.3,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Purdue",
+            "loser": "Missouri",
+            "probability": 77.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Arizona",
+            "loser": "Wisconsin",
+            "probability": 83.3,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "S16",
+            "winner": "Purdue",
+            "loser": "Gonzaga",
+            "probability": 52.8,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ],
+        "elite_8": "Purdue",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Arizona",
+            "loser": "LIU",
+            "probability": 97.0,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Utah State",
+            "loser": "Villanova",
+            "probability": 48.1,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Wisconsin",
+            "loser": "High Point",
+            "probability": 71.1,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Arkansas",
+            "loser": "Hawaii",
+            "probability": 82.4,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "BYU",
+            "loser": "Texas",
+            "probability": 40.7,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          },
+          {
+            "round": "R64",
+            "winner": "Gonzaga",
+            "loser": "Kennesaw State",
+            "probability": 90.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Missouri",
+            "loser": "Miami (FL)",
+            "probability": 45.4,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          },
+          {
+            "round": "R64",
+            "winner": "Purdue",
+            "loser": "Queens",
+            "probability": 90.3,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R32",
+            "winner": "Arizona",
+            "loser": "Utah State",
+            "probability": 87.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Wisconsin",
+            "loser": "Arkansas",
+            "probability": 41.5,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          },
+          {
+            "round": "R32",
+            "winner": "Gonzaga",
+            "loser": "BYU",
+            "probability": 85.3,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Purdue",
+            "loser": "Missouri",
+            "probability": 77.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Arizona",
+            "loser": "Wisconsin",
+            "probability": 83.3,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "S16",
+            "winner": "Purdue",
+            "loser": "Gonzaga",
+            "probability": 52.8,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          },
+          {
+            "round": "E8",
+            "winner": "Purdue",
+            "loser": "Arizona",
+            "probability": 38.8,
+            "confidence_tier": "UPSET",
+            "confidence_grade": "D+",
+            "confidence_desc": "Underdog. Needs things to break right."
+          }
+        ]
+      },
+      "Midwest": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Michigan",
+            "loser": "Howard",
+            "probability": 96.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Georgia",
+            "loser": "Saint Louis",
+            "probability": 40.7,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          },
+          {
+            "round": "R64",
+            "winner": "Akron",
+            "loser": "Texas Tech",
+            "probability": 48.1,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Hofstra",
+            "loser": "Alabama",
+            "probability": 40.3,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          },
+          {
+            "round": "R64",
+            "winner": "Miami (OH)",
+            "loser": "Tennessee",
+            "probability": 39.7,
+            "confidence_tier": "UPSET",
+            "confidence_grade": "D+",
+            "confidence_desc": "Underdog. Needs things to break right."
+          },
+          {
+            "round": "R64",
+            "winner": "Virginia",
+            "loser": "Wright State",
+            "probability": 89.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Santa Clara",
+            "loser": "Kentucky",
+            "probability": 47.7,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa State",
+            "loser": "Tennessee State",
+            "probability": 94.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Michigan",
+            "loser": "Georgia",
+            "probability": 87.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Hofstra",
+            "loser": "Akron",
+            "probability": 44.4,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          },
+          {
+            "round": "R32",
+            "winner": "Virginia",
+            "loser": "Miami (OH)",
+            "probability": 78.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Iowa State",
+            "loser": "Santa Clara",
+            "probability": 83.4,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Michigan",
+            "loser": "Hofstra",
+            "probability": 92.0,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "S16",
+            "winner": "Virginia",
+            "loser": "Iowa State",
+            "probability": 37.5,
+            "confidence_tier": "UPSET",
+            "confidence_grade": "D+",
+            "confidence_desc": "Underdog. Needs things to break right."
+          }
+        ],
+        "elite_8": "Virginia",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Michigan",
+            "loser": "Howard",
+            "probability": 96.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Georgia",
+            "loser": "Saint Louis",
+            "probability": 40.7,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          },
+          {
+            "round": "R64",
+            "winner": "Akron",
+            "loser": "Texas Tech",
+            "probability": 48.1,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Hofstra",
+            "loser": "Alabama",
+            "probability": 40.3,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          },
+          {
+            "round": "R64",
+            "winner": "Miami (OH)",
+            "loser": "Tennessee",
+            "probability": 39.7,
+            "confidence_tier": "UPSET",
+            "confidence_grade": "D+",
+            "confidence_desc": "Underdog. Needs things to break right."
+          },
+          {
+            "round": "R64",
+            "winner": "Virginia",
+            "loser": "Wright State",
+            "probability": 89.9,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Santa Clara",
+            "loser": "Kentucky",
+            "probability": 47.7,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          },
+          {
+            "round": "R64",
+            "winner": "Iowa State",
+            "loser": "Tennessee State",
+            "probability": 94.2,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R32",
+            "winner": "Michigan",
+            "loser": "Georgia",
+            "probability": 87.0,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Hofstra",
+            "loser": "Akron",
+            "probability": 44.4,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          },
+          {
+            "round": "R32",
+            "winner": "Virginia",
+            "loser": "Miami (OH)",
+            "probability": 78.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R32",
+            "winner": "Iowa State",
+            "loser": "Santa Clara",
+            "probability": 83.4,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "S16",
+            "winner": "Michigan",
+            "loser": "Hofstra",
+            "probability": 92.0,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "S16",
+            "winner": "Virginia",
+            "loser": "Iowa State",
+            "probability": 37.5,
+            "confidence_tier": "UPSET",
+            "confidence_grade": "D+",
+            "confidence_desc": "Underdog. Needs things to break right."
+          },
+          {
+            "round": "E8",
+            "winner": "Virginia",
+            "loser": "Michigan",
+            "probability": 29.3,
+            "confidence_tier": "LONGSHOT",
+            "confidence_grade": "D",
+            "confidence_desc": "Major upset territory."
+          }
+        ]
+      },
+      "South": {
+        "R64": [
+          {
+            "round": "R64",
+            "winner": "Florida",
+            "loser": "Prairie View A&M",
+            "probability": 96.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Clemson",
+            "loser": "Iowa",
+            "probability": 44.4,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          },
+          {
+            "round": "R64",
+            "winner": "Vanderbilt",
+            "loser": "McNeese",
+            "probability": 70.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Nebraska",
+            "loser": "Troy",
+            "probability": 77.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "VCU",
+            "loser": "North Carolina",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Illinois",
+            "loser": "Penn",
+            "probability": 82.1,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Saint Mary's",
+            "loser": "Texas A&M",
+            "probability": 48.1,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Houston",
+            "loser": "Idaho",
+            "probability": 97.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          }
+        ],
+        "R32": [
+          {
+            "round": "R32",
+            "winner": "Florida",
+            "loser": "Clemson",
+            "probability": 88.3,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Vanderbilt",
+            "loser": "Nebraska",
+            "probability": 48.2,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R32",
+            "winner": "Illinois",
+            "loser": "VCU",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "Houston",
+            "loser": "Saint Mary's",
+            "probability": 89.6,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          }
+        ],
+        "S16": [
+          {
+            "round": "S16",
+            "winner": "Florida",
+            "loser": "Vanderbilt",
+            "probability": 76.6,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Houston",
+            "loser": "Illinois",
+            "probability": 71.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          }
+        ],
+        "elite_8": "Florida",
+        "all_picks": [
+          {
+            "round": "R64",
+            "winner": "Florida",
+            "loser": "Prairie View A&M",
+            "probability": 96.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R64",
+            "winner": "Clemson",
+            "loser": "Iowa",
+            "probability": 44.4,
+            "confidence_tier": "UPSET LEAN",
+            "confidence_grade": "C-",
+            "confidence_desc": "Underdog but with a real path."
+          },
+          {
+            "round": "R64",
+            "winner": "Vanderbilt",
+            "loser": "McNeese",
+            "probability": 70.2,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "Nebraska",
+            "loser": "Troy",
+            "probability": 77.9,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "R64",
+            "winner": "VCU",
+            "loser": "North Carolina",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R64",
+            "winner": "Illinois",
+            "loser": "Penn",
+            "probability": 82.1,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R64",
+            "winner": "Saint Mary's",
+            "loser": "Texas A&M",
+            "probability": 48.1,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R64",
+            "winner": "Houston",
+            "loser": "Idaho",
+            "probability": 97.7,
+            "confidence_tier": "LOCK",
+            "confidence_grade": "A+",
+            "confidence_desc": "Near-certain. Would need a miracle upset."
+          },
+          {
+            "round": "R32",
+            "winner": "Florida",
+            "loser": "Clemson",
+            "probability": 88.3,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "R32",
+            "winner": "Vanderbilt",
+            "loser": "Nebraska",
+            "probability": 48.2,
+            "confidence_tier": "TOSSUP",
+            "confidence_grade": "C",
+            "confidence_desc": "Coin flip. No meaningful edge."
+          },
+          {
+            "round": "R32",
+            "winner": "Illinois",
+            "loser": "VCU",
+            "probability": 69.0,
+            "confidence_tier": "MODERATE",
+            "confidence_grade": "B",
+            "confidence_desc": "Favored but a real game. Upset wouldn't shock."
+          },
+          {
+            "round": "R32",
+            "winner": "Houston",
+            "loser": "Saint Mary's",
+            "probability": 89.6,
+            "confidence_tier": "VERY HIGH",
+            "confidence_grade": "A",
+            "confidence_desc": "Strong favorite. Upset possible but unlikely."
+          },
+          {
+            "round": "S16",
+            "winner": "Florida",
+            "loser": "Vanderbilt",
+            "probability": 76.6,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "S16",
+            "winner": "Houston",
+            "loser": "Illinois",
+            "probability": 71.3,
+            "confidence_tier": "HIGH",
+            "confidence_grade": "B+",
+            "confidence_desc": "Clear favorite but not a lock."
+          },
+          {
+            "round": "E8",
+            "winner": "Florida",
+            "loser": "Houston",
+            "probability": 52.2,
+            "confidence_tier": "LEAN",
+            "confidence_grade": "C+",
+            "confidence_desc": "Slight edge. Could go either way."
+          }
+        ]
+      }
+    },
+    "final_four": [
+      "Duke",
+      "Purdue",
+      "Virginia",
+      "Florida"
+    ],
+    "champion": "Houston",
+    "confidence_summary": {
+      "A+": 9,
+      "A": 13,
+      "B+": 12,
+      "B": 5,
+      "C+": 3,
+      "C": 5,
+      "C-": 9,
+      "D+": 3,
+      "D": 1
+    },
+    "semi_winners": [
+      "Purdue",
+      "Virginia"
+    ],
+    "pool_config": {
+      "name": "34-Person Money #2 (Contrarian)",
+      "strategy": "contrarian",
+      "pool_size": 34,
+      "stakes": "Money",
+      "forced_champion": "Houston",
+      "desc": "Entry 2: Different champion = hedge. If Florida busts, Houston covers."
+    }
+  }
+}

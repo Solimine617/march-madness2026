@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "last_updated": "2026-03-18T14:14:00-05:00",
+    "sources": ["KenPom", "ESPN", "CBS Sports", "RotoWire", "Vegas Insider", "Covers.com"]
+  },
+  "teams": {
+    "Duke": {
+      "seed": 1, "region": "East", "record": "30-3", "conference": "ACC",
+      "kenpom_rank": 1, "kenpom_off_rank": 4, "kenpom_def_rank": 2,
+      "championship_odds": "+300",
+      "key_injuries": [
+        {"player": "Caleb Foster", "position": "PG", "injury": "Fractured foot (surgery)", "status": "Out until at least Final Four, unlikely to return", "impact": "HIGH - starting PG, major loss"},
+        {"player": "Patrick Ngongba II", "position": "F/C", "injury": "Foot injury (sidelined since early March)", "status": "UNLIKELY per Coach Scheyer", "impact": "HIGH - starting center, 11.4 PPG / 6.5 RPG / 2.1 APG"}
+      ],
+      "venue": "Greenville",
+      "travel_notes": "~400 miles from Durham to Greenville, SC. Favorable. ACC country = crowd advantage.",
+      "hot_cold": "HOT - Won ACC regular season AND tournament WITHOUT Foster/Ngongba. Cameron Boozer is likely NPOY and potential #1 NBA pick.",
+      "strengths": ["Cameron Boozer (NPOY candidate, potential #1 pick)", "Cayden Boozer (twin, breakout in ACC title game)", "#2 defense nationally", "#4 offense", "Won ACC without injured players"],
+      "weaknesses": ["Missing starting PG Foster", "Ngongba questionable", "Depth concerns at guard", "Over-reliance on Boozer twins"]
+    },
+    "Michigan": {
+      "seed": 1, "region": "Midwest", "record": "29-4", "conference": "Big Ten",
+      "kenpom_rank": 2, "kenpom_off_rank": 8, "kenpom_def_rank": 1,
+      "championship_odds": "+350",
+      "key_injuries": [
+        {"player": "L.J. Cason", "position": "G", "injury": "Torn ACL (season-ending)", "status": "OUT for tournament", "impact": "HIGH - reserve guard, season-ending"}
+      ],
+      "venue": "Buffalo",
+      "travel_notes": "~275 miles from Ann Arbor to Buffalo. Favorable. Big Ten country.",
+      "hot_cold": "COOLING - #1 defense but just lost to Purdue 72-80 in Big Ten tournament. L.J. Cason injured.",
+      "strengths": ["#1 defense nationally", "Top-10 offense", "Dusty May coaching"],
+      "weaknesses": ["Just lost to Purdue in Big Ten tournament", "L.J. Cason injured", "Momentum concern"]
+    },
+    "Arizona": {
+      "seed": 1, "region": "West", "record": "30-3", "conference": "Big 12",
+      "kenpom_rank": 3, "kenpom_off_rank": 5, "kenpom_def_rank": 3,
+      "championship_odds": "+400",
+      "key_injuries": [],
+      "venue": "San Diego",
+      "travel_notes": "~400 miles to San Diego. Favorable. Pac-12/Big 12 territory, big fanbase in SoCal.",
+      "hot_cold": "HOT - Complete team, top-5 both ends",
+      "strengths": ["Elite two-way team", "Top-5 O and D", "Close to home", "Deep roster"],
+      "weaknesses": ["Big 12 grind could cause fatigue"]
+    },
+    "Florida": {
+      "seed": 1, "region": "South", "record": "28-5", "conference": "SEC",
+      "kenpom_rank": 4, "kenpom_off_rank": 9, "kenpom_def_rank": 6,
+      "championship_odds": "+650",
+      "key_injuries": [],
+      "venue": "Tampa",
+      "travel_notes": "~130 miles from Gainesville to Tampa. MASSIVE home court advantage. Essentially a home game.",
+      "hot_cold": "STEADY - Defending national champion, but lost SEC tournament final. Guards can be streaky.",
+      "strengths": ["DEFENDING NATIONAL CHAMPION", "Essentially playing at home in Tampa", "Top-10 O and D", "Championship experience"],
+      "weaknesses": ["Lost SEC tournament final", "Guards can be streaky", "Longest odds among 1 seeds"]
+    },
+    "Houston": {
+      "seed": 2, "region": "South", "record": "28-6", "conference": "Big 12",
+      "kenpom_rank": 5, "kenpom_off_rank": 14, "kenpom_def_rank": 5,
+      "championship_odds": "+900",
+      "key_injuries": [],
+      "venue": "Oklahoma City",
+      "travel_notes": "~440 miles to OKC for R1/R2. BUT Sweet 16/Elite 8 in HOUSTON = true home court if they advance.",
+      "hot_cold": "STEADY - Defensive powerhouse, Kelvin Sampson HOF-level coach, Kingston Flemings + Chris Cenac projected 1st round NBA picks",
+      "strengths": ["#5 defense", "Physical style disrupts opponents", "HOME COURT for Sweet 16/Elite 8 (South Region in Houston)", "Multiple NBA draft picks", "Championship game experience from 2025"],
+      "weaknesses": ["Offense can go cold (#14)", "Need to survive first weekend away from home"]
+    },
+    "Iowa State": {
+      "seed": 2, "region": "Midwest", "record": "27-7", "conference": "Big 12",
+      "kenpom_rank": 6, "kenpom_off_rank": 21, "kenpom_def_rank": 4,
+      "championship_odds": "+2200",
+      "key_injuries": [],
+      "venue": "Philadelphia",
+      "travel_notes": "~1100 miles to Philadelphia. Long trip, neutral territory.",
+      "hot_cold": "STEADY - Elite defense, consistent",
+      "strengths": ["#4 defense", "Big 12 battle-tested", "T.J. Otzelberger system"],
+      "weaknesses": ["Offense ranks only #21", "Long travel to Philly", "Can they score enough?"]
+    },
+    "UConn": {
+      "seed": 2, "region": "East", "record": "29-5", "conference": "Big East",
+      "kenpom_rank": 12, "kenpom_off_rank": 30, "kenpom_def_rank": 11,
+      "championship_odds": "+1700",
+      "key_injuries": [],
+      "venue": "Philadelphia",
+      "travel_notes": "~200 miles to Philadelphia. Short trip, Big East territory.",
+      "hot_cold": "STEADY - Defense carries, back-to-back champ DNA (2023-24)",
+      "strengths": ["Championship pedigree", "Close to home", "#11 defense", "Dan Hurley coaching"],
+      "weaknesses": ["Offense only #30", "Not the same firepower as 2023-24 teams"]
+    },
+    "Purdue": {
+      "seed": 2, "region": "West", "record": "27-8", "conference": "Big Ten",
+      "kenpom_rank": 8, "kenpom_off_rank": 2, "kenpom_def_rank": 36,
+      "championship_odds": "+3500",
+      "key_injuries": [],
+      "venue": "St. Louis",
+      "travel_notes": "~280 miles to St. Louis. Short, Big Ten friendly.",
+      "hot_cold": "HOT - #2 offense, won Big Ten tournament",
+      "strengths": ["#2 offense nationally", "Offensive firepower", "Big Ten tournament champs"],
+      "weaknesses": ["Defense only #36", "Can be exploited by quick guards", "Defense liability in late rounds"]
+    },
+    "Illinois": {
+      "seed": 3, "region": "South", "record": "24-8", "conference": "Big Ten",
+      "kenpom_rank": 7, "kenpom_off_rank": 1, "kenpom_def_rank": 28,
+      "championship_odds": "+1900",
+      "key_injuries": [],
+      "venue": "Greenville",
+      "travel_notes": "~700 miles to Greenville. Moderate-long.",
+      "hot_cold": "HOT - #1 offense in the country",
+      "strengths": ["#1 offense nationally", "Can outscore anyone", "Explosive"],
+      "weaknesses": ["Defense only #28", "Offense-defense imbalance", "Can they get stops in crunch time?"]
+    },
+    "Michigan State": {
+      "seed": 3, "region": "East", "record": "25-7", "conference": "Big Ten",
+      "kenpom_rank": 9, "kenpom_off_rank": 24, "kenpom_def_rank": 13,
+      "championship_odds": "+2500",
+      "key_injuries": [],
+      "venue": "Buffalo",
+      "travel_notes": "~470 miles to Buffalo. Moderate. Izzo March magic territory.",
+      "hot_cold": "STEADY - Tom Izzo in March is always dangerous",
+      "strengths": ["Izzo tournament pedigree", "Balanced team", "#13 defense"],
+      "weaknesses": ["Offense only #24", "Not elite on either end"]
+    },
+    "Gonzaga": {
+      "seed": 3, "region": "West", "record": "30-3", "conference": "WCC",
+      "kenpom_rank": 10, "kenpom_off_rank": 29, "kenpom_def_rank": 9,
+      "championship_odds": "+2000",
+      "key_injuries": [
+        {"player": "Braden Huff", "position": "F", "injury": "Left knee", "status": "Unlikely to play first two games, doing light work", "impact": "MEDIUM - key rotation player"}
+      ],
+      "venue": "Portland",
+      "travel_notes": "~280 miles to Portland. Short trip, Pacific NW home crowd advantage.",
+      "hot_cold": "STEADY - 30-3 but WCC strength of schedule concerns",
+      "strengths": ["30-3 record", "Near-home crowd in Portland", "#9 defense"],
+      "weaknesses": ["Braden Huff injured", "WCC schedule doesn't prepare for top competition", "Offense #29"]
+    },
+    "Virginia": {
+      "seed": 3, "region": "Midwest", "record": "29-5", "conference": "ACC",
+      "kenpom_rank": 13, "kenpom_off_rank": 27, "kenpom_def_rank": 16,
+      "championship_odds": "+3000",
+      "key_injuries": [],
+      "venue": "Tampa",
+      "travel_notes": "~800 miles to Tampa. Long trip.",
+      "hot_cold": "STEADY - Trademark defense, methodical style",
+      "strengths": ["29-5 record", "Excellent defense", "Tournament experience (2019 champs model)"],
+      "weaknesses": ["Offense only #27", "Slow tempo can backfire", "Long travel to Tampa"]
+    },
+    "Kansas": {
+      "seed": 4, "region": "East", "record": "23-10", "conference": "Big 12",
+      "kenpom_rank": 15, "kenpom_off_rank": null, "kenpom_def_rank": null,
+      "championship_odds": "+4000",
+      "key_injuries": [],
+      "venue": "San Diego",
+      "travel_notes": "~1600 miles to San Diego. Very long trip.",
+      "hot_cold": "COLD - 23-10 record, inconsistent",
+      "strengths": ["Bill Self tournament pedigree", "Blue blood name"],
+      "weaknesses": ["10 losses", "Long travel to San Diego", "Inconsistent season"]
+    },
+    "Alabama": {
+      "seed": 4, "region": "Midwest", "record": "23-9", "conference": "SEC",
+      "kenpom_rank": 17, "kenpom_off_rank": 3, "kenpom_def_rank": 67,
+      "championship_odds": "+3500",
+      "key_injuries": [
+        {"player": "Aden Holloway", "position": "G", "injury": "SUSPENDED - felony marijuana arrest (2.1 lbs, Mar 16)", "status": "OFF TEAM / indefinitely suspended", "impact": "DEVASTATING - 16.8 PPG, 2nd leading scorer, team chemistry/morale destroyed"}
+      ],
+      "venue": "Oklahoma City",
+      "travel_notes": "~650 miles to OKC. Moderate.",
+      "hot_cold": "IMPLODING - Lost Holloway (16.8 PPG) to felony arrest. #67 defense + team chaos.",
+      "strengths": ["#3 offense nationally (but without Holloway?)", "SEC talent remaining"],
+      "weaknesses": ["#67 defense is a massive red flag", "Lost 2nd leading scorer to felony arrest", "Team chemistry/morale concerns", "Live and die by the three"]
+    },
+    "Arkansas": {
+      "seed": 4, "region": "West", "record": "26-8", "conference": "SEC",
+      "kenpom_rank": 18, "kenpom_off_rank": 6, "kenpom_def_rank": 52,
+      "championship_odds": "+4500",
+      "key_injuries": [],
+      "venue": "Portland",
+      "travel_notes": "~2000+ miles to Portland. Very long trip.",
+      "hot_cold": "HOT - SEC tournament champs, #6 offense",
+      "strengths": ["SEC tournament champions", "#6 offense", "Momentum"],
+      "weaknesses": ["Defense only #52", "Very long travel to Portland", "Offense-dependent"]
+    },
+    "Nebraska": {
+      "seed": 4, "region": "South", "record": "26-6", "conference": "Big Ten",
+      "kenpom_rank": 14, "kenpom_off_rank": 55, "kenpom_def_rank": 7,
+      "championship_odds": "+4000",
+      "key_injuries": [],
+      "venue": "Oklahoma City",
+      "travel_notes": "~500 miles to OKC. Moderate.",
+      "hot_cold": "STEADY - #7 defense, grind-it-out team",
+      "strengths": ["#7 defense", "26-6 record", "Disciplined"],
+      "weaknesses": ["Offense only #55 - can they score enough?", "First real March Madness run in decades"]
+    },
+    "North Carolina": {
+      "seed": 6, "region": "South", "record": "24-8", "conference": "ACC",
+      "kenpom_rank": 22, "kenpom_off_rank": null, "kenpom_def_rank": null,
+      "championship_odds": "+5000",
+      "key_injuries": [
+        {"player": "Caleb Wilson", "position": "F", "injury": "Broken right thumb (season-ending)", "status": "OUT for tournament", "impact": "DEVASTATING - would-be top-5 NBA pick, massive loss"}
+      ],
+      "venue": "Greenville",
+      "travel_notes": "~250 miles to Greenville. Short, ACC country.",
+      "hot_cold": "COLD - Lost Caleb Wilson to season-ending thumb injury",
+      "strengths": ["Blue blood pedigree", "Close to home in Greenville"],
+      "weaknesses": ["Lost star Caleb Wilson (top-5 pick)", "Completely different team without him"]
+    },
+    "BYU": {
+      "seed": 6, "region": "West", "record": "23-11", "conference": "Big 12",
+      "kenpom_rank": 24, "kenpom_off_rank": null, "kenpom_def_rank": null,
+      "championship_odds": "+8000",
+      "key_injuries": [
+        {"player": "Richie Saunders", "position": "G", "injury": "Season-ending knee injury (mid-Feb)", "status": "OUT", "impact": "HIGH - senior leader, significant loss"}
+      ],
+      "venue": "Portland",
+      "travel_notes": "~770 miles to Portland.",
+      "hot_cold": "COLD - Lost Richie Saunders, 11 losses",
+      "strengths": ["Big 12 experience"],
+      "weaknesses": ["Lost key player Saunders", "11 losses", "Facing First Four winner"]
+    },
+    "Texas Tech": {
+      "seed": 5, "region": "Midwest", "record": "22-10", "conference": "Big 12",
+      "kenpom_rank": 20, "kenpom_off_rank": 12, "kenpom_def_rank": 33,
+      "championship_odds": "+5000",
+      "key_injuries": [
+        {"player": "JT Toppin", "position": "F", "injury": "Season-ending knee injury (Feb 17)", "status": "OUT", "impact": "HIGH - key player lost"}
+      ],
+      "venue": "Oklahoma City",
+      "travel_notes": "~330 miles to OKC. Short trip, Big 12 territory.",
+      "hot_cold": "COLD - Lost JT Toppin, 10 losses",
+      "strengths": ["#12 offense", "Close to home in OKC"],
+      "weaknesses": ["Lost JT Toppin", "10 losses", "Defense only #33"]
+    },
+    "UCLA": {
+      "seed": 7, "region": "East", "record": "22-11", "conference": "Big Ten",
+      "kenpom_rank": null, "kenpom_off_rank": null, "kenpom_def_rank": null,
+      "championship_odds": "+8000",
+      "key_injuries": [
+        {"player": "Star forward (name TBD)", "position": "F", "injury": "Right knee strain (Big Ten tournament)", "status": "Questionable - sat out semifinal", "impact": "HIGH - star player"}
+      ],
+      "venue": "Philadelphia",
+      "travel_notes": "~2700 miles to Philadelphia. Extremely long cross-country trip.",
+      "hot_cold": "COLD - Key injury, lost in Big Ten semis, long travel",
+      "strengths": ["Name brand"],
+      "weaknesses": ["Star forward injured", "Longest travel in tournament (~2700 mi)", "11 losses"]
+    },
+    "Vanderbilt": {
+      "seed": 5, "region": "South", "record": "26-8", "conference": "SEC",
+      "kenpom_rank": 11, "kenpom_off_rank": 7, "kenpom_def_rank": 29,
+      "championship_odds": "+5000",
+      "key_injuries": [],
+      "venue": "Oklahoma City",
+      "travel_notes": "~680 miles to OKC.",
+      "hot_cold": "STEADY - #7 offense, solid season",
+      "strengths": ["#7 offense", "26-8 record", "Undervalued"],
+      "weaknesses": ["Defense only #29", "No recent tournament pedigree"]
+    },
+    "St. John's": {
+      "seed": 5, "region": "East", "record": "28-6", "conference": "Big East",
+      "kenpom_rank": 16, "kenpom_off_rank": 44, "kenpom_def_rank": 12,
+      "championship_odds": "+4000",
+      "key_injuries": [],
+      "venue": "San Diego",
+      "travel_notes": "~2432 miles to San Diego. One of the longest trips in the tournament.",
+      "hot_cold": "HOT - 28-6 under Rick Pitino, great defense",
+      "strengths": ["28-6 record", "#12 defense", "Rick Pitino tournament experience"],
+      "weaknesses": ["Very long travel to San Diego (~2432 mi)", "Offense only #44"]
+    },
+    "Louisville": {
+      "seed": 6, "region": "East", "record": "23-10", "conference": "ACC",
+      "kenpom_rank": 19, "kenpom_off_rank": 20, "kenpom_def_rank": 25,
+      "championship_odds": "+6000",
+      "key_injuries": [
+        {"player": "Mikel Brown Jr.", "position": "G", "injury": "Back injury (nagging, re-aggravated Feb 23)", "status": "OUT for opening weekend", "impact": "DEVASTATING - 18.2 PPG, projected NBA lottery pick, 2nd leading scorer"}
+      ],
+      "venue": "Buffalo",
+      "travel_notes": "~500 miles to Buffalo.",
+      "hot_cold": "CRIPPLED - Lost Mikel Brown Jr (18.2 PPG, lottery pick) for opening weekend. Sat out entire ACC tournament.",
+      "strengths": ["Ryan Conwell still available (18.7 PPG)", "#20 O / #25 D when healthy"],
+      "weaknesses": ["WITHOUT Mikel Brown Jr for opening weekend", "Lost their projected lottery pick", "Haven't played with full strength since Feb 23", "South Florida has won 12 straight"]
+    },
+    "Kentucky": {
+      "seed": 7, "region": "Midwest", "record": "21-13", "conference": "SEC",
+      "kenpom_rank": 25, "kenpom_off_rank": null, "kenpom_def_rank": null,
+      "championship_odds": "+8000",
+      "key_injuries": [],
+      "venue": "Philadelphia",
+      "travel_notes": "~700 miles to Philadelphia.",
+      "hot_cold": "COLD - 13 losses, struggling",
+      "strengths": ["Blue blood brand", "SEC talent", "Mark Pope first full year"],
+      "weaknesses": ["13 losses", "Inconsistent all year"]
+    },
+    "Wisconsin": {
+      "seed": 5, "region": "West", "record": "24-10", "conference": "Big Ten",
+      "kenpom_rank": null, "kenpom_off_rank": null, "kenpom_def_rank": null,
+      "championship_odds": "+5000",
+      "key_injuries": [],
+      "venue": "Portland",
+      "travel_notes": "~1900 miles to Portland. Long trip.",
+      "hot_cold": "STEADY",
+      "strengths": ["Big Ten battle-tested", "Greg Gard system"],
+      "weaknesses": ["10 losses", "Long travel to Portland"]
+    },
+    "Tennessee": {
+      "seed": 6, "region": "Midwest", "record": "22-11", "conference": "SEC",
+      "kenpom_rank": 15, "kenpom_off_rank": 37, "kenpom_def_rank": 15,
+      "championship_odds": "+5000",
+      "key_injuries": [],
+      "venue": "Tampa",
+      "travel_notes": "~600 miles to Tampa. Moderate, SEC territory.",
+      "hot_cold": "STEADY - Defense-first team",
+      "strengths": ["#15 defense", "SEC experience", "Rick Barnes tournament coach"],
+      "weaknesses": ["Offense only #37", "11 losses", "Faces First Four winner"]
+    },
+    "Saint Mary's": {
+      "seed": 7, "region": "South", "record": "27-5", "conference": "WCC",
+      "kenpom_rank": 26, "kenpom_off_rank": null, "kenpom_def_rank": null,
+      "championship_odds": "+8000",
+      "key_injuries": [],
+      "venue": "St. Louis",
+      "travel_notes": "~1900 miles to St. Louis. Long trip.",
+      "hot_cold": "STEADY - 27-5 but WCC schedule",
+      "strengths": ["27-5 record", "Well-coached"],
+      "weaknesses": ["WCC strength of schedule", "Long travel"]
+    },
+    "Miami (FL)": {
+      "seed": 7, "region": "West", "record": "22-11", "conference": "ACC",
+      "kenpom_rank": null, "kenpom_off_rank": null, "kenpom_def_rank": null,
+      "championship_odds": "+8000",
+      "key_injuries": [],
+      "venue": "St. Louis",
+      "travel_notes": "~1200 miles to St. Louis.",
+      "hot_cold": "STEADY",
+      "strengths": ["ACC tournament experience"],
+      "weaknesses": ["11 losses", "Long travel"]
+    }
+  }
+}

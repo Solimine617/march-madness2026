@@ -1,0 +1,228 @@
+{
+  "fetched": "2026-03-18",
+  "source": "ESPN schedule pages",
+  "Duke": {
+    "last_10_record": "10-0",
+    "avg_margin": "+21.3",
+    "games": [
+      {"date": "Mar 14", "opponent": "Virginia", "score": "74-70", "result": "W", "margin": 4},
+      {"date": "Mar 13", "opponent": "Clemson", "score": "73-61", "result": "W", "margin": 12},
+      {"date": "Mar 12", "opponent": "Florida State", "score": "80-79", "result": "W", "margin": 1},
+      {"date": "Mar 7", "opponent": "North Carolina", "score": "76-61", "result": "W", "margin": 15},
+      {"date": "Mar 2", "opponent": "@ NC State", "score": "93-64", "result": "W", "margin": 29},
+      {"date": "Feb 28", "opponent": "Virginia", "score": "77-51", "result": "W", "margin": 26},
+      {"date": "Feb 24", "opponent": "@ Notre Dame", "score": "100-56", "result": "W", "margin": 44},
+      {"date": "Feb 21", "opponent": "Michigan", "score": "68-63", "result": "W", "margin": 5},
+      {"date": "Feb 16", "opponent": "Syracuse", "score": "101-64", "result": "W", "margin": 37},
+      {"date": "Feb 14", "opponent": "Clemson", "score": "67-54", "result": "W", "margin": 13}
+    ]
+  },
+  "Arizona": {
+    "last_10_record": "9-1",
+    "avg_margin": "+14.8",
+    "games": [
+      {"date": "Mar 14", "opponent": "Houston", "score": "79-74", "result": "W", "margin": 5},
+      {"date": "Mar 13", "opponent": "Iowa State", "score": "82-80", "result": "W", "margin": 2},
+      {"date": "Mar 12", "opponent": "UCF", "score": "81-59", "result": "W", "margin": 22},
+      {"date": "Mar 7", "opponent": "@ Colorado", "score": "89-79", "result": "W", "margin": 10},
+      {"date": "Mar 2", "opponent": "Iowa State", "score": "73-57", "result": "W", "margin": 16},
+      {"date": "Feb 28", "opponent": "Kansas", "score": "84-61", "result": "W", "margin": 23},
+      {"date": "Feb 24", "opponent": "@ Baylor", "score": "87-80", "result": "W", "margin": 7},
+      {"date": "Feb 21", "opponent": "@ Houston", "score": "73-66", "result": "W", "margin": 7},
+      {"date": "Feb 18", "opponent": "BYU", "score": "75-68", "result": "W", "margin": 7},
+      {"date": "Feb 14", "opponent": "Texas Tech", "score": "75-78 OT", "result": "L", "margin": -3}
+    ]
+  },
+  "Houston": {
+    "last_10_record": "6-4",
+    "avg_margin": "+6.4",
+    "games": [
+      {"date": "Mar 14", "opponent": "Arizona", "score": "74-79", "result": "L", "margin": -5},
+      {"date": "Mar 13", "opponent": "Kansas", "score": "69-47", "result": "W", "margin": 22},
+      {"date": "Mar 12", "opponent": "BYU", "score": "73-66", "result": "W", "margin": 7},
+      {"date": "Mar 7", "opponent": "@ Oklahoma State", "score": "82-75", "result": "W", "margin": 7},
+      {"date": "Mar 4", "opponent": "Baylor", "score": "77-64", "result": "W", "margin": 13},
+      {"date": "Feb 28", "opponent": "Colorado", "score": "102-62", "result": "W", "margin": 40},
+      {"date": "Feb 23", "opponent": "@ Kansas", "score": "56-69", "result": "L", "margin": -13},
+      {"date": "Feb 21", "opponent": "Arizona", "score": "66-73", "result": "L", "margin": -7},
+      {"date": "Feb 16", "opponent": "@ Iowa State", "score": "67-70", "result": "L", "margin": -3},
+      {"date": "Feb 14", "opponent": "Kansas State", "score": "78-64", "result": "W", "margin": 14}
+    ]
+  },
+  "Florida": {
+    "last_10_record": "9-1",
+    "avg_margin": "+17.5",
+    "games": [
+      {"date": "Mar 14", "opponent": "Vanderbilt", "score": "74-91", "result": "L", "margin": -17},
+      {"date": "Mar 13", "opponent": "Kentucky", "score": "71-63", "result": "W", "margin": 8},
+      {"date": "Mar 7", "opponent": "@ Kentucky", "score": "84-77", "result": "W", "margin": 7},
+      {"date": "Mar 3", "opponent": "Mississippi State", "score": "108-74", "result": "W", "margin": 34},
+      {"date": "Feb 28", "opponent": "Arkansas", "score": "111-77", "result": "W", "margin": 34},
+      {"date": "Feb 25", "opponent": "@ Texas", "score": "84-71", "result": "W", "margin": 13},
+      {"date": "Feb 21", "opponent": "@ Ole Miss", "score": "94-75", "result": "W", "margin": 19},
+      {"date": "Feb 17", "opponent": "South Carolina", "score": "76-62", "result": "W", "margin": 14},
+      {"date": "Feb 14", "opponent": "Kentucky", "score": "92-83", "result": "W", "margin": 9},
+      {"date": "Feb 11", "opponent": "@ Georgia", "score": "86-66", "result": "W", "margin": 20}
+    ]
+  },
+  "Michigan": {
+    "last_10_record": "8-2",
+    "avg_margin": "+7.6",
+    "games": [
+      {"date": "Mar 15", "opponent": "Purdue", "score": "72-80", "result": "L", "margin": -8},
+      {"date": "Mar 14", "opponent": "Wisconsin", "score": "68-65", "result": "W", "margin": 3},
+      {"date": "Mar 13", "opponent": "Ohio State", "score": "71-67", "result": "W", "margin": 4},
+      {"date": "Mar 8", "opponent": "Michigan State", "score": "90-80", "result": "W", "margin": 10},
+      {"date": "Mar 5", "opponent": "@ Iowa", "score": "71-68", "result": "W", "margin": 3},
+      {"date": "Feb 27", "opponent": "@ Illinois", "score": "84-70", "result": "W", "margin": 14},
+      {"date": "Feb 24", "opponent": "Minnesota", "score": "77-67", "result": "W", "margin": 10},
+      {"date": "Feb 21", "opponent": "Duke", "score": "63-68", "result": "L", "margin": -5},
+      {"date": "Feb 17", "opponent": "@ Purdue", "score": "91-80", "result": "W", "margin": 11},
+      {"date": "Feb 14", "opponent": "UCLA", "score": "86-56", "result": "W", "margin": 30}
+    ]
+  },
+  "Iowa State": {
+    "last_10_record": "6-4",
+    "avg_margin": "+5.6",
+    "games": [
+      {"date": "Mar 13", "opponent": "Arizona", "score": "80-82", "result": "L", "margin": -2},
+      {"date": "Mar 12", "opponent": "Texas Tech", "score": "75-53", "result": "W", "margin": 22},
+      {"date": "Mar 11", "opponent": "Arizona State", "score": "91-42", "result": "W", "margin": 49},
+      {"date": "Mar 7", "opponent": "Arizona State", "score": "86-65", "result": "W", "margin": 21},
+      {"date": "Mar 2", "opponent": "@ Arizona", "score": "57-73", "result": "L", "margin": -16},
+      {"date": "Feb 28", "opponent": "Texas Tech", "score": "73-82", "result": "L", "margin": -9},
+      {"date": "Feb 24", "opponent": "@ Utah", "score": "75-59", "result": "W", "margin": 16},
+      {"date": "Feb 21", "opponent": "@ BYU", "score": "69-79", "result": "L", "margin": -10},
+      {"date": "Feb 16", "opponent": "Houston", "score": "70-67", "result": "W", "margin": 3},
+      {"date": "Feb 14", "opponent": "Kansas", "score": "74-56", "result": "W", "margin": 18}
+    ]
+  },
+  "UConn": {
+    "last_10_record": "7-3",
+    "avg_margin": "+7.8",
+    "games": [
+      {"date": "Mar 14", "opponent": "St. John's", "score": "52-72", "result": "L", "margin": -20},
+      {"date": "Mar 13", "opponent": "Georgetown", "score": "67-51", "result": "W", "margin": 16},
+      {"date": "Mar 12", "opponent": "Xavier", "score": "93-68", "result": "W", "margin": 25},
+      {"date": "Mar 7", "opponent": "@ Marquette", "score": "62-68", "result": "L", "margin": -6},
+      {"date": "Feb 28", "opponent": "Seton Hall", "score": "71-67", "result": "W", "margin": 4},
+      {"date": "Feb 25", "opponent": "St. John's", "score": "72-40", "result": "W", "margin": 32},
+      {"date": "Feb 21", "opponent": "@ Villanova", "score": "73-63", "result": "W", "margin": 10},
+      {"date": "Feb 18", "opponent": "Creighton", "score": "84-91", "result": "L", "margin": -7},
+      {"date": "Feb 14", "opponent": "Georgetown", "score": "79-75", "result": "W", "margin": 4},
+      {"date": "Feb 11", "opponent": "@ Butler", "score": "80-70", "result": "W", "margin": 10}
+    ]
+  },
+  "Purdue": {
+    "last_10_record": "6-4",
+    "avg_margin": "+3.5",
+    "games": [
+      {"date": "Mar 15", "opponent": "Michigan", "score": "80-72", "result": "W", "margin": 8},
+      {"date": "Mar 14", "opponent": "UCLA", "score": "73-66", "result": "W", "margin": 7},
+      {"date": "Mar 13", "opponent": "Nebraska", "score": "74-58", "result": "W", "margin": 16},
+      {"date": "Mar 12", "opponent": "Northwestern", "score": "81-68", "result": "W", "margin": 13},
+      {"date": "Mar 7", "opponent": "Wisconsin", "score": "93-97", "result": "L", "margin": -4},
+      {"date": "Mar 4", "opponent": "@ Northwestern", "score": "70-66", "result": "W", "margin": 4},
+      {"date": "Mar 1", "opponent": "@ Ohio State", "score": "74-82", "result": "L", "margin": -8},
+      {"date": "Feb 26", "opponent": "Michigan State", "score": "74-76", "result": "L", "margin": -2},
+      {"date": "Feb 20", "opponent": "Indiana", "score": "93-64", "result": "W", "margin": 29},
+      {"date": "Feb 17", "opponent": "Michigan", "score": "80-91", "result": "L", "margin": -11}
+    ]
+  },
+  "Illinois": {
+    "last_10_record": "5-5",
+    "avg_margin": "+3.0",
+    "games": [
+      {"date": "Mar 13", "opponent": "Wisconsin", "score": "88-91 OT", "result": "L", "margin": -3},
+      {"date": "Mar 8", "opponent": "@ Maryland", "score": "78-72", "result": "W", "margin": 6},
+      {"date": "Mar 3", "opponent": "Oregon", "score": "80-54", "result": "W", "margin": 26},
+      {"date": "Feb 27", "opponent": "Michigan", "score": "70-84", "result": "L", "margin": -14},
+      {"date": "Feb 21", "opponent": "@ UCLA", "score": "94-95 OT", "result": "L", "margin": -1},
+      {"date": "Feb 18", "opponent": "@ USC", "score": "101-65", "result": "W", "margin": 36},
+      {"date": "Feb 15", "opponent": "Indiana", "score": "71-51", "result": "W", "margin": 20},
+      {"date": "Feb 10", "opponent": "Wisconsin", "score": "90-92 OT", "result": "L", "margin": -2},
+      {"date": "Feb 7", "opponent": "@ Michigan State", "score": "82-85 OT", "result": "L", "margin": -3},
+      {"date": "Feb 4", "opponent": "Northwestern", "score": "84-44", "result": "W", "margin": 40}
+    ]
+  },
+  "Michigan State": {
+    "last_10_record": "6-4",
+    "avg_margin": "+2.2",
+    "games": [
+      {"date": "Mar 13", "opponent": "UCLA", "score": "84-88", "result": "L", "margin": -4},
+      {"date": "Mar 8", "opponent": "@ Michigan", "score": "80-90", "result": "L", "margin": -10},
+      {"date": "Mar 5", "opponent": "Rutgers", "score": "91-87", "result": "W", "margin": 4},
+      {"date": "Mar 1", "opponent": "@ Indiana", "score": "77-64", "result": "W", "margin": 13},
+      {"date": "Feb 26", "opponent": "@ Purdue", "score": "76-74", "result": "W", "margin": 2},
+      {"date": "Feb 22", "opponent": "Ohio State", "score": "66-60", "result": "W", "margin": 6},
+      {"date": "Feb 17", "opponent": "UCLA", "score": "82-59", "result": "W", "margin": 23},
+      {"date": "Feb 13", "opponent": "@ Wisconsin", "score": "71-92", "result": "L", "margin": -21},
+      {"date": "Feb 7", "opponent": "Illinois", "score": "85-82 OT", "result": "W", "margin": 3},
+      {"date": "Feb 4", "opponent": "@ Minnesota", "score": "73-76", "result": "L", "margin": -3}
+    ]
+  },
+  "Louisville": {
+    "last_10_record": "6-4",
+    "avg_margin": "+4.3",
+    "games": [
+      {"date": "Mar 12", "opponent": "Miami", "score": "73-78", "result": "L", "margin": -5},
+      {"date": "Mar 11", "opponent": "SMU", "score": "62-58", "result": "W", "margin": 4},
+      {"date": "Mar 7", "opponent": "@ Miami", "score": "92-89", "result": "W", "margin": 3},
+      {"date": "Mar 3", "opponent": "Syracuse", "score": "77-62", "result": "W", "margin": 15},
+      {"date": "Feb 28", "opponent": "@ Clemson", "score": "75-80", "result": "L", "margin": -5},
+      {"date": "Feb 23", "opponent": "@ North Carolina", "score": "74-77", "result": "L", "margin": -3},
+      {"date": "Feb 21", "opponent": "Georgia Tech", "score": "87-70", "result": "W", "margin": 17},
+      {"date": "Feb 17", "opponent": "@ SMU", "score": "85-95", "result": "L", "margin": -10},
+      {"date": "Feb 14", "opponent": "Baylor", "score": "82-71", "result": "W", "margin": 11},
+      {"date": "Feb 9", "opponent": "NC State", "score": "118-77", "result": "W", "margin": 41}
+    ]
+  },
+  "South Florida": {
+    "last_10_record": "10-0",
+    "avg_margin": "+19.6",
+    "games": [
+      {"date": "Mar 15", "opponent": "Wichita State", "score": "70-55", "result": "W", "margin": 15},
+      {"date": "Mar 14", "opponent": "Charlotte", "score": "86-64", "result": "W", "margin": 22},
+      {"date": "Mar 8", "opponent": "Charlotte", "score": "83-60", "result": "W", "margin": 23},
+      {"date": "Mar 5", "opponent": "@ Memphis", "score": "96-89", "result": "W", "margin": 7},
+      {"date": "Mar 1", "opponent": "Tulane", "score": "90-62", "result": "W", "margin": 28},
+      {"date": "Feb 25", "opponent": "@ Rice", "score": "75-56", "result": "W", "margin": 19},
+      {"date": "Feb 19", "opponent": "Memphis", "score": "87-66", "result": "W", "margin": 21},
+      {"date": "Feb 15", "opponent": "@ Florida Atlantic", "score": "83-81 OT", "result": "W", "margin": 2},
+      {"date": "Feb 11", "opponent": "@ Wichita State", "score": "66-58", "result": "W", "margin": 8},
+      {"date": "Feb 8", "opponent": "Tulsa", "score": "80-74", "result": "W", "margin": 6}
+    ]
+  },
+  "VCU": {
+    "last_10_record": "9-1",
+    "avg_margin": "+8.7",
+    "games": [
+      {"date": "Mar 15", "opponent": "Dayton", "score": "70-62", "result": "W", "margin": 8},
+      {"date": "Mar 14", "opponent": "Saint Joseph's", "score": "77-64", "result": "W", "margin": 13},
+      {"date": "Mar 13", "opponent": "Duquesne", "score": "71-66", "result": "W", "margin": 5},
+      {"date": "Mar 6", "opponent": "@ Dayton", "score": "68-62", "result": "W", "margin": 6},
+      {"date": "Mar 3", "opponent": "George Mason", "score": "70-65", "result": "W", "margin": 5},
+      {"date": "Feb 28", "opponent": "Fordham", "score": "82-63", "result": "W", "margin": 19},
+      {"date": "Feb 20", "opponent": "@ Saint Louis", "score": "75-88", "result": "L", "margin": -13},
+      {"date": "Feb 17", "opponent": "George Washington", "score": "89-75", "result": "W", "margin": 14},
+      {"date": "Feb 14", "opponent": "@ Richmond", "score": "78-67", "result": "W", "margin": 11},
+      {"date": "Feb 11", "opponent": "@ La Salle", "score": "77-68", "result": "W", "margin": 9}
+    ]
+  },
+  "North Carolina": {
+    "last_10_record": "6-4",
+    "avg_margin": "+1.4",
+    "games": [
+      {"date": "Mar 12", "opponent": "Clemson", "score": "79-80", "result": "L", "margin": -1},
+      {"date": "Mar 7", "opponent": "@ Duke", "score": "61-76", "result": "L", "margin": -15},
+      {"date": "Mar 3", "opponent": "Clemson", "score": "67-63", "result": "W", "margin": 4},
+      {"date": "Feb 28", "opponent": "Virginia Tech", "score": "89-82", "result": "W", "margin": 7},
+      {"date": "Feb 23", "opponent": "Louisville", "score": "77-74", "result": "W", "margin": 3},
+      {"date": "Feb 21", "opponent": "@ Syracuse", "score": "77-64", "result": "W", "margin": 13},
+      {"date": "Feb 17", "opponent": "@ NC State", "score": "58-82", "result": "L", "margin": -24},
+      {"date": "Feb 14", "opponent": "Pittsburgh", "score": "79-65", "result": "W", "margin": 14},
+      {"date": "Feb 10", "opponent": "@ Miami", "score": "66-75", "result": "L", "margin": -9},
+      {"date": "Feb 7", "opponent": "Duke", "score": "71-68", "result": "W", "margin": 3}
+    ]
+  }
+}
