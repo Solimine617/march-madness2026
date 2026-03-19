@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY 5 BRACKETS - March Madness 2026</title>
+    <style>
+        :root { --bg: #0a0a1a; --card: #1a1a2e; --text: #e0e0e0; --gold: #f5a623; --green: #27ae60; --red: #e74c3c; --blue: #3498db; --accent: #e94560; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; padding: 15px; }
+        h1 { color: var(--gold); text-align: center; font-size: 1.8em; margin-bottom: 5px; }
+        .subtitle { text-align: center; color: var(--text); opacity: 0.7; margin-bottom: 20px; font-size: 0.9em; }
+        .pool-section { background: var(--card); border-radius: 12px; padding: 20px; margin-bottom: 25px; border: 1px solid #333; }
+        .pool-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-bottom: 15px; border-bottom: 2px solid var(--gold); padding-bottom: 10px; }
+        .pool-name { font-size: 1.3em; font-weight: bold; color: var(--gold); }
+        .pool-champ { font-size: 1.1em; color: var(--green); font-weight: bold; }
+        .pool-meta { color: var(--blue); font-size: 0.85em; }
+        .region { margin-bottom: 15px; }
+        .region-name { font-weight: bold; color: var(--accent); font-size: 1.05em; margin-bottom: 5px; }
+        .game { display: flex; align-items: center; padding: 3px 0; font-size: 0.88em; border-bottom: 1px solid rgba(255,255,255,0.05); }
+        .game-round { color: var(--blue); font-weight: bold; min-width: 35px; }
+        .game-matchup { flex: 1; }
+        .game-pick { font-weight: bold; color: var(--green); min-width: 120px; }
+        .game-conf { min-width: 50px; text-align: center; font-size: 0.8em; font-weight: bold; }
+        .conf-high { color: var(--green); }
+        .conf-med { color: var(--gold); }
+        .conf-low { color: var(--red); }
+        .conf-lock { color: #00ff88; }
+        .upset { color: var(--accent); }
+        .upset::after { content: ' ⚡'; }
+        .ff-banner { background: linear-gradient(135deg, #1a1a3e, #2a1a3e); border: 2px solid var(--gold); border-radius: 8px; padding: 15px; text-align: center; margin-top: 10px; }
+        .ff-team { background: rgba(52,152,219,0.2); padding: 5px 12px; border-radius: 5px; display: inline-block; margin: 3px; font-weight: bold; }
+        .champ-text { color: var(--gold); font-size: 1.3em; margin-top: 10px; font-weight: bold; }
+        .case-section { background: rgba(0,0,0,0.3); border-radius: 8px; padding: 15px; margin-top: 20px; }
+        .case-section h3 { color: var(--accent); margin-bottom: 8px; font-size: 1em; }
+        .case-for { color: var(--green); }
+        .case-against { color: var(--red); }
+        .case-item { margin: 4px 0; font-size: 0.85em; }
+        .key-upsets { background: rgba(233,69,96,0.1); border: 1px solid var(--accent); border-radius: 8px; padding: 12px; margin-bottom: 15px; }
+        .key-upsets h4 { color: var(--accent); margin-bottom: 5px; }
+        @media print { body { background: white; color: black; } .pool-section { border: 2px solid #333; page-break-inside: avoid; } }
+    </style>
+</head>
+<body>
+
+<h1>🏀 MY 5 BRACKETS — FILL THESE IN ON ESPN</h1>
+<p class="subtitle">Generated March 19, 2026 8:05 AM EST | 50,000 Monte Carlo Simulations | BPI + Torvik + Injury-Adjusted</p>
+
+<div class="key-upsets">
+    <h4>⚡ KEY UPSETS IN ALL/MOST BRACKETS</h4>
+    <p><strong>(11) South Florida over (6) Louisville</strong> — Brown Jr OUT (18.2 PPG). Line crashed -7.5→-4.5. Our model: USF 60% favorite.</p>
+    <p><strong>(11) VCU over (6) North Carolina</strong> — Wilson OUT (top-5 pick). UNC point diff: +12.1 with him → -0.8 without.</p>
+    <p><strong>(9) Saint Louis over (8) Georgia</strong> — Best eFG% in field (.597) vs 302nd scoring defense.</p>
+    <p><strong>(9) Iowa over (8) Clemson</strong> — Iowa's Big Ten-best scoring D (66 ppg allowed).</p>
+    <p><strong>(10) UCF over (7) UCLA</strong> — UCLA star injured + longest travel in tournament (2,700 mi to Philly).</p>
+    <p><strong>(11) Texas over (6) BYU</strong> — BYU lost Saunders (ACL). Texas won First Four on buzzer beater = momentum.</p>
+</div>
+
+<!-- BRACKET 1: FREE 8-PERSON -->
+<div class="pool-section">
+    <div class="pool-header">
+        <div><span class="pool-name">🆓 FREE 8-PERSON</span><br><span class="pool-meta">Strategy: CHALK (Michigan champion override) | 💙 Heart pick</span></div>
+        <div class="pool-champ">🏆 MICHIGAN</div>
+    </div>
+
+    <div class="region">
+        <div class="region-name">EAST REGION</div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(1) Duke vs (16) Siena</span><span class="game-pick">Duke</span><span class="game-conf conf-lock">96%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(8) Ohio State vs (9) TCU</span><span class="game-pick">Ohio State</span><span class="game-conf conf-low">52%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(5) St. John's vs (12) Northern Iowa</span><span class="game-pick">St. John's</span><span class="game-conf conf-med">73%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(4) Kansas vs (13) Cal Baptist</span><span class="game-pick">Kansas</span><span class="game-conf conf-med">78%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(6) Louisville vs (11) South Florida</span><span class="game-pick upset">South Florida</span><span class="game-conf conf-med">60%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(3) Michigan State vs (14) NDSU</span><span class="game-pick">Michigan State</span><span class="game-conf conf-high">89%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(7) UCLA vs (10) UCF</span><span class="game-pick upset">UCF</span><span class="game-conf conf-med">61%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(2) UConn vs (15) Furman</span><span class="game-pick">UConn</span><span class="game-conf conf-high">90%</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">Duke vs Ohio State</span><span class="game-pick">Duke</span><span class="game-conf conf-high">85%</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">St. John's vs Kansas</span><span class="game-pick">St. John's</span><span class="game-conf conf-med">55%</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">Michigan State vs South Florida</span><span class="game-pick">Michigan State</span><span class="game-conf conf-med">72%</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">UConn vs UCF</span><span class="game-pick">UConn</span><span class="game-conf conf-med">73%</span></div>
+        <div class="game"><span class="game-round">S16</span><span class="game-matchup">Duke vs St. John's</span><span class="game-pick">Duke</span><span class="game-conf conf-med">70%</span></div>
+        <div class="game"><span class="game-round">S16</span><span class="game-matchup">UConn vs Michigan State</span><span class="game-pick">UConn</span><span class="game-conf conf-low">55%</span></div>
+        <div class="game"><span class="game-round">E8</span><span class="game-matchup">Duke vs UConn</span><span class="game-pick" style="color:var(--gold);">Duke</span><span class="game-conf conf-med">58%</span></div>
+    </div>
+
+    <div class="region">
+        <div class="region-name">WEST REGION</div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(1) Arizona vs (16) LIU</span><span class="game-pick">Arizona</span><span class="game-conf conf-lock">97%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(8) Villanova vs (9) Utah State</span><span class="game-pick">Villanova</span><span class="game-conf conf-low">52%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(5) Wisconsin vs (12) High Point</span><span class="game-pick">Wisconsin</span><span class="game-conf conf-med">71%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(4) Arkansas vs (13) Hawaii</span><span class="game-pick">Arkansas</span><span class="game-conf conf-high">82%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(6) BYU vs (11) Texas</span><span class="game-pick upset">Texas</span><span class="game-conf conf-low">56%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(3) Gonzaga vs (14) Kennesaw St</span><span class="game-pick">Gonzaga</span><span class="game-conf conf-high">90%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(7) Miami FL vs (10) Missouri</span><span class="game-pick">Miami FL</span><span class="game-conf conf-low">55%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(2) Purdue vs (15) Queens</span><span class="game-pick">Purdue</span><span class="game-conf conf-lock">92%</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">Arizona vs Villanova</span><span class="game-pick">Arizona</span><span class="game-conf conf-high">82%</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">Arkansas vs Wisconsin</span><span class="game-pick">Arkansas</span><span class="game-conf conf-med">58%</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">Gonzaga vs Texas</span><span class="game-pick">Gonzaga</span><span class="game-conf conf-med">72%</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">Purdue vs Miami FL</span><span class="game-pick">Purdue</span><span class="game-conf conf-med">68%</span></div>
+        <div class="game"><span class="game-round">S16</span><span class="game-matchup">Arizona vs Arkansas</span><span class="game-pick">Arizona</span><span class="game-conf conf-med">65%</span></div>
+        <div class="game"><span class="game-round">S16</span><span class="game-matchup">Purdue vs Gonzaga</span><span class="game-pick">Purdue</span><span class="game-conf conf-low">52%</span></div>
+        <div class="game"><span class="game-round">E8</span><span class="game-matchup">Arizona vs Purdue</span><span class="game-pick" style="color:var(--gold);">Arizona</span><span class="game-conf conf-med">62%</span></div>
+    </div>
+
+    <div class="region">
+        <div class="region-name">MIDWEST REGION</div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(1) Michigan vs (16) Howard</span><span class="game-pick">Michigan 💙</span><span class="game-conf conf-lock">95%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(8) Georgia vs (9) Saint Louis</span><span class="game-pick upset">Saint Louis</span><span class="game-conf conf-low">57%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(5) Texas Tech vs (12) Akron</span><span class="game-pick">Texas Tech</span><span class="game-conf conf-low">56%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(4) Alabama vs (13) Hofstra</span><span class="game-pick">Alabama</span><span class="game-conf conf-med">63%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(6) Tennessee vs (11) Miami OH</span><span class="game-pick">Tennessee</span><span class="game-conf conf-low">56%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(3) Virginia vs (14) Wright State</span><span class="game-pick">Virginia</span><span class="game-conf conf-high">84%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(7) Kentucky vs (10) Santa Clara</span><span class="game-pick">Kentucky</span><span class="game-conf conf-low">57%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(2) Iowa State vs (15) Tennessee St</span><span class="game-pick">Iowa State</span><span class="game-conf conf-lock">92%</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">Michigan vs Saint Louis</span><span class="game-pick">Michigan 💙</span><span class="game-conf conf-med">75%</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">Alabama vs Texas Tech</span><span class="game-pick">Alabama</span><span class="game-conf conf-low">55%</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">Virginia vs Tennessee</span><span class="game-pick">Virginia</span><span class="game-conf conf-med">60%</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">Iowa State vs Kentucky</span><span class="game-pick">Iowa State</span><span class="game-conf conf-med">68%</span></div>
+        <div class="game"><span class="game-round">S16</span><span class="game-matchup">Michigan vs Alabama</span><span class="game-pick">Michigan 💙</span><span class="game-conf conf-med">68%</span></div>
+        <div class="game"><span class="game-round">S16</span><span class="game-matchup">Iowa State vs Virginia</span><span class="game-pick">Iowa State</span><span class="game-conf conf-low">55%</span></div>
+        <div class="game"><span class="game-round">E8</span><span class="game-matchup">Michigan vs Iowa State</span><span class="game-pick" style="color:var(--gold);">Michigan 💙</span><span class="game-conf conf-low">54%</span></div>
+    </div>
+
+    <div class="region">
+        <div class="region-name">SOUTH REGION</div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(1) Florida vs (16) Prairie View A&M</span><span class="game-pick">Florida</span><span class="game-conf conf-lock">96%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(8) Clemson vs (9) Iowa</span><span class="game-pick upset">Iowa</span><span class="game-conf conf-low">54%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(5) Vanderbilt vs (12) McNeese</span><span class="game-pick">Vanderbilt</span><span class="game-conf conf-med">73%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(4) Nebraska vs (13) Troy</span><span class="game-pick">Nebraska</span><span class="game-conf conf-med">77%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(6) North Carolina vs (11) VCU</span><span class="game-pick upset">VCU</span><span class="game-conf conf-med">59%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(3) Illinois vs (14) Penn</span><span class="game-pick">Illinois</span><span class="game-conf conf-high">88%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(7) Saint Mary's vs (10) Texas A&M</span><span class="game-pick">Saint Mary's</span><span class="game-conf conf-low">50%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(2) Houston vs (15) Idaho</span><span class="game-pick">Houston</span><span class="game-conf conf-lock">96%</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">Florida vs Iowa</span><span class="game-pick">Florida</span><span class="game-conf conf-high">80%</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">Nebraska vs Vanderbilt</span><span class="game-pick">Nebraska</span><span class="game-conf conf-low">52%</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">Illinois vs VCU</span><span class="game-pick">Illinois</span><span class="game-conf conf-med">68%</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">Houston vs Saint Mary's</span><span class="game-pick">Houston</span><span class="game-conf conf-med">72%</span></div>
+        <div class="game"><span class="game-round">S16</span><span class="game-matchup">Florida vs Nebraska</span><span class="game-pick">Florida</span><span class="game-conf conf-med">68%</span></div>
+        <div class="game"><span class="game-round">S16</span><span class="game-matchup">Houston vs Illinois</span><span class="game-pick">Houston</span><span class="game-conf conf-med">65%</span></div>
+        <div class="game"><span class="game-round">E8</span><span class="game-matchup">Florida vs Houston</span><span class="game-pick" style="color:var(--gold);">Houston</span><span class="game-conf conf-low">55%</span></div>
+    </div>
+
+    <div class="ff-banner">
+        <div><span class="ff-team">Duke</span> vs <span class="ff-team">Arizona</span> | <span class="ff-team">Michigan 💙</span> vs <span class="ff-team">Houston</span></div>
+        <div class="champ-text">🏆 MICHIGAN WINS IT ALL 💙</div>
+    </div>
+
+    <div class="case-section">
+        <h3>THE CASE FOR MICHIGAN AS CHAMPION</h3>
+        <p class="case-item case-for">✅ #2 AdjEM in the country (+36.7 per Torvik)</p>
+        <p class="case-item case-for">✅ #2 defense nationally (90.9 AdjDE) — defense wins in March early rounds</p>
+        <p class="case-item case-for">✅ Playing in Buffalo — 275 miles, Big Ten crowd advantage</p>
+        <p class="case-item case-for">✅ Favorable Midwest draw: Alabama (imploding) and Texas Tech (crippled) are the 4/5 seeds</p>
+        <p class="case-item case-for">✅ Lendeborg cleared, went 5-0 without Cason before BTT final</p>
+        <p class="case-item case-for">✅ Dusty May: fastest to 50 wins in Michigan history, National COY</p>
+        <h3 style="margin-top:10px;">THE CASE AGAINST</h3>
+        <p class="case-item case-against">❌ Lost to Purdue in Big Ten tournament final — momentum concern</p>
+        <p class="case-item case-against">❌ Highest turnover rate among top teams (16.7%) — turnovers kill in March</p>
+        <p class="case-item case-against">❌ Cason's torn ACL thins guard rotation for deep run</p>
+        <p class="case-item case-against">❌ Iowa State in Elite 8 = two elite defenses, a coin flip (54% Michigan)</p>
+        <p class="case-item case-against">❌ Historic data: offense is 50% more important than defense for titles. Michigan's offense isn't elite enough?</p>
+        <p class="case-item" style="color:var(--gold);margin-top:8px;"><strong>VERDICT:</strong> 44.4% Final Four, 10.9% championship. Heart pick for a free pool — won't cost you money.</p>
+    </div>
+</div>
+
+<!-- NOTE FOR OTHER 4 BRACKETS -->
+<div class="pool-section" style="border: 2px solid var(--gold);">
+    <div class="pool-header">
+        <div><span class="pool-name">📋 BRACKETS 2-4: SAME CORE PICKS</span></div>
+    </div>
+    <p style="margin-bottom:10px;">The <strong>Money 18-person (BALANCED)</strong>, <strong>Free 20-person (VALUE)</strong>, and <strong>Money 34 #1 (SIMULATION)</strong> brackets all have the <strong>same R64 picks</strong> as the bracket above with these minor differences:</p>
+    <table style="width:100%;border-collapse:collapse;margin:10px 0;">
+        <thead><tr style="background:rgba(255,255,255,0.1);"><th style="padding:8px;text-align:left;">Game</th><th>8-person</th><th>18-person</th><th>20-person</th><th>34 #1</th></tr></thead>
+        <tbody>
+            <tr style="border-bottom:1px solid #333;"><td style="padding:6px;">R32: St. John's vs Kansas</td><td>St. John's</td><td style="color:var(--accent);">Kansas</td><td>St. John's</td><td>St. John's</td></tr>
+            <tr style="border-bottom:1px solid #333;"><td style="padding:6px;">S16 East bottom</td><td>UConn over MSU</td><td>UConn over MSU</td><td>UConn over MSU</td><td>UConn over MSU</td></tr>
+            <tr style="border-bottom:1px solid #333;"><td style="padding:6px;">R64: Saint Mary's vs Texas A&M</td><td>Saint Mary's</td><td>Saint Mary's</td><td>Saint Mary's</td><td style="color:var(--accent);">Texas A&M</td></tr>
+            <tr style="border-bottom:1px solid #333;"><td style="padding:6px;">South E8</td><td>Houston</td><td>Houston</td><td>Houston</td><td>Houston</td></tr>
+            <tr style="border-bottom:1px solid #333;"><td style="padding:6px;font-weight:bold;">CHAMPION</td><td style="color:var(--blue);">Michigan 💙</td><td style="color:var(--green);">Houston</td><td style="color:var(--green);">Florida</td><td style="color:var(--green);">Houston</td></tr>
+        </tbody>
+    </table>
+    <p style="font-size:0.85em;color:var(--text);opacity:0.7;">For the 20-person bracket: use same path as the others BUT in the championship game, pick Florida over Houston. Florida's Tampa home court + defending champ DNA.</p>
+</div>
+
+<!-- BRACKET 5: CONTRARIAN -->
+<div class="pool-section" style="border: 2px solid var(--accent);">
+    <div class="pool-header">
+        <div><span class="pool-name">💰 MONEY 34-PERSON #2</span><br><span class="pool-meta">Strategy: CONTRARIAN | Different champion = hedge against your #1 entry</span></div>
+        <div class="pool-champ">🏆 VIRGINIA</div>
+    </div>
+
+    <p style="color:var(--accent);margin-bottom:10px;font-size:0.9em;"><strong>⚠️ THIS BRACKET IS INTENTIONALLY DIFFERENT.</strong> It picks upsets where the model sees value and where public ownership is low. If your other bracket busts, this one wins.</p>
+
+    <div class="region">
+        <div class="region-name">EAST — Winner: Michigan State (Izzo March magic)</div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(8) Ohio State vs (9) TCU</span><span class="game-pick upset">TCU</span><span class="game-conf conf-low">48%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(6) Louisville vs (11) South Florida</span><span class="game-pick">Louisville</span><span class="game-conf conf-low">40%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(7) UCLA vs (10) UCF</span><span class="game-pick">UCLA</span><span class="game-conf conf-low">39%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">Rest same: Duke, St. John's, Kansas, MSU, UConn</span><span class="game-pick">—</span><span class="game-conf">—</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">Kansas over St. John's, MSU over Louisville</span><span class="game-pick">—</span><span class="game-conf">—</span></div>
+        <div class="game"><span class="game-round">E8</span><span class="game-matchup">Duke vs Michigan State</span><span class="game-pick upset" style="color:var(--gold);">Michigan State</span><span class="game-conf conf-low">42%</span></div>
+    </div>
+
+    <div class="region">
+        <div class="region-name">WEST — Winner: Gonzaga (near-home in Portland)</div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(8) Villanova vs (9) Utah State</span><span class="game-pick upset">Utah State</span><span class="game-conf conf-low">48%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(7) Miami FL vs (10) Missouri</span><span class="game-pick upset">Missouri</span><span class="game-conf conf-low">45%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(6) BYU vs (11) Texas</span><span class="game-pick">BYU</span><span class="game-conf conf-low">44%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">Rest same: Arizona, Wisconsin, Arkansas, Gonzaga, Purdue</span><span class="game-pick">—</span><span class="game-conf">—</span></div>
+        <div class="game"><span class="game-round">E8</span><span class="game-matchup">Arizona vs Gonzaga</span><span class="game-pick upset" style="color:var(--gold);">Gonzaga</span><span class="game-conf conf-low">40%</span></div>
+    </div>
+
+    <div class="region">
+        <div class="region-name">MIDWEST — Winner: Virginia (defense travels, low ownership)</div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(5) Texas Tech vs (12) Akron</span><span class="game-pick upset">Akron</span><span class="game-conf conf-low">44%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(4) Alabama vs (13) Hofstra</span><span class="game-pick upset">Hofstra</span><span class="game-conf conf-low">37%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(6) Tennessee vs (11) Miami OH</span><span class="game-pick upset">Miami OH</span><span class="game-conf conf-low">44%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(7) Kentucky vs (10) Santa Clara</span><span class="game-pick upset">Santa Clara</span><span class="game-conf conf-low">43%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">Michigan, Georgia, Virginia, Iowa State same</span><span class="game-pick">—</span><span class="game-conf">—</span></div>
+        <div class="game"><span class="game-round">S16</span><span class="game-matchup">Michigan over Hofstra, Virginia over Iowa State</span><span class="game-pick">—</span><span class="game-conf">—</span></div>
+        <div class="game"><span class="game-round">E8</span><span class="game-matchup">Michigan vs Virginia</span><span class="game-pick upset" style="color:var(--gold);">Virginia</span><span class="game-conf conf-low">45%</span></div>
+    </div>
+
+    <div class="region">
+        <div class="region-name">SOUTH — Winner: Florida (defending champ at home)</div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(8) Clemson vs (9) Iowa</span><span class="game-pick">Clemson</span><span class="game-conf conf-low">46%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">(6) North Carolina vs (11) VCU</span><span class="game-pick">North Carolina</span><span class="game-conf conf-low">41%</span></div>
+        <div class="game"><span class="game-round">R64</span><span class="game-matchup">Rest: Florida, Vanderbilt, Nebraska, Illinois, St. Mary's, Houston</span><span class="game-pick">—</span><span class="game-conf">—</span></div>
+        <div class="game"><span class="game-round">R32</span><span class="game-matchup">Vanderbilt over Nebraska (contrarian flip)</span><span class="game-pick upset">Vanderbilt</span><span class="game-conf conf-low">48%</span></div>
+        <div class="game"><span class="game-round">E8</span><span class="game-matchup">Florida vs Houston</span><span class="game-pick" style="color:var(--gold);">Florida</span><span class="game-conf conf-low">48%</span></div>
+    </div>
+
+    <div class="ff-banner">
+        <div><span class="ff-team">Michigan State</span> vs <span class="ff-team">Gonzaga</span> | <span class="ff-team">Virginia</span> vs <span class="ff-team">Florida</span></div>
+        <div class="champ-text">🏆 VIRGINIA WINS IT ALL</div>
+    </div>
+
+    <div class="case-section">
+        <h3>THE CASE FOR VIRGINIA AS CONTRARIAN CHAMPION</h3>
+        <p class="case-item case-for">✅ 29-5 record, Torvik #14, elite defense (95.8 AdjDE)</p>
+        <p class="case-item case-for">✅ Defense travels in March — Virginia's pack-line D forces slow, ugly games that frustrate opponents</p>
+        <p class="case-item case-for">✅ Won the national championship in 2019 with exactly this formula (suffocating D, no star power)</p>
+        <p class="case-item case-for">✅ VERY low public ownership = massive leverage in a 34-person pool</p>
+        <p class="case-item case-for">✅ Midwest path opens up: Alabama imploding, Texas Tech crippled, Iowa State has limited offense</p>
+        <h3 style="margin-top:10px;">THE CASE AGAINST</h3>
+        <p class="case-item case-against">❌ Offense only #29 on Torvik — can they score enough to beat elite teams?</p>
+        <p class="case-item case-against">❌ Slow tempo means one bad shooting night = loss. No margin for error.</p>
+        <p class="case-item case-against">❌ Would need to beat Michigan in Elite 8 (Michigan's defense is better)</p>
+        <p class="case-item case-against">❌ Historical: offense matters 50% more than defense for championship winners</p>
+        <p class="case-item" style="color:var(--gold);margin-top:8px;"><strong>VERDICT:</strong> Low probability (~1.5%) but extremely low ownership. In a 34-person pool, this is the bracket that wins when nobody else has it. That's the point — it's your hedge.</p>
+    </div>
+</div>
+
+<div style="text-align:center;padding:20px;color:var(--text);opacity:0.6;font-size:0.85em;">
+    <p>Generated by 50,000 Monte Carlo Simulations | ESPN BPI + BartTorvik T-Rank + Injury Adjustments + Travel Factors + Coach Pedigree</p>
+    <p>Data as of March 19, 2026 8:05 AM EST | <a href="index.html" style="color:var(--blue);">Full Analysis Dashboard →</a></p>
+    <p style="color:var(--accent);margin-top:10px;">🎰 Gambling involves risk. Never bet more than you can afford to lose.</p>
+</div>
+
+</body>
+</html>
