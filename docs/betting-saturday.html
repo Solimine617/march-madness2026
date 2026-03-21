@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saturday R32 Betting Card - March Madness 2026</title>
+    <style>
+        :root {
+            --primary: #1a1a2e;
+            --secondary: #16213e;
+            --accent: #e94560;
+            --accent2: #0f3460;
+            --gold: #f5a623;
+            --green: #27ae60;
+            --red: #e74c3c;
+            --blue: #3498db;
+            --bg: #0a0a1a;
+            --card: #1a1a2e;
+            --text: #e0e0e0;
+            --text-muted: #888;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-text-size-adjust: 100%;
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 12px; }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--accent2));
+            padding: 24px 16px;
+            text-align: center;
+            border-bottom: 3px solid var(--accent);
+        }
+        header h1 { font-size: 1.6em; color: white; }
+        header .subtitle { color: var(--gold); font-size: 1em; margin-top: 4px; }
+        header .meta { color: var(--text-muted); margin-top: 8px; font-size: 0.85em; }
+
+        .bankroll-bar {
+            background: var(--secondary);
+            border: 1px solid var(--accent2);
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin: 12px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .bankroll-bar .label { color: var(--text-muted); font-size: 0.85em; }
+        .bankroll-bar .value { font-weight: bold; font-size: 1.1em; }
+        .bankroll-bar .negative { color: var(--red); }
+        .bankroll-bar .positive { color: var(--green); }
+
+        .section-title {
+            font-size: 1.3em;
+            color: var(--gold);
+            margin: 24px 0 12px 0;
+            padding-bottom: 6px;
+            border-bottom: 2px solid var(--accent);
+        }
+        .section-title span { font-size: 0.7em; color: var(--text-muted); font-weight: normal; }
+
+        /* Results table */
+        .results-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 16px;
+            font-size: 0.85em;
+        }
+        .results-table th {
+            background: var(--secondary);
+            color: var(--gold);
+            padding: 8px 6px;
+            text-align: left;
+            font-size: 0.8em;
+            text-transform: uppercase;
+        }
+        .results-table td {
+            padding: 8px 6px;
+            border-bottom: 1px solid #2a2a4a;
+        }
+        .results-table .win { color: var(--green); font-weight: bold; }
+        .results-table .loss { color: var(--red); }
+
+        /* Game card */
+        .game-card {
+            background: var(--card);
+            border: 1px solid #2a2a4a;
+            border-radius: 10px;
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .game-card.best-bet { border: 2px solid var(--gold); }
+        .game-card.high { border-left: 4px solid var(--green); }
+        .game-card.medium { border-left: 4px solid var(--blue); }
+
+        .game-header {
+            background: var(--secondary);
+            padding: 10px 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .game-header .matchup { font-weight: bold; font-size: 1em; }
+        .game-header .time { color: var(--gold); font-size: 0.85em; }
+        .game-header .venue { color: var(--text-muted); font-size: 0.75em; width: 100%; }
+
+        .best-bet-badge {
+            background: var(--gold);
+            color: #000;
+            font-size: 0.7em;
+            font-weight: bold;
+            padding: 2px 8px;
+            border-radius: 10px;
+            text-transform: uppercase;
+        }
+        .confidence-badge {
+            font-size: 0.8em;
+            padding: 2px 8px;
+            border-radius: 10px;
+        }
+        .conf-high { background: rgba(39,174,96,0.2); color: var(--green); }
+        .conf-med { background: rgba(52,152,219,0.2); color: var(--blue); }
+
+        .game-body { padding: 12px 14px; }
+
+        .odds-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        .odds-box {
+            background: rgba(255,255,255,0.05);
+            border-radius: 6px;
+            padding: 8px;
+            text-align: center;
+        }
+        .odds-box .label { font-size: 0.7em; color: var(--text-muted); text-transform: uppercase; }
+        .odds-box .value { font-size: 1.1em; font-weight: bold; margin-top: 2px; }
+
+        .r1-results {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px;
+            margin-bottom: 12px;
+            font-size: 0.82em;
+        }
+        .r1-box {
+            background: rgba(255,255,255,0.03);
+            border-radius: 6px;
+            padding: 6px 8px;
+        }
+        .r1-box .team-name { font-weight: bold; color: var(--gold); font-size: 0.85em; }
+
+        .analysis { font-size: 0.88em; color: var(--text); margin-bottom: 10px; }
+        .analysis ul { padding-left: 18px; }
+        .analysis li { margin-bottom: 4px; }
+        .edge-highlight { color: var(--green); font-weight: bold; }
+        .warning { color: var(--red); }
+
+        .pick-box {
+            background: linear-gradient(135deg, rgba(39,174,96,0.15), rgba(39,174,96,0.05));
+            border: 1px solid var(--green);
+            border-radius: 8px;
+            padding: 10px 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .pick-box .pick-text { font-weight: bold; font-size: 1.05em; }
+        .pick-box .wager { color: var(--gold); font-weight: bold; }
+
+        /* Parlay section */
+        .parlay-card {
+            background: var(--card);
+            border: 1px solid #2a2a4a;
+            border-left: 4px solid var(--gold);
+            border-radius: 10px;
+            margin-bottom: 12px;
+            overflow: hidden;
+        }
+        .parlay-header {
+            background: var(--secondary);
+            padding: 10px 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .parlay-header .name { font-weight: bold; }
+        .parlay-header .odds { color: var(--gold); font-weight: bold; }
+        .parlay-body { padding: 12px 14px; }
+        .parlay-leg {
+            padding: 4px 0;
+            border-bottom: 1px solid #2a2a4a;
+            font-size: 0.9em;
+        }
+        .parlay-leg:last-child { border-bottom: none; }
+        .parlay-footer {
+            padding: 8px 14px;
+            background: rgba(245,166,35,0.1);
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9em;
+        }
+
+        /* Upset tracker */
+        .upset-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85em;
+        }
+        .upset-table th {
+            background: var(--secondary);
+            color: var(--gold);
+            padding: 8px 6px;
+            text-align: left;
+            font-size: 0.8em;
+        }
+        .upset-table td { padding: 8px 6px; border-bottom: 1px solid #2a2a4a; }
+        .seed-badge {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            font-size: 0.75em;
+            font-weight: bold;
+            padding: 1px 6px;
+            border-radius: 4px;
+        }
+
+        /* Summary */
+        .summary-card {
+            background: linear-gradient(135deg, var(--secondary), var(--primary));
+            border: 2px solid var(--gold);
+            border-radius: 10px;
+            padding: 16px;
+            margin: 16px 0;
+        }
+        .summary-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 8px;
+            margin-top: 12px;
+        }
+        .summary-item {
+            text-align: center;
+            padding: 8px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 6px;
+        }
+        .summary-item .label { font-size: 0.7em; color: var(--text-muted); text-transform: uppercase; }
+        .summary-item .value { font-size: 1.2em; font-weight: bold; margin-top: 2px; }
+
+        .leans-section { font-size: 0.88em; }
+        .lean-item {
+            background: rgba(255,255,255,0.03);
+            border-radius: 8px;
+            padding: 10px 14px;
+            margin-bottom: 8px;
+        }
+        .lean-item strong { color: var(--gold); }
+
+        .dog-section {
+            background: linear-gradient(135deg, rgba(233,69,96,0.1), rgba(15,52,96,0.2));
+            border: 1px solid var(--accent);
+            border-radius: 10px;
+            padding: 16px;
+            margin: 16px 0;
+        }
+        .dog-section h3 { color: var(--accent); margin-bottom: 8px; }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-muted);
+            font-size: 0.8em;
+            border-top: 1px solid #2a2a4a;
+            margin-top: 20px;
+        }
+        footer a { color: var(--blue); text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🏀 Round of 32 Betting Card</h1>
+    <div class="subtitle">Saturday, March 21, 2026</div>
+    <div class="meta">AI-Powered • 50K Monte Carlo Simulations • Injury-Adjusted</div>
+</header>
+
+<div class="container">
+
+    <!-- Bankroll Status -->
+    <div class="bankroll-bar">
+        <div>
+            <div class="label">Starting Bankroll</div>
+            <div class="value">$200</div>
+        </div>
+        <div>
+            <div class="label">Tournament P/L</div>
+            <div class="value negative">-$40</div>
+        </div>
+        <div>
+            <div class="label">Current Bankroll</div>
+            <div class="value">$160</div>
+        </div>
+        <div>
+            <div class="label">Today's Budget</div>
+            <div class="value" style="color:var(--gold)">$70</div>
+        </div>
+    </div>
+
+    <!-- Previous Results -->
+    <div class="section-title">📊 Friday Results <span>(2-7, -$42)</span></div>
+    <table class="results-table">
+        <thead>
+            <tr><th>Bet</th><th>Result</th><th>P/L</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Akron +7.5 ($15)</td><td>TT 91, Akron 71</td><td class="loss">-$15</td></tr>
+            <tr><td>Akron ML ($5)</td><td>Lost</td><td class="loss">-$5</td></tr>
+            <tr><td>Hofstra +11.5 ($10)</td><td>Bama 90, Hof 70</td><td class="loss">-$10</td></tr>
+            <tr><td>Iowa -2.5 ($10)</td><td>Iowa 67, Clem 61 ✅</td><td class="win">+$9</td></tr>
+            <tr><td>Santa Clara +2.5 ($10)</td><td>UK 89, SC 84 OT</td><td class="loss">-$10</td></tr>
+            <tr><td>Missouri +1.5 ($10)</td><td>Miami 80, Mizzou 66</td><td class="loss">-$10</td></tr>
+            <tr><td>Parlay 1 - Injury ($5)</td><td>Akron/Hofstra bust</td><td class="loss">-$5</td></tr>
+            <tr><td>Parlay 2 - Dogs ($5)</td><td>All 3 lost</td><td class="loss">-$5</td></tr>
+            <tr><td>Parlay 3 - Chalk ($5)</td><td>AZ/ISU/Purdue ✅</td><td class="win">+$9</td></tr>
+        </tbody>
+    </table>
+
+    <div class="section-title">🔒 SATURDAY PICKS — Round of 32</div>
+
+    <!-- GAME 1: TCU vs Duke -->
+    <div class="game-card best-bet">
+        <div class="game-header">
+            <div>
+                <span class="best-bet-badge">⭐ Best Bet</span>
+                <div class="matchup">(9) TCU vs (1) Duke</div>
+                <div class="venue">Greenville, SC — CBS</div>
+            </div>
+            <div class="time">5:15 PM ET</div>
+        </div>
+        <div class="game-body">
+            <div class="odds-grid">
+                <div class="odds-box">
+                    <div class="label">Spread</div>
+                    <div class="value">Duke -12.5</div>
+                </div>
+                <div class="odds-box">
+                    <div class="label">ML</div>
+                    <div class="value">TCU +550</div>
+                </div>
+                <div class="odds-box">
+                    <div class="label">O/U</div>
+                    <div class="value">140.5</div>
+                </div>
+            </div>
+            <div class="r1-results">
+                <div class="r1-box">
+                    <div class="team-name">Duke R1</div>
+                    Beat Siena 71-65 — <span class="warning">Trailed 43-32 at HALF</span>
+                </div>
+                <div class="r1-box">
+                    <div class="team-name">TCU R1</div>
+                    Beat Ohio State 66-64 — Won outright as 9-seed
+                </div>
+            </div>
+            <div class="analysis">
+                <ul>
+                    <li><span class="warning">Duke trailed a 16-seed at halftime</span> — not playing like a 1-seed</li>
+                    <li>Duke still missing <strong>Foster (PG)</strong> and <strong>Ngongba (C)</strong> — both OUT</li>
+                    <li>TCU's defense (AdjDE 99.5) will grind pace — 140.5 O/U confirms slow game</li>
+                    <li>12.5 is massive for a 1-seed that almost lost to Siena. Duke wins by 6-8, not 13+</li>
+                    <li>TCU has <span class="edge-highlight">tournament confidence</span> after beating Ohio State</li>
+                </ul>
+            </div>
+            <div class="pick-box">
+                <div>
+                    <div class="pick-text">✅ TCU +12.5 (-110)</div>
+                    <div style="font-size:0.8em;color:var(--text-muted)">Confidence: ⭐⭐⭐⭐ HIGH</div>
+                </div>
+                <div class="wager">$15</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GAME 2: Nebraska vs Vanderbilt -->
+    <div class="game-card high">
+        <div class="game-header">
+            <div>
+                <span class="confidence-badge conf-high">⭐⭐⭐⭐ HIGH</span>
+                <div class="matchup">(4) Nebraska vs (5) Vanderbilt</div>
+                <div class="venue">Oklahoma City — TNT</div>
+            </div>
+            <div class="time">8:45 PM ET</div>
+        </div>
+        <div class="game-body">
+            <div class="odds-grid">
+                <div class="odds-box">
+                    <div class="label">Spread</div>
+                    <div class="value">Vandy -1.5</div>
+                </div>
+                <div class="odds-box">
+                    <div class="label">ML</div>
+                    <div class="value">Neb +110</div>
+                </div>
+                <div class="odds-box">
+                    <div class="label">O/U</div>
+                    <div class="value">146.5</div>
+                </div>
+            </div>
+            <div class="r1-results">
+                <div class="r1-box">
+                    <div class="team-name">Nebraska R1</div>
+                    Destroyed Troy <strong>76-47</strong> (+29) — Defense dominant
+                </div>
+                <div class="r1-box">
+                    <div class="team-name">Vanderbilt R1</div>
+                    Beat McNeese 78-68 (+10) — Solid, not spectacular
+                </div>
+            </div>
+            <div class="analysis">
+                <ul>
+                    <li><span class="edge-highlight">4-seed getting points against a 5-seed</span> — rare and valuable</li>
+                    <li>Nebraska: <strong>#7 defense nationally</strong> — held Troy to 47 pts</li>
+                    <li>Nebraska won by 29 in R1 — playing with maximum confidence</li>
+                    <li>Vandy's offense will struggle vs suffocating Big Ten defense</li>
+                    <li>Getting +110 ML on the higher seed with elite D is a gift</li>
+                </ul>
+            </div>
+            <div class="pick-box">
+                <div>
+                    <div class="pick-text">✅ Nebraska ML (+110)</div>
+                    <div style="font-size:0.8em;color:var(--text-muted)">Confidence: ⭐⭐⭐⭐ HIGH</div>
+                </div>
+                <div class="wager">$10</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GAME 3: Texas vs Gonzaga -->
+    <div class="game-card medium">
+        <div class="game-header">
+            <div>
+                <span class="confidence-badge conf-med">⭐⭐⭐ MEDIUM-HIGH</span>
+                <div class="matchup">(11) Texas vs (3) Gonzaga</div>
+                <div class="venue">Portland, OR — TBS</div>
+            </div>
+            <div class="time">7:10 PM ET</div>
+        </div>
+        <div class="game-body">
+            <div class="odds-grid">
+                <div class="odds-box">
+                    <div class="label">Spread</div>
+                    <div class="value">Zaga -6.5</div>
+                </div>
+                <div class="odds-box">
+                    <div class="label">ML</div>
+                    <div class="value">Texas +210</div>
+                </div>
+                <div class="odds-box">
+                    <div class="label">O/U</div>
+                    <div class="value">147.5</div>
+                </div>
+            </div>
+            <div class="r1-results">
+                <div class="r1-box">
+                    <div class="team-name">Gonzaga R1</div>
+                    Beat Kennesaw St <strong>73-64</strong> — <span class="warning">Only +9 vs 14-seed</span>
+                </div>
+                <div class="r1-box">
+                    <div class="team-name">Texas R1</div>
+                    Beat BYU <strong>79-71</strong> — Dybantsa: 35 pts 🔥
+                </div>
+            </div>
+            <div class="analysis">
+                <ul>
+                    <li>Gonzaga only beat 14-seed Kennesaw by 9 — <span class="warning">red flag for a 3-seed</span></li>
+                    <li><strong>Braden Huff (kneecap dislocation)</strong> still out — Gonzaga interior is thin</li>
+                    <li><strong>AJ Dybantsa</strong> dropped 35 vs BYU — future #1 NBA pick, likely last college game</li>
+                    <li>6.5 is too many points when Gonzaga showed clear vulnerability</li>
+                </ul>
+            </div>
+            <div class="pick-box">
+                <div>
+                    <div class="pick-text">✅ Texas +6.5 (-110)</div>
+                    <div style="font-size:0.8em;color:var(--text-muted)">Confidence: ⭐⭐⭐ MEDIUM-HIGH</div>
+                </div>
+                <div class="wager">$10</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GAME 4: High Point vs Arkansas -->
+    <div class="game-card medium">
+        <div class="game-header">
+            <div>
+                <span class="confidence-badge conf-med">⭐⭐⭐ MEDIUM</span>
+                <div class="matchup">(12) High Point vs (4) Arkansas</div>
+                <div class="venue">Portland, OR — TBS</div>
+            </div>
+            <div class="time">9:45 PM ET</div>
+        </div>
+        <div class="game-body">
+            <div class="odds-grid">
+                <div class="odds-box">
+                    <div class="label">Spread</div>
+                    <div class="value">Ark -11.5</div>
+                </div>
+                <div class="odds-box">
+                    <div class="label">ML</div>
+                    <div class="value">HP ~+450</div>
+                </div>
+                <div class="odds-box">
+                    <div class="label">O/U</div>
+                    <div class="value" style="color:var(--accent)">169.5 🔥</div>
+                </div>
+            </div>
+            <div class="r1-results">
+                <div class="r1-box">
+                    <div class="team-name">High Point R1</div>
+                    <span class="edge-highlight">Beat (5) Wisconsin 83-82 🏆</span> — Chase Johnston game-winner
+                </div>
+                <div class="r1-box">
+                    <div class="team-name">Arkansas R1</div>
+                    Beat Hawaii <strong>97-78</strong> — High-powered offense
+                </div>
+            </div>
+            <div class="analysis">
+                <ul>
+                    <li>High Point is <span class="edge-highlight">Cinderella</span> — playing with house money and max belief</li>
+                    <li>O/U 169.5 = shootout — lots of possessions = more variance = more cover chances</li>
+                    <li>Three Panthers had double-doubles vs Wisconsin — this isn't a one-man team</li>
+                    <li>Cinderellas that cover R1 upset tend to play fearlessly in R2</li>
+                    <li>11.5 is a LOT in a game projected to hit 170 points</li>
+                </ul>
+            </div>
+            <div class="pick-box">
+                <div>
+                    <div class="pick-text">✅ High Point +11.5 (-110)</div>
+                    <div style="font-size:0.8em;color:var(--text-muted)">Confidence: ⭐⭐⭐ MEDIUM</div>
+                </div>
+                <div class="wager">$10</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GAME 5: Louisville vs Michigan State -->
+    <div class="game-card medium">
+        <div class="game-header">
+            <div>
+                <span class="confidence-badge conf-med">⭐⭐ MEDIUM</span>
+                <div class="matchup">(6) Louisville vs (3) Michigan State</div>
+                <div class="venue">Buffalo, NY — CBS</div>
+            </div>
+            <div class="time">2:45 PM ET</div>
+        </div>
+        <div class="game-body">
+            <div class="odds-grid">
+                <div class="odds-box">
+                    <div class="label">Spread</div>
+                    <div class="value">MSU -5.5</div>
+                </div>
+                <div class="odds-box">
+                    <div class="label">ML</div>
+                    <div class="value">Lou +185</div>
+                </div>
+                <div class="odds-box">
+                    <div class="label">O/U</div>
+                    <div class="value">150.5</div>
+                </div>
+            </div>
+            <div class="r1-results">
+                <div class="r1-box">
+                    <div class="team-name">Michigan State R1</div>
+                    Beat NDSU <strong>92-67</strong> — Dominant
+                </div>
+                <div class="r1-box">
+                    <div class="team-name">Louisville R1</div>
+                    Beat South Florida <strong>83-79</strong> — Won without Brown Jr
+                </div>
+            </div>
+            <div class="analysis">
+                <ul>
+                    <li>Louisville proved they can win without Brown Jr (18.2 PPG) by beating USF</li>
+                    <li>Ryan Conwell (18.7 PPG) is a legit go-to scorer in March</li>
+                    <li>MSU is better but 5.5 feels like one point too many in a 3-vs-6</li>
+                    <li>Louisville has ACC tournament experience and momentum from R1 win</li>
+                </ul>
+            </div>
+            <div class="pick-box">
+                <div>
+                    <div class="pick-text">✅ Louisville +5.5 (-110)</div>
+                    <div style="font-size:0.8em;color:var(--text-muted)">Confidence: ⭐⭐ MEDIUM</div>
+                </div>
+                <div class="wager">$5</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LEANS -->
+    <div class="section-title">📝 Leans — No Bet, Watching</div>
+    <div class="leans-section">
+        <div class="lean-item">
+            <strong>Michigan -12.5 vs Saint Louis</strong> (12:10 PM) — Michigan dropped 101 in R1 but Saint Louis scored 102 vs Georgia. SLU +12.5 is the sharp side, but don't bet against your Wolverines. <strong>PASS.</strong>
+        </div>
+        <div class="lean-item">
+            <strong>Houston -11.5 vs Texas A&M</strong> (6:10 PM) — Houston's defense is suffocating and they're near home. A&M forced 18 TOs vs Saint Mary's but Houston doesn't turn it over. Lean Houston but -11.5 is steep. <strong>LEAN HOUSTON.</strong>
+        </div>
+        <div class="lean-item">
+            <strong>VCU +13.5 vs Illinois</strong> (7:50 PM) — VCU's miracle run after the UNC comeback, but emotional letdown spot. Illinois scored 105 in R1 — they're a buzzsaw. <strong>PASS.</strong>
+        </div>
+    </div>
+
+    <!-- PARLAYS -->
+    <div class="section-title">🎰 Parlays</div>
+
+    <div class="parlay-card">
+        <div class="parlay-header">
+            <div class="name">Parlay 1 — "4-Seeds Fight Back"</div>
+            <div class="odds">+280 est.</div>
+        </div>
+        <div class="parlay-body">
+            <div class="parlay-leg">✅ Nebraska ML (+110)</div>
+            <div class="parlay-leg">✅ TCU +12.5 (-110)</div>
+            <div class="parlay-leg">✅ High Point +11.5 (-110)</div>
+        </div>
+        <div class="parlay-footer">
+            <span>Wager: <strong>$5</strong></span>
+            <span>To Win: <strong>~$14</strong></span>
+        </div>
+    </div>
+
+    <div class="parlay-card">
+        <div class="parlay-header">
+            <div class="name">Parlay 2 — "Upset Special"</div>
+            <div class="odds">+1200 est.</div>
+        </div>
+        <div class="parlay-body">
+            <div class="parlay-leg">✅ Nebraska ML (+110)</div>
+            <div class="parlay-leg">✅ Texas ML (+210)</div>
+            <div class="parlay-leg">✅ Louisville ML (+185)</div>
+        </div>
+        <div class="parlay-footer">
+            <span>Wager: <strong>$5</strong></span>
+            <span>To Win: <strong>~$60</strong></span>
+        </div>
+    </div>
+
+    <div class="parlay-card">
+        <div class="parlay-header">
+            <div class="name">Parlay 3 — "Chalk Survives R32"</div>
+            <div class="odds">+200 est.</div>
+        </div>
+        <div class="parlay-body">
+            <div class="parlay-leg">✅ Michigan -12.5</div>
+            <div class="parlay-leg">✅ Duke -12.5</div>
+            <div class="parlay-leg">✅ Houston -11.5</div>
+        </div>
+        <div class="parlay-footer">
+            <span>Wager: <strong>$5</strong></span>
+            <span>To Win: <strong>~$10</strong></span>
+        </div>
+    </div>
+
+    <!-- Upset Tracker -->
+    <div class="section-title">🐕 Biggest Upset Potential — Saturday</div>
+    <table class="upset-table">
+        <thead>
+            <tr><th>#</th><th>Upset</th><th>Why</th><th>ML</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>🥇</td>
+                <td><span class="seed-badge">4</span> <strong>Nebraska</strong> over Vandy</td>
+                <td>Higher seed getting pts, #7 defense, won by 29 in R1</td>
+                <td style="color:var(--green)">+110</td>
+            </tr>
+            <tr>
+                <td>🥈</td>
+                <td><span class="seed-badge">11</span> <strong>Texas</strong> over Gonzaga</td>
+                <td>Dybantsa 35 pts R1, Gonzaga struggled, Huff OUT</td>
+                <td style="color:var(--green)">+210</td>
+            </tr>
+            <tr>
+                <td>🥉</td>
+                <td><span class="seed-badge">6</span> <strong>Louisville</strong> over MSU</td>
+                <td>Won without Brown Jr, Conwell is legit, ACC pedigree</td>
+                <td style="color:var(--green)">+185</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><span class="seed-badge">12</span> <strong>High Point</strong> over Arkansas</td>
+                <td>Cinderella magic, beat Wisconsin, house money</td>
+                <td style="color:var(--green)">~+450</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><span class="seed-badge">9</span> <strong>TCU</strong> over Duke</td>
+                <td>Duke trailed Siena at half, missing 2 starters</td>
+                <td style="color:var(--green)">+550</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- King of Dogs -->
+    <div class="dog-section">
+        <h3>🐕👑 King of the Dogs Update</h3>
+        <p><strong>High Point (12-seed)</strong> is still alive after the Wisconsin upset! They're currently the lowest seed remaining. If they beat Arkansas tonight, they'll be a Sweet 16 Cinderella and your best King of Dogs play.</p>
+        <p style="margin-top:8px;">Also watch: <strong>VCU (11)</strong> and <strong>Texas (11)</strong> — both alive and playing today.</p>
+    </div>
+
+    <!-- Summary -->
+    <div class="summary-card">
+        <div style="text-align:center;font-weight:bold;font-size:1.1em;color:var(--gold)">📋 Saturday Bet Summary</div>
+        <div class="summary-grid">
+            <div class="summary-item">
+                <div class="label">Total Bets</div>
+                <div class="value">8</div>
+            </div>
+            <div class="summary-item">
+                <div class="label">Total Risk</div>
+                <div class="value" style="color:var(--accent)">$65</div>
+            </div>
+            <div class="summary-item">
+                <div class="label">Remaining</div>
+                <div class="value" style="color:var(--green)">~$95</div>
+            </div>
+        </div>
+        <table style="width:100%;margin-top:12px;font-size:0.85em;border-collapse:collapse;">
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">TCU +12.5</td><td style="padding:6px;text-align:right;color:var(--gold)">$15</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">Nebraska ML (+110)</td><td style="padding:6px;text-align:right;color:var(--gold)">$10</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">Texas +6.5</td><td style="padding:6px;text-align:right;color:var(--gold)">$10</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">High Point +11.5</td><td style="padding:6px;text-align:right;color:var(--gold)">$10</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">Louisville +5.5</td><td style="padding:6px;text-align:right;color:var(--gold)">$5</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">🎰 Parlay 1 (Neb/TCU/HP)</td><td style="padding:6px;text-align:right;color:var(--gold)">$5</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">🎰 Parlay 2 (Upset ML)</td><td style="padding:6px;text-align:right;color:var(--gold)">$5</td></tr>
+            <tr><td style="padding:6px">🎰 Parlay 3 (Chalk)</td><td style="padding:6px;text-align:right;color:var(--gold)">$5</td></tr>
+        </table>
+    </div>
+
+    <footer>
+        <p>🏀 March Madness 2026 AI Betting System</p>
+        <p>50K Monte Carlo Sims • Injury-Adjusted • BPI + Torvik Composite Ratings</p>
+        <p style="margin-top:8px"><a href="index.html">← Main Dashboard</a> · <a href="brackets.html">Brackets</a></p>
+        <p style="margin-top:4px;">Go Blue! 〽️</p>
+    </footer>
+</div>
+
+</body>
+</html>
