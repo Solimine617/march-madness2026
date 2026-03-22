@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunday R32 Betting Card - March Madness 2026</title>
+    <style>
+        :root {
+            --primary: #1a1a2e;
+            --secondary: #16213e;
+            --accent: #e94560;
+            --accent2: #0f3460;
+            --gold: #f5a623;
+            --green: #27ae60;
+            --red: #e74c3c;
+            --blue: #3498db;
+            --bg: #0a0a1a;
+            --card: #1a1a2e;
+            --text: #e0e0e0;
+            --text-muted: #888;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-text-size-adjust: 100%;
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 12px; }
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--accent2));
+            padding: 24px 16px;
+            text-align: center;
+            border-bottom: 3px solid var(--accent);
+        }
+        header h1 { font-size: 1.6em; color: white; }
+        header .subtitle { color: var(--gold); font-size: 1em; margin-top: 4px; }
+        header .meta { color: var(--text-muted); margin-top: 8px; font-size: 0.85em; }
+
+        .bankroll-bar {
+            background: var(--secondary);
+            border: 1px solid var(--accent2);
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin: 12px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .bankroll-bar .label { color: var(--text-muted); font-size: 0.85em; }
+        .bankroll-bar .value { font-weight: bold; font-size: 1.1em; }
+
+        .section-title {
+            font-size: 1.3em;
+            color: var(--gold);
+            margin: 24px 0 12px 0;
+            padding-bottom: 6px;
+            border-bottom: 2px solid var(--accent);
+        }
+        .section-title span { font-size: 0.7em; color: var(--text-muted); font-weight: normal; }
+
+        .results-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 16px;
+            font-size: 0.85em;
+        }
+        .results-table th {
+            background: var(--secondary);
+            color: var(--gold);
+            padding: 8px 6px;
+            text-align: left;
+            font-size: 0.8em;
+            text-transform: uppercase;
+        }
+        .results-table td { padding: 8px 6px; border-bottom: 1px solid #2a2a4a; }
+        .results-table .win { color: var(--green); font-weight: bold; }
+        .results-table .loss { color: var(--red); }
+        .results-table .push { color: var(--blue); }
+
+        .game-card {
+            background: var(--card);
+            border: 1px solid #2a2a4a;
+            border-radius: 10px;
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .game-card.best-bet { border: 2px solid var(--gold); }
+        .game-card.high { border-left: 4px solid var(--green); }
+        .game-card.medium { border-left: 4px solid var(--blue); }
+        .game-card.low { border-left: 4px solid var(--text-muted); }
+
+        .game-header {
+            background: var(--secondary);
+            padding: 10px 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .game-header .matchup { font-weight: bold; font-size: 1em; }
+        .game-header .time { color: var(--gold); font-size: 0.85em; }
+        .game-header .venue { color: var(--text-muted); font-size: 0.75em; width: 100%; }
+
+        .best-bet-badge {
+            background: var(--gold);
+            color: #000;
+            font-size: 0.7em;
+            font-weight: bold;
+            padding: 2px 8px;
+            border-radius: 10px;
+            text-transform: uppercase;
+        }
+        .injury-badge {
+            background: var(--red);
+            color: #fff;
+            font-size: 0.65em;
+            font-weight: bold;
+            padding: 2px 6px;
+            border-radius: 10px;
+        }
+        .confidence-badge {
+            font-size: 0.8em;
+            padding: 2px 8px;
+            border-radius: 10px;
+        }
+        .conf-high { background: rgba(39,174,96,0.2); color: var(--green); }
+        .conf-med { background: rgba(52,152,219,0.2); color: var(--blue); }
+        .conf-low { background: rgba(136,136,136,0.2); color: var(--text-muted); }
+
+        .game-body { padding: 12px 14px; }
+
+        .odds-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        .odds-box {
+            background: rgba(255,255,255,0.05);
+            border-radius: 6px;
+            padding: 8px;
+            text-align: center;
+        }
+        .odds-box .label { font-size: 0.7em; color: var(--text-muted); text-transform: uppercase; }
+        .odds-box .value { font-size: 1.05em; font-weight: bold; margin-top: 2px; }
+
+        .r1-results {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px;
+            margin-bottom: 12px;
+            font-size: 0.82em;
+        }
+        .r1-box {
+            background: rgba(255,255,255,0.03);
+            border-radius: 6px;
+            padding: 6px 8px;
+        }
+        .r1-box .team-name { font-weight: bold; color: var(--gold); font-size: 0.85em; }
+
+        .analysis { font-size: 0.88em; color: var(--text); margin-bottom: 10px; }
+        .analysis ul { padding-left: 18px; }
+        .analysis li { margin-bottom: 4px; }
+        .edge-highlight { color: var(--green); font-weight: bold; }
+        .warning { color: var(--red); font-weight: bold; }
+
+        .bets-container { margin-top: 10px; }
+        .pick-box {
+            background: linear-gradient(135deg, rgba(39,174,96,0.15), rgba(39,174,96,0.05));
+            border: 1px solid var(--green);
+            border-radius: 8px;
+            padding: 8px 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin-bottom: 6px;
+        }
+        .pick-box .pick-text { font-weight: bold; font-size: 0.95em; }
+        .pick-box .wager { color: var(--gold); font-weight: bold; }
+        .pick-box.lean {
+            background: linear-gradient(135deg, rgba(52,152,219,0.1), rgba(52,152,219,0.03));
+            border-color: var(--blue);
+        }
+        .pick-box.pass {
+            background: rgba(255,255,255,0.02);
+            border-color: #444;
+        }
+
+        .parlay-card {
+            background: var(--card);
+            border: 1px solid #2a2a4a;
+            border-left: 4px solid var(--gold);
+            border-radius: 10px;
+            margin-bottom: 12px;
+            overflow: hidden;
+        }
+        .parlay-header {
+            background: var(--secondary);
+            padding: 10px 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .parlay-header .name { font-weight: bold; }
+        .parlay-header .odds { color: var(--gold); font-weight: bold; }
+        .parlay-body { padding: 12px 14px; }
+        .parlay-leg {
+            padding: 4px 0;
+            border-bottom: 1px solid #2a2a4a;
+            font-size: 0.9em;
+        }
+        .parlay-leg:last-child { border-bottom: none; }
+        .parlay-footer {
+            padding: 8px 14px;
+            background: rgba(245,166,35,0.1);
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9em;
+        }
+
+        .upset-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85em;
+        }
+        .upset-table th {
+            background: var(--secondary);
+            color: var(--gold);
+            padding: 8px 6px;
+            text-align: left;
+            font-size: 0.8em;
+        }
+        .upset-table td { padding: 8px 6px; border-bottom: 1px solid #2a2a4a; }
+        .seed-badge {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            font-size: 0.75em;
+            font-weight: bold;
+            padding: 1px 6px;
+            border-radius: 4px;
+        }
+
+        .summary-card {
+            background: linear-gradient(135deg, var(--secondary), var(--primary));
+            border: 2px solid var(--gold);
+            border-radius: 10px;
+            padding: 16px;
+            margin: 16px 0;
+        }
+        .summary-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 8px;
+            margin-top: 12px;
+        }
+        .summary-item {
+            text-align: center;
+            padding: 8px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 6px;
+        }
+        .summary-item .label { font-size: 0.7em; color: var(--text-muted); text-transform: uppercase; }
+        .summary-item .value { font-size: 1.2em; font-weight: bold; margin-top: 2px; }
+
+        .bracket-impact {
+            background: linear-gradient(135deg, rgba(15,52,96,0.3), rgba(26,26,46,0.5));
+            border: 1px solid var(--accent2);
+            border-radius: 10px;
+            padding: 14px;
+            margin: 16px 0;
+        }
+        .bracket-impact h3 { color: var(--blue); margin-bottom: 8px; font-size: 1em; }
+        .bracket-impact ul { padding-left: 18px; font-size: 0.88em; }
+        .bracket-impact li { margin-bottom: 4px; }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-muted);
+            font-size: 0.8em;
+            border-top: 1px solid #2a2a4a;
+            margin-top: 20px;
+        }
+        footer a { color: var(--blue); text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sunday R32 Betting Card</h1>
+    <div class="subtitle">Sunday, March 22, 2026 — 8 Games</div>
+    <div class="meta">AI-Powered | 50K Monte Carlo Sims | Injury-Adjusted | 3:45 PM Update</div>
+</header>
+
+<div class="container">
+
+    <!-- Bankroll -->
+    <div class="bankroll-bar">
+        <div>
+            <div class="label">Starting Bankroll</div>
+            <div class="value">$200</div>
+        </div>
+        <div>
+            <div class="label">Saturday P/L</div>
+            <div class="value" style="color:var(--text-muted)">TBD</div>
+        </div>
+        <div>
+            <div class="label">Est. Current</div>
+            <div class="value">~$120</div>
+        </div>
+        <div>
+            <div class="label">Today's Budget</div>
+            <div class="value" style="color:var(--gold)">$75</div>
+        </div>
+    </div>
+
+    <!-- Saturday Results -->
+    <div class="section-title">Saturday R32 Results</div>
+    <table class="results-table">
+        <thead><tr><th>Game</th><th>Score</th><th>Key Stat</th></tr></thead>
+        <tbody>
+            <tr><td>(1) Michigan vs (9) Saint Louis</td><td class="win">Michigan 95-72</td><td>Cadeau led; Mara 10/4/3/3blk</td></tr>
+            <tr><td>(3) MSU vs (6) Louisville</td><td>MSU 77-69</td><td>Coen Carr 21/10; Fears 16 ast (record)</td></tr>
+            <tr><td>(1) Duke vs (9) TCU</td><td>Duke 81-58</td><td>Boozer 19 pts (17 in 2H)</td></tr>
+            <tr><td>(2) Houston vs (10) TAMU</td><td>Houston 88-57</td><td>18-0 run in 1H. Dominant.</td></tr>
+            <tr><td>(11) Texas vs (3) Gonzaga</td><td class="win" style="color:var(--accent)">Texas 74-68 UPSET</td><td>First Four to S16 since '23</td></tr>
+            <tr><td>(3) Illinois vs (11) VCU</td><td>Illinois 76-55</td><td>VCU tied briefly then collapsed</td></tr>
+            <tr><td>(4) Nebraska vs (5) Vandy</td><td class="win">Nebraska 74-72</td><td>Frager layup w/ 2.2s left!</td></tr>
+            <tr><td>(4) Arkansas vs (12) HP</td><td>Arkansas 94-88</td><td>High Point's Cinderella ends</td></tr>
+        </tbody>
+    </table>
+
+    <div class="section-title">SUNDAY PICKS — 8 Games, 3+ Bets Each</div>
+
+    <!-- ============================================ -->
+    <!-- GAME 1: PURDUE vs MIAMI -->
+    <!-- ============================================ -->
+    <div class="game-card medium">
+        <div class="game-header">
+            <div>
+                <span class="confidence-badge conf-med">MEDIUM</span>
+                <div class="matchup">(2) Purdue vs (7) Miami</div>
+                <div class="venue">St. Louis — 12:10 PM ET — CBS</div>
+            </div>
+            <div class="time">12:10 PM</div>
+        </div>
+        <div class="game-body">
+            <div class="odds-grid">
+                <div class="odds-box"><div class="label">Spread</div><div class="value">Purdue -7.5</div></div>
+                <div class="odds-box"><div class="label">ML</div><div class="value">Pur -340 / Mia +270</div></div>
+                <div class="odds-box"><div class="label">O/U</div><div class="value">147.5</div></div>
+            </div>
+            <div class="r1-results">
+                <div class="r1-box"><div class="team-name">Purdue R1</div>Beat Queens convincingly — #2 offense fires</div>
+                <div class="r1-box"><div class="team-name">Miami R1</div>Beat Missouri 80-66 — solid road win in St. Louis</div>
+            </div>
+            <div class="analysis">
+                <ul>
+                    <li>Purdue has the <span class="edge-highlight">#2 offense nationally</span> (AdjOE 127.1) — they can score on anyone</li>
+                    <li>BUT Purdue's defense is only #36 — Miami can keep this close by hitting 3s</li>
+                    <li>Miami's already in St. Louis from R1 — no travel disadvantage</li>
+                    <li>7.5 is a lot for a 2-vs-7 — historical avg margin is ~5-6 in this matchup</li>
+                </ul>
+            </div>
+            <div class="bets-container">
+                <div class="pick-box"><div><div class="pick-text">1. Miami +7.5 (-110)</div><div style="font-size:0.75em;color:var(--text-muted)">Best Bet — 7.5 too many vs leaky D</div></div><div class="wager">$10</div></div>
+                <div class="pick-box lean"><div><div class="pick-text">2. OVER 147.5 (-110)</div><div style="font-size:0.75em;color:var(--text-muted)">Purdue's pace + poor D = points</div></div><div class="wager">$5</div></div>
+                <div class="pick-box pass"><div><div class="pick-text">3. Purdue ML (-340)</div><div style="font-size:0.75em;color:var(--text-muted)">Purdue wins but -340 has no value</div></div><div class="wager">PASS</div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- GAME 2: IOWA STATE vs KENTUCKY ⭐ BEST BET -->
+    <!-- ============================================ -->
+    <div class="game-card best-bet">
+        <div class="game-header">
+            <div>
+                <span class="best-bet-badge">BEST BET</span>
+                <span class="injury-badge">INJURY EDGE</span>
+                <div class="matchup">(2) Iowa State vs (7) Kentucky</div>
+                <div class="venue">Philadelphia — 2:45 PM ET — TNT</div>
+            </div>
+            <div class="time">2:45 PM</div>
+        </div>
+        <div class="game-body">
+            <div class="odds-grid">
+                <div class="odds-box"><div class="label">Spread</div><div class="value">ISU -4.5</div></div>
+                <div class="odds-box"><div class="label">ML</div><div class="value">ISU -230 / UK +190</div></div>
+                <div class="odds-box"><div class="label">O/U</div><div class="value">145.5</div></div>
+            </div>
+            <div class="r1-results">
+                <div class="r1-box"><div class="team-name">Iowa State R1</div>Beat Tennessee St — but <span class="warning">Jefferson sprained ankle</span></div>
+                <div class="r1-box"><div class="team-name">Kentucky R1</div>Beat Santa Clara 89-84 OT — survived scare</div>
+            </div>
+            <div class="analysis">
+                <ul>
+                    <li><span class="warning">Joshua Jefferson is OUT</span> — ankle sprain, confirmed can't play at 50%. This is MASSIVE for a 2-seed.</li>
+                    <li>ISU's defense (#4 nationally) loses a key interior piece — Kentucky's bigs can attack</li>
+                    <li>Kentucky's 13 losses hide the fact they have <span class="edge-highlight">SEC-level talent and March DNA</span></li>
+                    <li>ISU spread was -7.5 pre-injury — it's moved to -4.5. Line hasn't adjusted enough.</li>
+                    <li>UK played in Philly R1 — they know the arena, crowd will be decent for blue blood</li>
+                    <li>This is the <span class="edge-highlight">same injury edge pattern</span> we found with Louisville/Brown Jr</li>
+                </ul>
+            </div>
+            <div class="bets-container">
+                <div class="pick-box"><div><div class="pick-text">1. Kentucky +4.5 (-110)</div><div style="font-size:0.75em;color:var(--text-muted)">Best Bet — ISU missing key player, line stale</div></div><div class="wager">$15</div></div>
+                <div class="pick-box"><div><div class="pick-text">2. Kentucky ML (+190)</div><div style="font-size:0.75em;color:var(--text-muted)">Upset value — ISU weakened, UK has blue blood March magic</div></div><div class="wager">$5</div></div>
+                <div class="pick-box lean"><div><div class="pick-text">3. UNDER 145.5 (-110)</div><div style="font-size:0.75em;color:var(--text-muted)">ISU's elite D still shows up even short-handed — grind game</div></div><div class="wager">$5</div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- GAME 3: ST. JOHN'S vs KANSAS -->
+    <!-- ============================================ -->
+    <div class="game-card high">
+        <div class="game-header">
+            <div>
+                <span class="confidence-badge conf-high">HIGH</span>
+                <div class="matchup">(5) St. John's vs (4) Kansas</div>
+                <div class="venue">San Diego — 5:15 PM ET — CBS</div>
+            </div>
+            <div class="time">5:15 PM</div>
+        </div>
+        <div class="game-body">
+            <div class="odds-grid">
+                <div class="odds-box"><div class="label">Spread</div><div class="value">SJU -3.5</div></div>
+                <div class="odds-box"><div class="label">ML</div><div class="value">SJU -166 / KU +140</div></div>
+                <div class="odds-box"><div class="label">O/U</div><div class="value">144.5</div></div>
+            </div>
+            <div class="r1-results">
+                <div class="r1-box"><div class="team-name">St. John's R1</div>Beat Northern Iowa — 5-seed flexing Big East muscle</div>
+                <div class="r1-box"><div class="team-name">Kansas R1</div>Beat Cal Baptist — typical KU grind win</div>
+            </div>
+            <div class="analysis">
+                <ul>
+                    <li>SJU is the <span class="edge-highlight">better team by metrics</span> — BPI gives them 57% edge</li>
+                    <li>5-seed favored over a 4-seed = rare. Market respects SJU's Big East credentials</li>
+                    <li>Kansas is a brand, not a powerhouse this year — 37% S16 probability in our model</li>
+                    <li>SJU had the #1 NET ranking for most of the year — this team is legit</li>
+                    <li>Both in San Diego for the first time — neutral site, no edge either way</li>
+                </ul>
+            </div>
+            <div class="bets-container">
+                <div class="pick-box"><div><div class="pick-text">1. St. John's -3.5 (-110)</div><div style="font-size:0.75em;color:var(--text-muted)">Better team, better metrics, 3.5 is reasonable</div></div><div class="wager">$10</div></div>
+                <div class="pick-box lean"><div><div class="pick-text">2. UNDER 144.5 (-110)</div><div style="font-size:0.75em;color:var(--text-muted)">Two grind-it-out defensive teams, pace will be slow</div></div><div class="wager">$5</div></div>
+                <div class="pick-box pass"><div><div class="pick-text">3. Kansas ML (+140)</div><div style="font-size:0.75em;color:var(--text-muted)">Brand value but not a good team. PASS.</div></div><div class="wager">PASS</div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- GAME 4: TENNESSEE vs VIRGINIA -->
+    <!-- ============================================ -->
+    <div class="game-card medium">
+        <div class="game-header">
+            <div>
+                <span class="confidence-badge conf-med">MEDIUM</span>
+                <div class="matchup">(6) Tennessee vs (3) Virginia</div>
+                <div class="venue">Philadelphia — 6:10 PM ET — TNT</div>
+            </div>
+            <div class="time">6:10 PM</div>
+        </div>
+        <div class="game-body">
+            <div class="odds-grid">
+                <div class="odds-box"><div class="label">Spread</div><div class="value">Tenn -1.5</div></div>
+                <div class="odds-box"><div class="label">ML</div><div class="value">Tenn -118 / UVA -102</div></div>
+                <div class="odds-box"><div class="label">O/U</div><div class="value">137.5</div></div>
+            </div>
+            <div class="r1-results">
+                <div class="r1-box"><div class="team-name">Tennessee R1</div>Beat Miami (OH) — defense locked down First Four winner</div>
+                <div class="r1-box"><div class="team-name">Virginia R1</div>Beat Wright State — Tony Bennett Pack Line controlled tempo</div>
+            </div>
+            <div class="analysis">
+                <ul>
+                    <li>This will be a <span class="warning">rock fight</span> — 137.5 O/U is the lowest on the board</li>
+                    <li>Virginia's Pack Line defense vs Tennessee's grinder mentality = ugly basketball</li>
+                    <li>6-seed favored over a 3-seed — market says Tennessee is clearly better</li>
+                    <li>Our model: Tennessee 60.6% R64 win prob vs Virginia 89.8% — <span class="edge-highlight">Virginia is undervalued</span></li>
+                    <li>Tony Bennett has taken UVA deep before (2019 champs). Don't sleep on the system.</li>
+                </ul>
+            </div>
+            <div class="bets-container">
+                <div class="pick-box"><div><div class="pick-text">1. UNDER 137.5 (-110)</div><div style="font-size:0.75em;color:var(--text-muted)">Two top-15 defenses, both control pace — this game stays in 120s</div></div><div class="wager">$5</div></div>
+                <div class="pick-box lean"><div><div class="pick-text">2. Virginia +1.5 (-110)</div><div style="font-size:0.75em;color:var(--text-muted)">3-seed getting points, 2019 champ DNA, Pack Line disrupts</div></div><div class="wager">$5</div></div>
+                <div class="pick-box pass"><div><div class="pick-text">3. Tennessee ML (-118)</div><div style="font-size:0.75em;color:var(--text-muted)">Reasonable price but -118 in a toss-up is coin flip territory</div></div><div class="wager">LEAN</div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- GAME 5: FLORIDA vs IOWA -->
+    <!-- ============================================ -->
+    <div class="game-card low">
+        <div class="game-header">
+            <div>
+                <span class="confidence-badge conf-low">LOW EDGE</span>
+                <div class="matchup">(1) Florida vs (9) Iowa</div>
+                <div class="venue">Tampa — 7:10 PM ET — TNT</div>
+            </div>
+            <div class="time">7:10 PM</div>
+        </div>
+        <div class="game-body">
+            <div class="odds-grid">
+                <div class="odds-box"><div class="label">Spread</div><div class="value">UF -10.5</div></div>
+                <div class="odds-box"><div class="label">ML</div><div class="value">UF -600 / Iowa +440</div></div>
+                <div class="odds-box"><div class="label">O/U</div><div class="value">145.5</div></div>
+            </div>
+            <div class="r1-results">
+                <div class="r1-box"><div class="team-name">Florida R1</div>Beat Prairie View A&M — defending champs at HOME in Tampa</div>
+                <div class="r1-box"><div class="team-name">Iowa R1</div>Beat Clemson 67-61 — grinder win, locked-in defense</div>
+            </div>
+            <div class="analysis">
+                <ul>
+                    <li>Florida is essentially at home in Tampa — <span class="edge-highlight">130 miles from Gainesville</span></li>
+                    <li>Defending national champs with championship experience and home crowd = dangerous</li>
+                    <li>Iowa won ugly vs Clemson — they're a defense-first team that grinds</li>
+                    <li>10.5 is steep but Florida's home court advantage is real — they should dominate</li>
+                    <li>Iowa's ceiling is a 55-point game — hard to cover 10.5 when you can't score</li>
+                </ul>
+            </div>
+            <div class="bets-container">
+                <div class="pick-box pass"><div><div class="pick-text">1. Iowa +10.5 (-110)</div><div style="font-size:0.75em;color:var(--text-muted)">Iowa grinds, keeps it ugly — but Florida at home is terrifying</div></div><div class="wager">LEAN</div></div>
+                <div class="pick-box lean"><div><div class="pick-text">2. UNDER 145.5 (-110)</div><div style="font-size:0.75em;color:var(--text-muted)">Iowa plays sloooow — this game could be 68-55 territory</div></div><div class="wager">$5</div></div>
+                <div class="pick-box pass"><div><div class="pick-text">3. Florida ML (-600)</div><div style="font-size:0.75em;color:var(--text-muted)">No value at -600. Use in parlays only.</div></div><div class="wager">PARLAY ONLY</div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- GAME 6: ARIZONA vs UTAH STATE -->
+    <!-- ============================================ -->
+    <div class="game-card low">
+        <div class="game-header">
+            <div>
+                <span class="confidence-badge conf-low">LOW EDGE</span>
+                <div class="matchup">(1) Arizona vs (9) Utah State</div>
+                <div class="venue">San Diego — 7:50 PM ET — CBS</div>
+            </div>
+            <div class="time">7:50 PM</div>
+        </div>
+        <div class="game-body">
+            <div class="odds-grid">
+                <div class="odds-box"><div class="label">Spread</div><div class="value">AZ -11.5</div></div>
+                <div class="odds-box"><div class="label">ML</div><div class="value">AZ -800 / USU +550</div></div>
+                <div class="odds-box"><div class="label">O/U</div><div class="value">154.5</div></div>
+            </div>
+            <div class="r1-results">
+                <div class="r1-box"><div class="team-name">Arizona R1</div>Destroyed LIU — #1 seed, elite two-way team, near home in San Diego</div>
+                <div class="r1-box"><div class="team-name">Utah State R1</div>Beat Villanova — 9-seed upset, playing with confidence</div>
+            </div>
+            <div class="analysis">
+                <ul>
+                    <li>Arizona is <span class="edge-highlight">top-5 offense AND defense</span> — most complete team in the field</li>
+                    <li>Only ~400 miles from Tucson to San Diego — essentially a home game</li>
+                    <li>Utah St beat Villanova, so they have confidence — but the talent gap is massive</li>
+                    <li>-800 ML is obviously no value. But 11.5 is fair — AZ should win by 12-18</li>
+                    <li>O/U 154.5 is the highest total on Sunday — pace will be fast, AZ pushes</li>
+                </ul>
+            </div>
+            <div class="bets-container">
+                <div class="pick-box lean"><div><div class="pick-text">1. OVER 154.5 (-110)</div><div style="font-size:0.75em;color:var(--text-muted)">Arizona's pace + offensive firepower = points. USU can score too.</div></div><div class="wager">$5</div></div>
+                <div class="pick-box pass"><div><div class="pick-text">2. Arizona -11.5 (-110)</div><div style="font-size:0.75em;color:var(--text-muted)">AZ covers more often than not but 11.5 is right at the edge</div></div><div class="wager">LEAN</div></div>
+                <div class="pick-box pass"><div><div class="pick-text">3. Utah State +11.5 (-110)</div><div style="font-size:0.75em;color:var(--text-muted)">Brave bet but USU's ceiling is still a 15-pt loss here</div></div><div class="wager">PASS</div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- GAME 7: UCONN vs UCLA -->
+    <!-- ============================================ -->
+    <div class="game-card high">
+        <div class="game-header">
+            <div>
+                <span class="confidence-badge conf-high">HIGH</span>
+                <div class="matchup">(2) UConn vs (7) UCLA</div>
+                <div class="venue">Philadelphia — 8:45 PM ET — CBS</div>
+            </div>
+            <div class="time">8:45 PM</div>
+        </div>
+        <div class="game-body">
+            <div class="odds-grid">
+                <div class="odds-box"><div class="label">Spread</div><div class="value">UConn -4.5</div></div>
+                <div class="odds-box"><div class="label">ML</div><div class="value">UC -198 / UCLA +164</div></div>
+                <div class="odds-box"><div class="label">O/U</div><div class="value">137.5</div></div>
+            </div>
+            <div class="r1-results">
+                <div class="r1-box"><div class="team-name">UConn R1</div>Beat Furman — back-to-back champ DNA, defense carried</div>
+                <div class="r1-box"><div class="team-name">UCLA R1</div>Beat UCF — gritty win in Philly, Bruins scrapping</div>
+            </div>
+            <div class="analysis">
+                <ul>
+                    <li>UConn has <span class="edge-highlight">back-to-back championship DNA</span> (2023-24) — Dan Hurley knows March</li>
+                    <li>Only ~200 miles from Storrs to Philly — basically a home game for UConn. Big East territory.</li>
+                    <li>UCLA traveled <span class="warning">~2,432 miles to Philly</span> — one of the longest trips in the tourney</li>
+                    <li>137.5 O/U = grind game. UConn's defense (#11) will control this.</li>
+                    <li>UCLA played in Philly R1 so no extra travel, but the time zone (Pacific→Eastern) still affects energy</li>
+                    <li>Our model: UConn 73.1% R32 advance probability. This line feels right but UConn's pedigree makes the ML worthwhile.</li>
+                </ul>
+            </div>
+            <div class="bets-container">
+                <div class="pick-box"><div><div class="pick-text">1. UConn -4.5 (-110)</div><div style="font-size:0.75em;color:var(--text-muted)">Championship pedigree, home crowd, elite D — UConn controls this</div></div><div class="wager">$10</div></div>
+                <div class="pick-box lean"><div><div class="pick-text">2. UNDER 137.5 (-110)</div><div style="font-size:0.75em;color:var(--text-muted)">Two slow-pace teams, UConn D suffocates — this is a 64-59 game</div></div><div class="wager">$5</div></div>
+                <div class="pick-box pass"><div><div class="pick-text">3. UCLA ML (+164)</div><div style="font-size:0.75em;color:var(--text-muted)">UCLA brand is nice but wrong coast, wrong matchup. PASS.</div></div><div class="wager">PASS</div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- GAME 8: TEXAS TECH vs ALABAMA -->
+    <!-- ============================================ -->
+    <div class="game-card best-bet">
+        <div class="game-header">
+            <div>
+                <span class="best-bet-badge">BEST BET #2</span>
+                <span class="injury-badge">BOTH INJURED</span>
+                <div class="matchup">(5) Texas Tech vs (4) Alabama</div>
+                <div class="venue">Tampa — 9:45 PM ET — TNT</div>
+            </div>
+            <div class="time">9:45 PM</div>
+        </div>
+        <div class="game-body">
+            <div class="odds-grid">
+                <div class="odds-box"><div class="label">Spread</div><div class="value">TT -1.5</div></div>
+                <div class="odds-box"><div class="label">ML</div><div class="value">TT -118 / Bama -102</div></div>
+                <div class="odds-box"><div class="label">O/U</div><div class="value" style="color:var(--accent)">164.5</div></div>
+            </div>
+            <div class="r1-results">
+                <div class="r1-box"><div class="team-name">Texas Tech R1</div>Beat Akron 91-71 — without Toppin, still rolled +20</div>
+                <div class="r1-box"><div class="team-name">Alabama R1</div>Beat Hofstra 90-70 — without Holloway, offense still explosive</div>
+            </div>
+            <div class="analysis">
+                <ul>
+                    <li>164.5 O/U is the <span class="edge-highlight">highest total of the entire day</span> — this will be a SHOOTOUT</li>
+                    <li><span class="warning">JT Toppin is OUT</span> for TT (ACL, 22 PPG / 11 RPG) — but TT beat Akron by 20 without him</li>
+                    <li><span class="warning">Mark Sears led the Crimson Tide</span> — Alabama's offense is elite even post-Holloway arrest</li>
+                    <li>BPI actually favors Alabama (54%) despite TT being the betting favorite — <span class="edge-highlight">line disagrees with model</span></li>
+                    <li>Alabama in Tampa = SEC crowd advantage. More Bama fans than TT fans, guaranteed.</li>
+                    <li>This is essentially a pick'em — the 164.5 O/U is the play, not the side</li>
+                </ul>
+            </div>
+            <div class="bets-container">
+                <div class="pick-box"><div><div class="pick-text">1. OVER 164.5 (-110)</div><div style="font-size:0.75em;color:var(--text-muted)">Both teams scored 90+ in R1. Fast pace + no elite D = fireworks</div></div><div class="wager">$10</div></div>
+                <div class="pick-box"><div><div class="pick-text">2. Alabama ML (-102)</div><div style="font-size:0.75em;color:var(--text-muted)">BPI favors Bama, SEC crowd in Tampa, getting plus-money on a better team</div></div><div class="wager">$10</div></div>
+                <div class="pick-box lean"><div><div class="pick-text">3. Alabama +1.5 (-110)</div><div style="font-size:0.75em;color:var(--text-muted)">Getting points on the BPI favorite = value</div></div><div class="wager">$5</div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- PARLAYS -->
+    <!-- ============================================ -->
+    <div class="section-title">Parlays</div>
+
+    <div class="parlay-card">
+        <div class="parlay-header">
+            <div class="name">Parlay 1 — "Injury Edge" (Best Parlay)</div>
+            <div class="odds">+250 est.</div>
+        </div>
+        <div class="parlay-body">
+            <div class="parlay-leg">Kentucky +4.5 (ISU missing Jefferson)</div>
+            <div class="parlay-leg">Alabama ML -102 (BPI says Bama)</div>
+            <div class="parlay-leg">UConn -4.5 (champ pedigree, home crowd)</div>
+        </div>
+        <div class="parlay-footer">
+            <span>Wager: <strong>$5</strong></span>
+            <span>To Win: <strong>~$17.50</strong></span>
+        </div>
+    </div>
+
+    <div class="parlay-card">
+        <div class="parlay-header">
+            <div class="name">Parlay 2 — "Unders Club"</div>
+            <div class="odds">+600 est.</div>
+        </div>
+        <div class="parlay-body">
+            <div class="parlay-leg">Tenn/UVA UNDER 137.5</div>
+            <div class="parlay-leg">UConn/UCLA UNDER 137.5</div>
+            <div class="parlay-leg">Florida/Iowa UNDER 145.5</div>
+            <div class="parlay-leg">SJU/Kansas UNDER 144.5</div>
+        </div>
+        <div class="parlay-footer">
+            <span>Wager: <strong>$5</strong></span>
+            <span>To Win: <strong>~$30</strong></span>
+        </div>
+    </div>
+
+    <div class="parlay-card">
+        <div class="parlay-header">
+            <div class="name">Parlay 3 — "Chalk S16"</div>
+            <div class="odds">+350 est.</div>
+        </div>
+        <div class="parlay-body">
+            <div class="parlay-leg">Florida ML (-600)</div>
+            <div class="parlay-leg">Arizona ML (-800)</div>
+            <div class="parlay-leg">UConn ML (-198)</div>
+            <div class="parlay-leg">St. John's ML (-166)</div>
+        </div>
+        <div class="parlay-footer">
+            <span>Wager: <strong>$5</strong></span>
+            <span>To Win: <strong>~$22.50</strong></span>
+        </div>
+    </div>
+
+    <div class="parlay-card">
+        <div class="parlay-header">
+            <div class="name">Parlay 4 — "Upset Madness"</div>
+            <div class="odds">+2500 est.</div>
+        </div>
+        <div class="parlay-body">
+            <div class="parlay-leg">Kentucky ML (+190)</div>
+            <div class="parlay-leg">Alabama ML (-102)</div>
+            <div class="parlay-leg">Virginia ML (-102)</div>
+        </div>
+        <div class="parlay-footer">
+            <span>Wager: <strong>$3</strong></span>
+            <span>To Win: <strong>~$75</strong></span>
+        </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- UPSET POTENTIAL -->
+    <!-- ============================================ -->
+    <div class="section-title">Biggest Upset Potential — Sunday</div>
+    <table class="upset-table">
+        <thead><tr><th>#</th><th>Upset</th><th>Why It Happens</th><th>ML</th></tr></thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><span class="seed-badge">7</span> <strong>Kentucky</strong> over (2) Iowa State</td>
+                <td><span class="warning">ISU missing Joshua Jefferson (ankle)</span>. UK has March DNA, blue blood, SEC talent. ISU's D weakened without key interior piece.</td>
+                <td style="color:var(--green);font-weight:bold">+190</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><span class="seed-badge">4</span> <strong>Alabama</strong> over (5) Texas Tech</td>
+                <td>BPI actually favors Bama. SEC crowd in Tampa. TT missing Toppin (ACL). Not technically an upset by seed but Bama is the dog.</td>
+                <td style="color:var(--green);font-weight:bold">-102</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><span class="seed-badge">3</span> <strong>Virginia</strong> over (6) Tennessee</td>
+                <td>Pack Line defense in a grind game. UVA won a natty with Tony Bennett in 2019. 3-seed getting points = value.</td>
+                <td style="color:var(--green)">-102</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><span class="seed-badge">7</span> <strong>Miami</strong> over (2) Purdue</td>
+                <td>Purdue's D is #36 — Miami can light them up from 3. Already in St. Louis from R1.</td>
+                <td style="color:var(--green)">+270</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><span class="seed-badge">9</span> <strong>Utah State</strong> over (1) Arizona</td>
+                <td>Biggest longshot. USU beat Villanova in R1 but AZ is simply too complete.</td>
+                <td>+550</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Bracket Impact -->
+    <div class="bracket-impact">
+        <h3>Bracket Impact — What To Watch For</h3>
+        <ul>
+            <li><strong>Michigan's path:</strong> Michigan already in Sweet 16. Their potential S16 opponent comes from Iowa State/Kentucky. If ISU goes down, Michigan's path opens up SIGNIFICANTLY.</li>
+            <li><strong>Houston's path:</strong> Houston destroyed Texas A&M and plays their S16/E8 in HOUSTON. They're the title favorite right now.</li>
+            <li><strong>Duke's path:</strong> Duke plays the winner of St. John's/Kansas in the Sweet 16. SJU is the tougher matchup.</li>
+            <li><strong>Florida defending:</strong> Florida gets Iowa (easy) then likely Alabama or Texas Tech in S16. Both are wounded.</li>
+        </ul>
+    </div>
+
+    <!-- SUMMARY -->
+    <div class="summary-card">
+        <div style="text-align:center;font-weight:bold;font-size:1.1em;color:var(--gold)">Sunday Bet Summary</div>
+        <div class="summary-grid">
+            <div class="summary-item">
+                <div class="label">Straight Bets</div>
+                <div class="value">12</div>
+            </div>
+            <div class="summary-item">
+                <div class="label">Total Risk</div>
+                <div class="value" style="color:var(--accent)">$73</div>
+            </div>
+            <div class="summary-item">
+                <div class="label">Parlays</div>
+                <div class="value">4 ($18)</div>
+            </div>
+        </div>
+        <table style="width:100%;margin-top:12px;font-size:0.82em;border-collapse:collapse;">
+            <tr style="border-bottom:1px solid #2a2a4a;background:rgba(245,166,35,0.1)"><td style="padding:6px;font-weight:bold">BEST: Kentucky +4.5</td><td style="padding:6px;text-align:right;color:var(--gold);font-weight:bold">$15</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">Kentucky ML (+190)</td><td style="padding:6px;text-align:right;color:var(--gold)">$5</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">ISU/UK UNDER 145.5</td><td style="padding:6px;text-align:right;color:var(--gold)">$5</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">St. John's -3.5</td><td style="padding:6px;text-align:right;color:var(--gold)">$10</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">SJU/KU UNDER 144.5</td><td style="padding:6px;text-align:right;color:var(--gold)">$5</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">UConn -4.5</td><td style="padding:6px;text-align:right;color:var(--gold)">$10</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">UConn/UCLA UNDER 137.5</td><td style="padding:6px;text-align:right;color:var(--gold)">$5</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a;background:rgba(245,166,35,0.1)"><td style="padding:6px;font-weight:bold">BEST #2: OVER TT/Bama 164.5</td><td style="padding:6px;text-align:right;color:var(--gold);font-weight:bold">$10</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">Alabama ML (-102)</td><td style="padding:6px;text-align:right;color:var(--gold)">$10</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">Alabama +1.5</td><td style="padding:6px;text-align:right;color:var(--gold)">$5</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">Miami +7.5</td><td style="padding:6px;text-align:right;color:var(--gold)">$10</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">Purdue/Miami OVER 147.5</td><td style="padding:6px;text-align:right;color:var(--gold)">$5</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">Virginia +1.5</td><td style="padding:6px;text-align:right;color:var(--gold)">$5</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">Tenn/UVA UNDER 137.5</td><td style="padding:6px;text-align:right;color:var(--gold)">$5</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">Florida/Iowa UNDER 145.5</td><td style="padding:6px;text-align:right;color:var(--gold)">$5</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">AZ/USU OVER 154.5</td><td style="padding:6px;text-align:right;color:var(--gold)">$5</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">Parlay 1 — Injury Edge</td><td style="padding:6px;text-align:right;color:var(--gold)">$5</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">Parlay 2 — Unders Club</td><td style="padding:6px;text-align:right;color:var(--gold)">$5</td></tr>
+            <tr style="border-bottom:1px solid #2a2a4a"><td style="padding:6px">Parlay 3 — Chalk S16</td><td style="padding:6px;text-align:right;color:var(--gold)">$5</td></tr>
+            <tr><td style="padding:6px">Parlay 4 — Upset Madness</td><td style="padding:6px;text-align:right;color:var(--gold)">$3</td></tr>
+        </table>
+        <div style="text-align:center;margin-top:12px;font-size:0.9em;color:var(--accent);font-weight:bold">Total Sunday Action: ~$148</div>
+        <div style="text-align:center;font-size:0.8em;color:var(--text-muted)">Adjust based on Saturday P/L and comfort level</div>
+    </div>
+
+    <footer>
+        <p>March Madness 2026 AI Betting System</p>
+        <p>50K Monte Carlo Sims | Injury-Adjusted | BPI + Torvik Composite</p>
+        <p style="margin-top:8px"><a href="index.html">Main Dashboard</a> · <a href="brackets.html">Brackets</a> · <a href="betting-saturday.html">Saturday Card</a></p>
+        <p style="margin-top:4px;">Go Blue! </p>
+    </footer>
+</div>
+
+</body>
+</html>
